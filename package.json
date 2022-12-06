@@ -1,7 +1,16 @@
 {
-	"name": "polkadot-icon-package",
+	"name": "@nixstrom/polkadot-icons",
 	"version": "0.1.0",
+	"private": false,
 	"description": "SVG icons for Polkadot",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/nixstrom/polkadot-react-icons.git"
+	},
+	"publishConfig": {
+		"access": "public",
+		"registry": "https://registry.npmjs.org/"
+	},
 	"type": "module",
 	"main": "./lib/index.js",
 	"types": "./lib/index.d.ts",
