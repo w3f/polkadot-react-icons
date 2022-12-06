@@ -1,0 +1,4 @@
+import * as React from "react";
+import { SVGProps } from "react";
+const Monitor = (props: SVGProps<SVGSVGElement>) => <svg width={28} height={26} viewBox="0 0 28 26" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}><path d="M2 15.5029H26V18.5C26 19.0523 25.5523 19.5 25 19.5H3C2.44772 19.5 2 19.0523 2 18.5V15.5029Z" stroke="black" strokeWidth={2.5} /><path d="M2 2.5C2 1.94772 2.44772 1.5 3 1.5H25C25.5523 1.5 26 1.94772 26 2.5V15.5029H3C2.44772 15.5029 2 15.0552 2 14.5029V2.5Z" stroke="black" strokeWidth={2.5} /><path d="M10 24H18" stroke="black" strokeWidth={2.5} strokeLinecap="round" strokeLinejoin="round" /><path d="M14 23.5L14 19.5" stroke="black" strokeWidth={2.5} strokeLinecap="round" strokeLinejoin="round" /></svg>;
+export default Monitor;

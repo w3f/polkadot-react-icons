@@ -1,0 +1,4 @@
+import * as React from "react";
+import { SVGProps } from "react";
+const LayerFour = (props: SVGProps<SVGSVGElement>) => <svg width={26} height={28} viewBox="0 0 26 28" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}><path d="M19.7543 9.58145L24.2662 11.9071L13.2044 17.4247L1.74414 11.5174L6.25177 9.26904" stroke="black" strokeWidth={2.5} strokeMiterlimit={10} strokeLinejoin="round" /><path d="M24.2662 7.33184L13.2044 12.8494L1.74414 6.94216L12.8059 1.42456L24.2662 7.33184Z" stroke="black" strokeWidth={2.5} strokeMiterlimit={10} strokeLinejoin="round" /><path d="M19.7543 14.1566L24.2662 16.4823L13.2044 21.9999L1.74414 16.0926L6.25177 13.8442" stroke="black" strokeWidth={2.5} strokeMiterlimit={10} strokeLinejoin="round" /><path d="M19.7543 18.7458L24.2662 21.0714L13.2044 26.589L1.74414 20.6818L6.25177 18.4333" stroke="black" strokeWidth={2.5} strokeMiterlimit={10} strokeLinejoin="round" /></svg>;
+export default LayerFour;

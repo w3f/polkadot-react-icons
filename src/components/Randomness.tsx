@@ -1,0 +1,4 @@
+import * as React from "react";
+import { SVGProps } from "react";
+const Randomness = (props: SVGProps<SVGSVGElement>) => <svg width={28} height={24} viewBox="0 0 28 24" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}><path d="M26.24 18.7255L21.9604 18.7255C19.2383 18.7255 16.703 17.3413 15.231 15.0515L11.3074 8.94819C9.83537 6.65841 7.30006 5.27425 4.57795 5.27426L1.25914 5.27426M26.24 18.7255L22.3968 14.8825M26.24 18.7255L22.3968 22.5688" stroke="black" strokeWidth={2.5} strokeLinecap="round" strokeLinejoin="round" /><path d="M26.24 5.27452L21.9604 5.27452C19.2383 5.27452 16.703 6.65868 15.231 8.94846L11.3074 15.0518C9.83537 17.3416 7.30006 18.7257 4.57795 18.7257L1.25914 18.7257M26.24 5.27452L22.3968 9.1175M26.24 5.27452L22.3968 1.43115" stroke="black" strokeWidth={2.5} strokeLinecap="round" strokeLinejoin="round" /></svg>;
+export default Randomness;

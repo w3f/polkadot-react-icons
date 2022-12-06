@@ -1,0 +1,4 @@
+import * as React from "react";
+import { SVGProps } from "react";
+const Whitepaper = (props: SVGProps<SVGSVGElement>) => <svg width={24} height={28} viewBox="0 0 24 28" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}><path d="M21.7971 8.13484V25.7494C21.7971 26.3016 21.3494 26.7494 20.7971 26.7494H3.20288C2.6506 26.7494 2.20288 26.3016 2.20288 25.7494V2.27686C2.20288 1.72457 2.6506 1.27686 3.20288 1.27686H14.9391M21.7971 8.13484H15.9391C15.3868 8.13484 14.9391 7.68712 14.9391 7.13484V1.27686M21.7971 8.13484L14.9391 1.27686" stroke="black" strokeWidth={2.5} strokeLinecap="round" strokeLinejoin="round" /></svg>;
+export default Whitepaper;

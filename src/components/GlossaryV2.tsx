@@ -1,0 +1,4 @@
+import * as React from "react";
+import { SVGProps } from "react";
+const GlossaryV2 = (props: SVGProps<SVGSVGElement>) => <svg width={28} height={27} viewBox="0 0 28 27" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}><path d="M13.9999 25.5692L2.25644 19.5039C1.92409 19.3322 1.71533 18.9894 1.71533 18.6154V2.57027C1.71533 1.83864 2.47527 1.35468 3.13826 1.66411L13.9999 6.73349M13.9999 25.5692L25.7434 19.5039C26.0758 19.3322 26.2845 18.9894 26.2845 18.6154V2.57028C26.2845 1.83864 25.5246 1.35468 24.8616 1.66411L13.9999 6.73349M13.9999 25.5692V6.73349" stroke="black" strokeWidth={2.5} strokeLinejoin="round" /></svg>;
+export default GlossaryV2;
