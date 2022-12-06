@@ -6,20 +6,29 @@ import { pascalcase } from 'pascalcase'
 
 // const rootPath = path.join(__dirname, "..");
 const encoding = 'utf8'
-const inputPath = 'src/icons'
-const outputPath = 'src/components'
 
-// if (!fs.existsSync(dir)) {
-// 	fs.mkdirSync(dir);
-// }
-
-if (!fs.existsSync(outputPath)) {
-	fs.mkdirSync(outputPath)
+const directories = {
+	keyline: {
+		input: 'src/icons/keyline',
+		output: 'src/keyline',
+	},
+	solid: {
+		input: 'src/icons/solid',
+		output: 'src/solid',
+	},
 }
 
-const readSvgFile = async filename => {
+if (!fs.existsSync(directories.keyline.output)) {
+	fs.mkdirSync(directories.keyline.output)
+}
+
+if (!fs.existsSync(directories.solid.output)) {
+	fs.mkdirSync(directories.solid.output)
+}
+
+const readSvgFile = async (filename, dir) => {
 	try {
-		return await readFile(`${inputPath}/${filename}`, { encoding })
+		return await readFile(`${dir}/${filename}`, { encoding })
 	} catch (err) {
 		console.error(err.message)
 	}
@@ -35,23 +44,8 @@ const transformSvg = async (rawSvg, componentName) => {
 	)
 }
 
-const writeIndex2 = async (imports, exports) => {
-	const pathname = 'src/index.ts'
-
-	try {
-		await appendFile(
-			pathname,
-			`${imports
-				.toString()
-				.replaceAll(',', ' ')} export default [${exports.toString()}]`,
-		)
-	} catch (err) {
-		console.error(err.message)
-	}
-}
-
-const writeIndex = async (imports, exports) => {
-	const pathname = 'src/index.ts'
+const writeIndex = async (imports, exports, outputPath) => {
+	const pathname = `${outputPath}/index.ts`
 
 	try {
 		await appendFile(
@@ -66,7 +60,7 @@ const writeIndex = async (imports, exports) => {
 }
 
 const composeIndexImports = filename => {
-	return `import ${filename} from './components/${filename}.js';`
+	return `import ${filename} from './${filename}.js';`
 }
 
 const composeIndexExports = (currentExports, filename) => {
@@ -81,7 +75,7 @@ type Props = SVGProps<SVGSVGElement>
 export const ${name} = (props: Props) => (${rawSvg})
 `
 
-const writeReactComponent = async (filename, content) => {
+const writeReactComponent = async (filename, content, outputPath) => {
 	try {
 		return await writeFile(`${outputPath}/${filename}.tsx`, content)
 	} catch (err) {
@@ -89,35 +83,40 @@ const writeReactComponent = async (filename, content) => {
 	}
 }
 
-const generate = async () => {
+const generate = async iconType => {
 	let indexImports = []
 	let indexExports = []
 
+	console.log(directories[iconType].input)
+
 	try {
-		const icons = await readdir(inputPath)
+		const icons = await readdir(directories[iconType].input)
 
 		for await (const icon of icons) {
 			if (path.extname(icon) === '.svg') {
 				const componentName = pascalcase(path.basename(icon, '.svg'))
 
-				const rawSvg = await readSvgFile(icon)
+				const rawSvg = await readSvgFile(icon, directories[iconType].input)
 
 				const reactSvg = await transformSvg(rawSvg, componentName)
 
 				indexImports.push(composeIndexImports(componentName))
 				indexExports.push(componentName)
 
-				// console.log(indexExports);
-
-				writeReactComponent(componentName, reactSvg)
+				writeReactComponent(
+					componentName,
+					reactSvg,
+					directories[iconType].output,
+				)
 			}
 		}
 
-		writeIndex(indexImports, indexExports)
+		writeIndex(indexImports, indexExports, directories[iconType].output)
 	} catch (err) {
 		console.error(err)
 	} finally {
 	}
 }
 
-await generate()
+await generate('keyline')
+await generate('solid')

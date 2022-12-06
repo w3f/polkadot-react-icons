@@ -1,0 +1,4 @@
+import * as React from "react";
+import { SVGProps } from "react";
+const GlossaryV2 = (props: SVGProps<SVGSVGElement>) => <svg width={25} height={24} viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}><path fillRule="evenodd" clipRule="evenodd" d="M0.109375 1.25119V17.2963C0.109375 17.6703 0.318136 18.0131 0.650483 18.1848L11.394 23.7337V4.94772L1.5323 0.34503C0.869316 0.0356001 0.109375 0.519554 0.109375 1.25119ZM13.394 4.94765V23.7336L24.1374 18.1848C24.4698 18.0131 24.6786 17.6704 24.6786 17.2963V1.2512C24.6786 0.519556 23.9186 0.0356001 23.2556 0.34503L13.394 4.94765Z" fill="black" /></svg>;
+export default GlossaryV2;

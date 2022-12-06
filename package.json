@@ -1,6 +1,6 @@
 {
 	"name": "@nixstrom/polkadot-icons",
-	"version": "0.1.3",
+	"version": "0.2.0",
 	"private": false,
 	"description": "SVG icons for Polkadot",
 	"repository": {
@@ -12,8 +12,8 @@
 		"registry": "https://registry.npmjs.org/"
 	},
 	"type": "module",
-	"main": "./lib/index.js",
-	"types": "./lib/index.d.ts",
+	"main": "./lib/keyline/index.js",
+	"types": "./lib/keyline/index.d.ts",
 	"files": [
 		"lib"
 	],
@@ -26,7 +26,7 @@
 	"license": "MIT",
 	"scripts": {
 		"prebuild": "rimraf lib && mkdir lib && echo 'DELETED'",
-		"clean:index": "rimraf src/index.ts",
+		"clean:index": "rimraf src/keyline && rimraf src/solid",
 		"build": "pnpm run prebuild && tsc && echo 'Build complete'",
 		"generate": "pnpm run clean:index && rimraf src/components && node scripts/generate.js",
 		"prettier": "prettier --write ."
