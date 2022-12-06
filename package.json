@@ -17,14 +17,17 @@
 	"license": "MIT",
 	"scripts": {
 		"prebuild": "rimraf lib && mkdir lib && echo 'DELETED'",
+		"clean:index": "rimraf src/index.ts",
 		"build": "pnpm run prebuild && tsc && echo 'Build complete'",
-		"generate": "rimraf src/components && node scripts/generate.js"
+		"generate": "pnpm run clean:index && rimraf src/components && node scripts/generate.js",
+		"prettier": "prettier --write ."
 	},
 	"devDependencies": {
 		"@svgr/core": "^6.5.1",
 		"@types/node": "^18.11.9",
 		"@types/react": "^18.0.0",
 		"pascalcase": "^2.0.0",
+		"prettier": "^2.8.0",
 		"rimraf": "^3.0.2",
 		"typescript": "^4.8.4"
 	},
