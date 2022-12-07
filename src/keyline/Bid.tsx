@@ -1,0 +1,4 @@
+import * as React from "react";
+import { SVGProps } from "react";
+const Bid = (props: SVGProps<SVGSVGElement>) => <svg width={21} height={28} viewBox="0 0 21 28" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}><path d="M10.4999 18.7601C15.3213 18.7601 19.2299 14.8516 19.2299 10.0302C19.2299 5.20881 15.3213 1.30029 10.4999 1.30029C5.67854 1.30029 1.77002 5.20881 1.77002 10.0302C1.77002 14.8516 5.67854 18.7601 10.4999 18.7601Z" stroke="black" strokeWidth={2.5} strokeLinecap="round" strokeLinejoin="round" /><path d="M7.00806 10.0076L9.4735 12.9401L13.992 7.12012" stroke="black" strokeWidth={2.5} strokeLinecap="round" strokeLinejoin="round" /><path d="M10.5 25.9341L10.5 18.7603" stroke="black" strokeWidth={2.5} strokeMiterlimit={10} strokeLinecap="round" /></svg>;
+export default Bid;

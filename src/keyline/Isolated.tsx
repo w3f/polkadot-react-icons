@@ -1,0 +1,4 @@
+import * as React from "react";
+import { SVGProps } from "react";
+const Isolated = (props: SVGProps<SVGSVGElement>) => <svg width={28} height={28} viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}><g clipPath="url(#clip0_3_4894)"><rect width={28} height={28} fill="white" /><circle cx={5.26685} cy={11.7327} r={3.72426} transform="rotate(45 5.26685 11.7327)" fill="white" stroke="black" strokeWidth={2.5} /><circle cx={5.26685} cy={22.7327} r={3.72426} transform="rotate(45 5.26685 22.7327)" fill="white" stroke="black" strokeWidth={2.5} /><circle cx={22.7331} cy={5.26689} r={3.72426} transform="rotate(45 22.7331 5.26689)" fill="white" stroke="black" strokeWidth={2.5} /><circle cx={16.2668} cy={22.7327} r={3.72426} transform="rotate(45 16.2668 22.7327)" fill="white" stroke="black" strokeWidth={2.5} /></g><defs><clipPath id="clip0_3_4894"><rect width={28} height={28} fill="white" /></clipPath></defs></svg>;
+export default Isolated;

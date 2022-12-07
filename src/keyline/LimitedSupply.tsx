@@ -1,0 +1,4 @@
+import * as React from "react";
+import { SVGProps } from "react";
+const LimitedSupply = (props: SVGProps<SVGSVGElement>) => <svg width={29} height={27} viewBox="0 0 29 27" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}><path d="M5.72656 24.7778H23.7266C24.2788 24.7778 24.7266 24.3301 24.7266 23.7778V7.797C24.7266 7.24471 24.2788 6.797 23.7266 6.797H5.72656C5.17428 6.797 4.72656 7.24471 4.72656 7.797V23.7778C4.72656 24.3301 5.17428 24.7778 5.72656 24.7778Z" stroke="black" strokeWidth={2.5} strokeLinejoin="round" /><path d="M3 6.79039H26.4823C27.0346 6.79039 27.4823 6.34268 27.4823 5.79039V3C27.4823 2.44772 27.0346 2 26.4823 2H3C2.44772 2 2 2.44772 2 3V5.79039C2 6.34268 2.44771 6.79039 3 6.79039Z" stroke="black" strokeWidth={2.5} strokeLinejoin="round" /><path d="M8.49609 11.7262L12.6662 15.567L14.5342 13.699L20.1029 19.5986" stroke="black" strokeWidth={2.5} strokeLinecap="round" strokeLinejoin="round" /></svg>;
+export default LimitedSupply;

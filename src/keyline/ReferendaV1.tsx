@@ -1,0 +1,4 @@
+import * as React from "react";
+import { SVGProps } from "react";
+const ReferendaV1 = (props: SVGProps<SVGSVGElement>) => <svg width={28} height={29} viewBox="0 0 28 29" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}><path d="M1.26904 26.7542V21.2502C1.26904 20.6979 1.71676 20.2502 2.26904 20.2502H25.731C26.2833 20.2502 26.731 20.6979 26.731 21.2502V26.7542M15.1473 19.9597L23.895 11.212C24.2855 10.8215 24.2855 10.1883 23.895 9.79779L16.6045 2.50728C16.214 2.11675 15.5808 2.11675 15.1903 2.50728L4.58369 13.1139C4.19317 13.5044 4.19317 14.1376 4.58369 14.5281L10.0154 19.9597C10.2029 20.1473 10.4572 20.2526 10.7225 20.2526H14.4402C14.7054 20.2526 14.9597 20.1473 15.1473 19.9597Z" stroke="black" strokeWidth={2.5} strokeLinecap="round" strokeLinejoin="round" /></svg>;
+export default ReferendaV1;
