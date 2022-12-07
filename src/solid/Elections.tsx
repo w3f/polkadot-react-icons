@@ -1,0 +1,4 @@
+import * as React from "react";
+import { SVGProps } from "react";
+const Elections = (props: SVGProps<SVGSVGElement>) => <svg width={28} height={29} viewBox="0 0 28 29" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}><path fillRule="evenodd" clipRule="evenodd" d="M22.217 4.41699H17.0959H10.1589H5.07701C4.66656 4.41699 4.29778 4.66781 4.14696 5.04955L0.12793 15.2224V16.417H0.130642C0.128844 16.4415 0.12793 16.4662 0.12793 16.4912V26.4912C0.12793 27.0435 0.575645 27.4912 1.12793 27.4912H26.1279C26.6802 27.4912 27.1279 27.0435 27.1279 26.4912V16.4921V16.4912C27.1279 16.4662 27.127 16.4415 27.1252 16.417H27.1279V15.2235L23.1482 5.05261C22.9982 4.66926 22.6287 4.41699 22.217 4.41699ZM2.12793 25.4912V17.4912H25.1279V25.4912H2.12793Z" fill="black" /><path d="M16.6279 1.49121H10.1279V10.5332H16.6279V1.49121Z" fill="white" stroke="black" strokeWidth={2} strokeLinejoin="round" /></svg>;
+export default Elections;

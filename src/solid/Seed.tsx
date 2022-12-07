@@ -1,0 +1,4 @@
+import * as React from "react";
+import { SVGProps } from "react";
+const Seed = (props: SVGProps<SVGSVGElement>) => <svg width={29} height={27} viewBox="0 0 29 27" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}><path fillRule="evenodd" clipRule="evenodd" d="M15.1279 9.49121C15.1279 4.52065 11.0985 0.491211 6.12793 0.491211H0.12793V4.49121C0.12793 9.46177 4.15737 13.4912 9.12793 13.4912H14.1118L14.1118 25.4656C14.1118 26.0179 14.5595 26.4656 15.1118 26.4656C15.6641 26.4656 16.1118 26.0179 16.1118 25.4656L16.1118 13.4912H19.1279C24.0985 13.4912 28.1279 9.46177 28.1279 4.49121V2.49121H24.1279C19.1574 2.49121 15.1279 6.52065 15.1279 11.4912V9.49121Z" fill="black" /></svg>;
+export default Seed;
