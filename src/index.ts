@@ -93,8 +93,8 @@ import Users from './keyline/Users.js'
 import Utility from './keyline/Utility.js'
 import VerifiedAccount from './keyline/VerifiedAccount.js'
 import Verify from './keyline/Verify.js'
-import VideoLayered from './keyline/VideoLayered.js'
-import VideoSingle from './keyline/VideoSingle.js'
+import Video from './keyline/Video.js'
+import Videos from './keyline/Videos.js'
 import Vote from './keyline/Vote.js'
 import Wallet from './keyline/Wallet.js'
 import Web3 from './keyline/Web3.js'
@@ -198,7 +198,8 @@ import SolidUsers from './solid/Users.js'
 import SolidUtility from './solid/Utility.js'
 import SolidVerifiedAccount from './solid/VerifiedAccount.js'
 import SolidVerify from './solid/Verify.js'
-import SolidVideoLayered from './solid/VideoLayered.js'
+import SolidVideo from './solid/Video.js'
+import SolidVideos from './solid/Videos.js'
 import SolidVote from './solid/Vote.js'
 import SolidWallet from './solid/Wallet.js'
 import SolidWeb3 from './solid/Web3.js'
@@ -303,7 +304,8 @@ const keylineIcons = {
 	Utility,
 	VerifiedAccount,
 	Verify,
-	VideoLayered,
+	Video,
+	Videos,
 	Vote,
 	Wallet,
 	Web3,
@@ -408,7 +410,8 @@ const solidIcons = {
 	SolidUtility,
 	SolidVerifiedAccount,
 	SolidVerify,
-	SolidVideoLayered,
+	SolidVideo,
+	SolidVideos,
 	SolidVote,
 	SolidWallet,
 	SolidWeb3,
@@ -418,12 +421,4 @@ const solidIcons = {
 	SolidWiki,
 }
 
-// export { default as keylineIcons } from './keyline/keyline/index.js'
-// export { default as solidIcons } from './keyline/solid/index.js'
-
-// import solidIcons from './keyline/solid/index.js'
-
-export const icons = {
-	keyline: keylineIcons,
-	solid: solidIcons,
-}
+export { keylineIcons, solidIcons }
