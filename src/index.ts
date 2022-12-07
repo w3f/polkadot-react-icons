@@ -114,7 +114,7 @@ import Message from './keyline/Message.js'
 import Metaverse from './keyline/Metaverse.js'
 import Monitor from './keyline/Monitor.js'
 import Multisign from './keyline/Multisign.js'
-import MutlisigAccount from './keyline/MutlisigAccount.js'
+import MultisigAccount from './keyline/MultisigAccount.js'
 import Nft from './keyline/Nft.js'
 import News from './keyline/News.js'
 import Node from './keyline/Node.js'
@@ -545,7 +545,7 @@ const keylineIcons = {
 	Metaverse,
 	Monitor,
 	Multisign,
-	MutlisigAccount,
+	MultisigAccount,
 	Nft,
 	News,
 	Node,
