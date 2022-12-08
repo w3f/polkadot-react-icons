@@ -1,0 +1,4 @@
+import * as React from "react";
+import { SVGProps } from "react";
+const EnterpriseAndConsortium = (props: SVGProps<SVGSVGElement>) => <svg width={23} height={26} viewBox="0 0 23 26" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}><path fillRule="evenodd" clipRule="evenodd" d="M4.0498 0.83197H18.0498C18.6021 0.83197 19.0498 1.27969 19.0498 1.83197V23.832H21.0498C21.6021 23.832 22.0498 24.2797 22.0498 24.832C22.0498 25.3843 21.6021 25.832 21.0498 25.832H1.0498C0.49752 25.832 0.0498047 25.3843 0.0498047 24.832C0.0498047 24.2797 0.49752 23.832 1.0498 23.832H3.0498V1.83197C3.0498 1.27969 3.49752 0.83197 4.0498 0.83197ZM9.11877 23.832H12.9808V18.832C12.9808 18.2797 12.5331 17.832 11.9808 17.832H10.1188C9.56649 17.832 9.11877 18.2797 9.11877 18.832V23.832Z" fill="black" /></svg>;
+export default EnterpriseAndConsortium;
