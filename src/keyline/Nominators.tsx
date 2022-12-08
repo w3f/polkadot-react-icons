@@ -1,4 +1,4 @@
 import * as React from "react";
 import { SVGProps } from "react";
-const Nominators = (props: SVGProps<SVGSVGElement>) => <svg width={28} height={28} viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}><path d="M20.3751 6.70752H2.37512C1.82284 6.70752 1.37512 7.15524 1.37512 7.70752V25.7075C1.37512 26.2598 1.82284 26.7075 2.37512 26.7075H20.3751C20.9274 26.7075 21.3751 26.2598 21.3751 25.7075V7.70752C21.3751 7.15523 20.9274 6.70752 20.3751 6.70752Z" stroke="black" strokeWidth={2.5} strokeLinecap="round" strokeLinejoin="round" /><path d="M6.64539 14.373L11.98 19.2838L25.0608 2" stroke="black" strokeWidth={2.5} strokeLinecap="round" strokeLinejoin="round" /></svg>;
+const Nominators = (props: SVGProps<SVGSVGElement>) => <svg width={27} height={28} viewBox="0 0 27 28" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}><path d="M21.3751 6.70749H1.37512V26.7075H21.3751V6.70749Z" stroke="black" strokeWidth={2.5} strokeLinecap="round" strokeLinejoin="round" /><path d="M6.64539 14.373L11.98 19.2838L25.0608 2" stroke="black" strokeWidth={2.5} strokeLinecap="round" strokeLinejoin="round" /></svg>;
 export default Nominators;

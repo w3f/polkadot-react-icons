@@ -1,4 +1,4 @@
 import * as React from "react";
 import { SVGProps } from "react";
-const KeepAliveCheck = (props: SVGProps<SVGSVGElement>) => <svg width={28} height={28} viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}><path d="M26 6L26 14.5L26 22C26 22.5523 25.5523 23 25 23L3 23C2.44772 23 2 22.5523 2 22L2 14L2 6C2 5.44771 2.44772 5 3 5L25 5C25.5523 5 26 5.44772 26 6Z" stroke="black" strokeWidth={2.5} strokeLinecap="round" strokeLinejoin="round" /><path d="M2 14H8L10 11L14 19L19 8.5L22 14H26" stroke="black" strokeWidth={2.5} strokeLinecap="round" strokeLinejoin="round" /></svg>;
+const KeepAliveCheck = (props: SVGProps<SVGSVGElement>) => <svg width={28} height={22} viewBox="0 0 28 22" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}><path d="M26 2L26 11.5L26 20L2 20L2 11L2 2L26 2Z" stroke="black" strokeWidth={2.5} strokeLinecap="round" strokeLinejoin="round" /><path d="M2 11H8L10 8L14 16L19 5.5L22 11H26" stroke="black" strokeWidth={2.5} strokeLinecap="round" strokeLinejoin="round" /></svg>;
 export default KeepAliveCheck;
