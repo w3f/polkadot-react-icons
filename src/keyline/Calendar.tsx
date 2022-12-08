@@ -1,0 +1,4 @@
+import * as React from "react";
+import { SVGProps } from "react";
+const Calendar = (props: SVGProps<SVGSVGElement>) => <svg width={26} height={25} viewBox="0 0 26 25" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}><path d="M17.2314 23.5625H1.98828V3.29004H23.9883V17.0953V23.5625H17.2314Z" stroke="black" strokeWidth={2.5} strokeMiterlimit={10} strokeLinecap="square" strokeLinejoin="round" /><path d="M8.79309 5.5424V1.5625" stroke="black" strokeWidth={2.5} strokeMiterlimit={10} strokeLinecap="round" strokeLinejoin="round" /><path d="M17.1833 5.54252V1.56262" stroke="black" strokeWidth={2.5} strokeMiterlimit={10} strokeLinecap="round" strokeLinejoin="round" /><path d="M3 10.0417H23" stroke="black" strokeWidth={2.5} strokeMiterlimit={10} strokeLinecap="square" strokeLinejoin="round" /></svg>;
+export default Calendar;

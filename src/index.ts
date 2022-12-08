@@ -1,12 +1,25 @@
+import AiAndComputing from './keyline/AiAndComputing.js'
 import AccountPortability from './keyline/AccountPortability.js'
+import ActionLeft from './keyline/ActionLeft.js'
+import ActionRight from './keyline/ActionRight.js'
+import AddUser from './keyline/AddUser.js'
 import AddKeyPair from './keyline/AddKeyPair.js'
 import Add from './keyline/Add.js'
+import AddressBook from './keyline/AddressBook.js'
+import AirplaneMode from './keyline/AirplaneMode.js'
 import Alert from './keyline/Alert.js'
 import Algorithm from './keyline/Algorithm.js'
 import Alice from './keyline/Alice.js'
 import Ambassadors from './keyline/Ambassadors.js'
+import Announcement from './keyline/Announcement.js'
 import AnonymousProxyAccount from './keyline/AnonymousProxyAccount.js'
+import ArbitraryMessage from './keyline/ArbitraryMessage.js'
 import ArchiveNode from './keyline/ArchiveNode.js'
+import ArrowBack from './keyline/ArrowBack.js'
+import ArrowDown from './keyline/ArrowDown.js'
+import ArrowLeft from './keyline/ArrowLeft.js'
+import ArrowRight from './keyline/ArrowRight.js'
+import ArrowUp from './keyline/ArrowUp.js'
 import Article from './keyline/Article.js'
 import AttackV2 from './keyline/AttackV2.js'
 import Auctions from './keyline/Auctions.js'
@@ -23,61 +36,109 @@ import Blockchain from './keyline/Blockchain.js'
 import BlogPost from './keyline/BlogPost.js'
 import Bob from './keyline/Bob.js'
 import Bond from './keyline/Bond.js'
+import BondedWithTimer from './keyline/BondedWithTimer.js'
 import BootNode from './keyline/BootNode.js'
 import Bridge from './keyline/Bridge.js'
 import Bridges from './keyline/Bridges.js'
+import BringingExternalTokensIntoPolkadot from './keyline/BringingExternalTokensIntoPolkadot.js'
 import Build from './keyline/Build.js'
 import Builders from './keyline/Builders.js'
 import BuiltinSecurity from './keyline/BuiltinSecurity.js'
+import Burn from './keyline/Burn.js'
 import Cex from './keyline/Cex.js'
 import CPlusPlus from './keyline/CPlusPlus.js'
+import Calendar from './keyline/Calendar.js'
 import Career from './keyline/Career.js'
 import Chainspec from './keyline/Chainspec.js'
+import Check from './keyline/Check.js'
+import Checked from './keyline/Checked.js'
+import ChevronDown from './keyline/ChevronDown.js'
+import ChevronUp from './keyline/ChevronUp.js'
 import Claim from './keyline/Claim.js'
+import Close from './keyline/Close.js'
+import Cloud from './keyline/Cloud.js'
 import Code from './keyline/Code.js'
+import Collapse from './keyline/Collapse.js'
 import Collators from './keyline/Collators.js'
 import Collective from './keyline/Collective.js'
+import CommunicationsAndMedia from './keyline/CommunicationsAndMedia.js'
+import CommunityEventsAndOutreach from './keyline/CommunityEventsAndOutreach.js'
 import Community from './keyline/Community.js'
 import CompanionAccount from './keyline/CompanionAccount.js'
 import ConnectWallet from './keyline/ConnectWallet.js'
+import Connected from './keyline/Connected.js'
 import ConnectionViaLightNode from './keyline/ConnectionViaLightNode.js'
 import ConnectionViaRemoteNode from './keyline/ConnectionViaRemoteNode.js'
+import ConnectsNetworksAndDappsTogether from './keyline/ConnectsNetworksAndDappsTogether.js'
 import Consensus from './keyline/Consensus.js'
 import Contract from './keyline/Contract.js'
 import CoolingPeriod from './keyline/CoolingPeriod.js'
 import Copy from './keyline/Copy.js'
 import CostlyToMaintain from './keyline/CostlyToMaintain.js'
 import Council from './keyline/Council.js'
+import Countdown from './keyline/Countdown.js'
+import CreateNewFromSource from './keyline/CreateNewFromSource.js'
 import CrossChainMessaging from './keyline/CrossChainMessaging.js'
+import CrossChainApplicationDevelopment from './keyline/CrossChainApplicationDevelopment.js'
+import CrossChainCertification from './keyline/CrossChainCertification.js'
+import CrossChainReputationSystems from './keyline/CrossChainReputationSystems.js'
+import CrossChainTokensAndNftTransfers from './keyline/CrossChainTokensAndNftTransfers.js'
 import CrossChain from './keyline/CrossChain.js'
 import Crowdloans from './keyline/Crowdloans.js'
 import Cryptocurrency from './keyline/Cryptocurrency.js'
+import CustomMadePlatforms from './keyline/CustomMadePlatforms.js'
 import DaOs from './keyline/DaOs.js'
 import Dex from './keyline/Dex.js'
 import Dapps from './keyline/Dapps.js'
+import DataAndAnalytics from './keyline/DataAndAnalytics.js'
+import DayLightMode from './keyline/DayLightMode.js'
 import DeFi from './keyline/DeFi.js'
+import DeleteCancel from './keyline/DeleteCancel.js'
 import Democracy from './keyline/Democracy.js'
 import Deposit from './keyline/Deposit.js'
 import DerivationPath from './keyline/DerivationPath.js'
 import DeriveAKeyPair from './keyline/DeriveAKeyPair.js'
 import DeriveAnAddress from './keyline/DeriveAnAddress.js'
+import Disconnected from './keyline/Disconnected.js'
+import DistributedFileStorage from './keyline/DistributedFileStorage.js'
+import Documentations from './keyline/Documentations.js'
+import Download from './keyline/Download.js'
+import Draw from './keyline/Draw.js'
+import Drip from './keyline/Drip.js'
+import DropdownUp from './keyline/DropdownUp.js'
+import Dropdown from './keyline/Dropdown.js'
+import EcosystemProvisions from './keyline/EcosystemProvisions.js'
 import Ecosystem from './keyline/Ecosystem.js'
+import EditOff from './keyline/EditOff.js'
+import EditOn from './keyline/EditOn.js'
 import Elections from './keyline/Elections.js'
 import Email from './keyline/Email.js'
 import Encryption from './keyline/Encryption.js'
 import EndingPeriod from './keyline/EndingPeriod.js'
 import EnergyDeficiency from './keyline/EnergyDeficiency.js'
 import EnergyEfficiency from './keyline/EnergyEfficiency.js'
+import Energy from './keyline/Energy.js'
+import EnterprisesAndConsortium from './keyline/EnterprisesAndConsortium.js'
+import Error from './keyline/Error.js'
 import Eve from './keyline/Eve.js'
 import Events from './keyline/Events.js'
 import ExistentialDeposit from './keyline/ExistentialDeposit.js'
+import ExportML from './keyline/ExportML.js'
+import ExportXsS from './keyline/ExportXsS.js'
+import Extension from './keyline/Extension.js'
 import Failure from './keyline/Failure.js'
-import Favorites from './keyline/Favorites.js'
+import FavoriteToBe from './keyline/FavoriteToBe.js'
+import Favorite from './keyline/Favorite.js'
 import Feeless from './keyline/Feeless.js'
 import Fiat from './keyline/Fiat.js'
+import Filter from './keyline/Filter.js'
+import Finances from './keyline/Finances.js'
 import Fork from './keyline/Fork.js'
+import ForklessSelfUpgrades from './keyline/ForklessSelfUpgrades.js'
 import ForklessUpgrades from './keyline/ForklessUpgrades.js'
 import FullNode from './keyline/FullNode.js'
+import FundAccount from './keyline/FundAccount.js'
+import FundSavings from './keyline/FundSavings.js'
 import Gaming from './keyline/Gaming.js'
 import Genesis from './keyline/Genesis.js'
 import Gift from './keyline/Gift.js'
@@ -88,45 +149,82 @@ import Governance from './keyline/Governance.js'
 import Governments from './keyline/Governments.js'
 import Hackathon from './keyline/Hackathon.js'
 import HashFunction from './keyline/HashFunction.js'
+import Healthcare from './keyline/Healthcare.js'
+import HeavyTrafficAtScale from './keyline/HeavyTrafficAtScale.js'
+import Help from './keyline/Help.js'
 import HeterogeneousSharding from './keyline/HeterogeneousSharding.js'
+import Identify from './keyline/Identify.js'
 import Identity from './keyline/Identity.js'
+import Indeterminate from './keyline/Indeterminate.js'
+import Informational from './keyline/Informational.js'
 import Infrastructure from './keyline/Infrastructure.js'
 import InjectedAccount from './keyline/InjectedAccount.js'
 import Interconnected from './keyline/Interconnected.js'
 import Interoperability from './keyline/Interoperability.js'
 import Investors from './keyline/Investors.js'
+import IoTAndRobotics from './keyline/IoTAndRobotics.js'
 import IoT from './keyline/IoT.js'
 import Isolated from './keyline/Isolated.js'
 import KeepAliveCheck from './keyline/KeepAliveCheck.js'
+import Key from './keyline/Key.js'
+import Language from './keyline/Language.js'
 import Layer from './keyline/Layer.js'
 import LayerFour from './keyline/LayerFour.js'
 import LayerOne from './keyline/LayerOne.js'
 import LayerThree from './keyline/LayerThree.js'
 import LayerTwo from './keyline/LayerTwo.js'
+import LearnMore from './keyline/LearnMore.js'
 import Learn from './keyline/Learn.js'
+import LeaseDuration from './keyline/LeaseDuration.js'
 import Library from './keyline/Library.js'
 import LightNode from './keyline/LightNode.js'
+import LightsOn from './keyline/LightsOn.js'
 import LimitedSupply from './keyline/LimitedSupply.js'
 import LinkedIn from './keyline/LinkedIn.js'
 import Lock from './keyline/Lock.js'
 import Maintain from './keyline/Maintain.js'
+import MarketingActivities from './keyline/MarketingActivities.js'
+import Menu from './keyline/Menu.js'
 import Message from './keyline/Message.js'
 import Metaverse from './keyline/Metaverse.js'
+import MitigatingMev from './keyline/MitigatingMev.js'
+import MobileApp from './keyline/MobileApp.js'
 import Monitor from './keyline/Monitor.js'
-import Multisign from './keyline/Multisign.js'
+import MoreHorizontal from './keyline/MoreHorizontal.js'
+import MoreMenu from './keyline/MoreMenu.js'
+import MoreVertical from './keyline/MoreVertical.js'
+import MultichainSmartContracts from './keyline/MultichainSmartContracts.js'
+import MultichainTreasuries from './keyline/MultichainTreasuries.js'
 import MultisigAccount from './keyline/MultisigAccount.js'
+import Multisign from './keyline/Multisign.js'
+import NftStaking from './keyline/NftStaking.js'
 import Nft from './keyline/Nft.js'
+import NetworkIsConnected from './keyline/NetworkIsConnected.js'
+import NetworkSecurityOperations from './keyline/NetworkSecurityOperations.js'
+import NewTab from './keyline/NewTab.js'
 import News from './keyline/News.js'
+import NightDarkMode from './keyline/NightDarkMode.js'
 import Node from './keyline/Node.js'
 import Nominating from './keyline/Nominating.js'
 import Nominators from './keyline/Nominators.js'
 import NotAbleToUpgrade from './keyline/NotAbleToUpgrade.js'
 import NotScalable from './keyline/NotScalable.js'
+import Notification from './keyline/Notification.js'
+import OffChainComputations from './keyline/OffChainComputations.js'
+import Offboarding from './keyline/Offboarding.js'
+import OnChainScheduling from './keyline/OnChainScheduling.js'
+import Onboarding from './keyline/Onboarding.js'
 import OracleV1 from './keyline/OracleV1.js'
 import OracleV2 from './keyline/OracleV2.js'
+import Oracles from './keyline/Oracles.js'
+import Overview from './keyline/Overview.js'
+import PaperMoney from './keyline/PaperMoney.js'
 import Parachains from './keyline/Parachains.js'
+import PayingFeesBetweenChains from './keyline/PayingFeesBetweenChains.js'
+import Payout from './keyline/Payout.js'
 import Picture from './keyline/Picture.js'
 import Podcasts from './keyline/Podcasts.js'
+import Privacy from './keyline/Privacy.js'
 import PrivateKey from './keyline/PrivateKey.js'
 import ProofOfStake from './keyline/ProofOfStake.js'
 import ProofOfWork from './keyline/ProofOfWork.js'
@@ -134,55 +232,83 @@ import Proposal from './keyline/Proposal.js'
 import ProxyAccount from './keyline/ProxyAccount.js'
 import Proxy from './keyline/Proxy.js'
 import PublicKey from './keyline/PublicKey.js'
+import QrCode from './keyline/QrCode.js'
 import Randomness from './keyline/Randomness.js'
+import ReadTime from './keyline/ReadTime.js'
+import RecoverKeys from './keyline/RecoverKeys.js'
+import RecoverKeysAlt from './keyline/RecoverKeysAlt.js'
 import Recovery from './keyline/Recovery.js'
 import Reddit from './keyline/Reddit.js'
 import ReferendaV1 from './keyline/ReferendaV1.js'
 import ReferendaV2 from './keyline/ReferendaV2.js'
+import RefreshRedo from './keyline/RefreshRedo.js'
 import Registrars from './keyline/Registrars.js'
 import Regulators from './keyline/Regulators.js'
 import RelayChain from './keyline/RelayChain.js'
 import RemoteNode from './keyline/RemoteNode.js'
+import RemoveUser from './keyline/RemoveUser.js'
 import Remove from './keyline/Remove.js'
 import Report from './keyline/Report.js'
+import Research from './keyline/Research.js'
+import ReserceBackAssets from './keyline/ReserceBackAssets.js'
 import RestoreFromBackUp from './keyline/RestoreFromBackUp.js'
+import RetailAndEcommerce from './keyline/RetailAndEcommerce.js'
+import RobustSystem from './keyline/RobustSystem.js'
 import Rust from './keyline/Rust.js'
+import Save from './keyline/Save.js'
 import Scalability from './keyline/Scalability.js'
+import Scaling from './keyline/Scaling.js'
 import ScamAlert from './keyline/ScamAlert.js'
+import Search from './keyline/Search.js'
 import SecondAProposal from './keyline/SecondAProposal.js'
 import SecretPartOfTheDerivationPath from './keyline/SecretPartOfTheDerivationPath.js'
 import SecureDevice from './keyline/SecureDevice.js'
+import SecurityV2 from './keyline/SecurityV2.js'
 import Security from './keyline/Security.js'
 import SeedPhrase from './keyline/SeedPhrase.js'
+import SelectListItem from './keyline/SelectListItem.js'
 import Session from './keyline/Session.js'
+import Settings from './keyline/Settings.js'
 import Sharding from './keyline/Sharding.js'
+import Share from './keyline/Share.js'
 import SharedSecurity from './keyline/SharedSecurity.js'
+import SignSpecs from './keyline/SignSpecs.js'
 import SignATransaction from './keyline/SignATransaction.js'
 import Sign from './keyline/Sign.js'
 import Signal from './keyline/Signal.js'
 import Signature from './keyline/Signature.js'
+import SignifierTab from './keyline/SignifierTab.js'
 import SmartContract from './keyline/SmartContract.js'
+import SocialImpactAndHumanitarian from './keyline/SocialImpactAndHumanitarian.js'
+import SocialNetworking from './keyline/SocialNetworking.js'
+import SoftwareDevelopment from './keyline/SoftwareDevelopment.js'
 import Specialised from './keyline/Specialised.js'
 import Stablecoin from './keyline/Stablecoin.js'
 import Staking from './keyline/Staking.js'
 import StartingPeriod from './keyline/StartingPeriod.js'
 import Storage from './keyline/Storage.js'
 import Success from './keyline/Success.js'
+import SupplyChainAndLogistics from './keyline/SupplyChainAndLogistics.js'
 import SupplyChain from './keyline/SupplyChain.js'
 import Talent from './keyline/Talent.js'
 import TechnicalCommittee from './keyline/TechnicalCommittee.js'
 import Teleport from './keyline/Teleport.js'
 import TestnetToken from './keyline/TestnetToken.js'
+import ThumbsDown from './keyline/ThumbsDown.js'
+import ThumbsUp from './keyline/ThumbsUp.js'
 import Time from './keyline/Time.js'
 import TokenHolders from './keyline/TokenHolders.js'
+import Token from './keyline/Token.js'
 import Tools from './keyline/Tools.js'
 import Transaction from './keyline/Transaction.js'
+import Translate from './keyline/Translate.js'
 import Transparency from './keyline/Transparency.js'
 import Treasury from './keyline/Treasury.js'
 import Twitter from './keyline/Twitter.js'
 import Ui from './keyline/Ui.js'
 import Ux from './keyline/Ux.js'
 import Unbond from './keyline/Unbond.js'
+import Unchecked from './keyline/Unchecked.js'
 import Unlock from './keyline/Unlock.js'
 import Unstake from './keyline/Unstake.js'
 import Upgrade from './keyline/Upgrade.js'
@@ -192,19 +318,26 @@ import Utility from './keyline/Utility.js'
 import Validators from './keyline/Validators.js'
 import ValueBearingToken from './keyline/ValueBearingToken.js'
 import VerifiedAccount from './keyline/VerifiedAccount.js'
+import VerifiedSigned from './keyline/VerifiedSigned.js'
 import Verify from './keyline/Verify.js'
+import Version from './keyline/Version.js'
 import VestingPeriod from './keyline/VestingPeriod.js'
 import Vesting from './keyline/Vesting.js'
+import VideoPause from './keyline/VideoPause.js'
+import VideoPlay from './keyline/VideoPlay.js'
 import Video from './keyline/Video.js'
 import Videos from './keyline/Videos.js'
 import Vote from './keyline/Vote.js'
 import VotingPeriod from './keyline/VotingPeriod.js'
 import Wasm from './keyline/Wasm.js'
 import Wallet from './keyline/Wallet.js'
+import Wallets from './keyline/Wallets.js'
 import Web3 from './keyline/Web3.js'
 import WhitepaperDownload from './keyline/WhitepaperDownload.js'
 import WhitepaperUpload from './keyline/WhitepaperUpload.js'
 import Whitepaper from './keyline/Whitepaper.js'
+import WiFiOff from './keyline/WiFiOff.js'
+import WiFi from './keyline/WiFi.js'
 import Wiki from './keyline/Wiki.js'
 import Withdraw from './keyline/Withdraw.js'
 import Workshop from './keyline/Workshop.js'
@@ -429,15 +562,28 @@ import SolidNPoS from './solid/NPoS.js'
 import SolidStake from './solid/Stake.js'
 
 const keylineIcons = {
+	AiAndComputing,
 	AccountPortability,
+	ActionLeft,
+	ActionRight,
+	AddUser,
 	AddKeyPair,
 	Add,
+	AddressBook,
+	AirplaneMode,
 	Alert,
 	Algorithm,
 	Alice,
 	Ambassadors,
+	Announcement,
 	AnonymousProxyAccount,
+	ArbitraryMessage,
 	ArchiveNode,
+	ArrowBack,
+	ArrowDown,
+	ArrowLeft,
+	ArrowRight,
+	ArrowUp,
 	Article,
 	AttackV2,
 	Auctions,
@@ -454,61 +600,109 @@ const keylineIcons = {
 	BlogPost,
 	Bob,
 	Bond,
+	BondedWithTimer,
 	BootNode,
 	Bridge,
 	Bridges,
+	BringingExternalTokensIntoPolkadot,
 	Build,
 	Builders,
 	BuiltinSecurity,
+	Burn,
 	Cex,
 	CPlusPlus,
+	Calendar,
 	Career,
 	Chainspec,
+	Check,
+	Checked,
+	ChevronDown,
+	ChevronUp,
 	Claim,
+	Close,
+	Cloud,
 	Code,
+	Collapse,
 	Collators,
 	Collective,
+	CommunicationsAndMedia,
+	CommunityEventsAndOutreach,
 	Community,
 	CompanionAccount,
 	ConnectWallet,
+	Connected,
 	ConnectionViaLightNode,
 	ConnectionViaRemoteNode,
+	ConnectsNetworksAndDappsTogether,
 	Consensus,
 	Contract,
 	CoolingPeriod,
 	Copy,
 	CostlyToMaintain,
 	Council,
+	Countdown,
+	CreateNewFromSource,
 	CrossChainMessaging,
+	CrossChainApplicationDevelopment,
+	CrossChainCertification,
+	CrossChainReputationSystems,
+	CrossChainTokensAndNftTransfers,
 	CrossChain,
 	Crowdloans,
 	Cryptocurrency,
+	CustomMadePlatforms,
 	DaOs,
 	Dex,
 	Dapps,
+	DataAndAnalytics,
+	DayLightMode,
 	DeFi,
+	DeleteCancel,
 	Democracy,
 	Deposit,
 	DerivationPath,
 	DeriveAKeyPair,
 	DeriveAnAddress,
+	Disconnected,
+	DistributedFileStorage,
+	Documentations,
+	Download,
+	Draw,
+	Drip,
+	DropdownUp,
+	Dropdown,
+	EcosystemProvisions,
 	Ecosystem,
+	EditOff,
+	EditOn,
 	Elections,
 	Email,
 	Encryption,
 	EndingPeriod,
 	EnergyDeficiency,
 	EnergyEfficiency,
+	Energy,
+	EnterprisesAndConsortium,
+	Error,
 	Eve,
 	Events,
 	ExistentialDeposit,
+	ExportML,
+	ExportXsS,
+	Extension,
 	Failure,
-	Favorites,
+	FavoriteToBe,
+	Favorite,
 	Feeless,
 	Fiat,
+	Filter,
+	Finances,
 	Fork,
+	ForklessSelfUpgrades,
 	ForklessUpgrades,
 	FullNode,
+	FundAccount,
+	FundSavings,
 	Gaming,
 	Genesis,
 	Gift,
@@ -519,45 +713,82 @@ const keylineIcons = {
 	Governments,
 	Hackathon,
 	HashFunction,
+	Healthcare,
+	HeavyTrafficAtScale,
+	Help,
 	HeterogeneousSharding,
+	Identify,
 	Identity,
+	Indeterminate,
+	Informational,
 	Infrastructure,
 	InjectedAccount,
 	Interconnected,
 	Interoperability,
 	Investors,
+	IoTAndRobotics,
 	IoT,
 	Isolated,
 	KeepAliveCheck,
+	Key,
+	Language,
 	Layer,
 	LayerFour,
 	LayerOne,
 	LayerThree,
 	LayerTwo,
+	LearnMore,
 	Learn,
+	LeaseDuration,
 	Library,
 	LightNode,
+	LightsOn,
 	LimitedSupply,
 	LinkedIn,
 	Lock,
 	Maintain,
+	MarketingActivities,
+	Menu,
 	Message,
 	Metaverse,
+	MitigatingMev,
+	MobileApp,
 	Monitor,
-	Multisign,
+	MoreHorizontal,
+	MoreMenu,
+	MoreVertical,
+	MultichainSmartContracts,
+	MultichainTreasuries,
 	MultisigAccount,
+	Multisign,
+	NftStaking,
 	Nft,
+	NetworkIsConnected,
+	NetworkSecurityOperations,
+	NewTab,
 	News,
+	NightDarkMode,
 	Node,
 	Nominating,
 	Nominators,
 	NotAbleToUpgrade,
 	NotScalable,
+	Notification,
+	OffChainComputations,
+	Offboarding,
+	OnChainScheduling,
+	Onboarding,
 	OracleV1,
 	OracleV2,
+	Oracles,
+	Overview,
+	PaperMoney,
 	Parachains,
+	PayingFeesBetweenChains,
+	Payout,
 	Picture,
 	Podcasts,
+	Privacy,
 	PrivateKey,
 	ProofOfStake,
 	ProofOfWork,
@@ -565,55 +796,83 @@ const keylineIcons = {
 	ProxyAccount,
 	Proxy,
 	PublicKey,
+	QrCode,
 	Randomness,
+	ReadTime,
+	RecoverKeys,
+	RecoverKeysAlt,
 	Recovery,
 	Reddit,
 	ReferendaV1,
 	ReferendaV2,
+	RefreshRedo,
 	Registrars,
 	Regulators,
 	RelayChain,
 	RemoteNode,
+	RemoveUser,
 	Remove,
 	Report,
+	Research,
+	ReserceBackAssets,
 	RestoreFromBackUp,
+	RetailAndEcommerce,
+	RobustSystem,
 	Rust,
+	Save,
 	Scalability,
+	Scaling,
 	ScamAlert,
+	Search,
 	SecondAProposal,
 	SecretPartOfTheDerivationPath,
 	SecureDevice,
+	SecurityV2,
 	Security,
 	SeedPhrase,
+	SelectListItem,
 	Session,
+	Settings,
 	Sharding,
+	Share,
 	SharedSecurity,
+	SignSpecs,
 	SignATransaction,
 	Sign,
 	Signal,
 	Signature,
+	SignifierTab,
 	SmartContract,
+	SocialImpactAndHumanitarian,
+	SocialNetworking,
+	SoftwareDevelopment,
 	Specialised,
 	Stablecoin,
 	Staking,
 	StartingPeriod,
 	Storage,
 	Success,
+	SupplyChainAndLogistics,
 	SupplyChain,
 	Talent,
 	TechnicalCommittee,
 	Teleport,
 	TestnetToken,
+	ThumbsDown,
+	ThumbsUp,
 	Time,
 	TokenHolders,
+	Token,
 	Tools,
 	Transaction,
+	Translate,
 	Transparency,
 	Treasury,
 	Twitter,
 	Ui,
 	Ux,
 	Unbond,
+	Unchecked,
 	Unlock,
 	Unstake,
 	Upgrade,
@@ -623,19 +882,26 @@ const keylineIcons = {
 	Validators,
 	ValueBearingToken,
 	VerifiedAccount,
+	VerifiedSigned,
 	Verify,
+	Version,
 	VestingPeriod,
 	Vesting,
+	VideoPause,
+	VideoPlay,
 	Video,
 	Videos,
 	Vote,
 	VotingPeriod,
 	Wasm,
 	Wallet,
+	Wallets,
 	Web3,
 	WhitepaperDownload,
 	WhitepaperUpload,
 	Whitepaper,
+	WiFiOff,
+	WiFi,
 	Wiki,
 	Withdraw,
 	Workshop,

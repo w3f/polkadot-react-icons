@@ -1,0 +1,4 @@
+import * as React from "react";
+import { SVGProps } from "react";
+const NetworkIsConnected = (props: SVGProps<SVGSVGElement>) => <svg width={24} height={28} viewBox="0 0 24 28" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}><path d="M2 5.9518V19.7488L12.0743 26.2383L22.2865 19.6569V5.9518L12.1386 2.23828L2 5.9518Z" stroke="black" strokeWidth={2.5} strokeLinecap="round" strokeLinejoin="round" /><path d="M12.0091 15.3685L11.9996 8.23825" stroke="black" strokeWidth={2.5} strokeMiterlimit={10} strokeLinecap="round" /><path d="M12.0187 19.7748L12.0006 19.7566" stroke="black" strokeWidth={2.5} strokeMiterlimit={10} strokeLinecap="round" /></svg>;
+export default NetworkIsConnected;
