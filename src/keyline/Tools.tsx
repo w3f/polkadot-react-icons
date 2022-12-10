@@ -1,4 +1,4 @@
 import * as React from "react";
 import { SVGProps } from "react";
-const Tools = (props: SVGProps<SVGSVGElement>) => <svg width={24} height={28} viewBox="0 0 24 28" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}><path d="M9.07755 7.05542H2M2 2L9.07755 2V20.4883L5.53878 26.2659L2 20.4883L2 2Z" stroke="black" strokeWidth={2.5} strokeLinejoin="round" /><path d="M18.683 8.06641L15.144 8.06641M18.6826 14.1328H15.144M18.683 19.8389H15.144M15.144 2L22.2216 2V26.2659H15.144L15.144 2Z" stroke="black" strokeWidth={2.5} strokeLinecap="round" strokeLinejoin="round" /></svg>;
+const Tools = (props: SVGProps<SVGSVGElement>) => <svg width={24} height={28} viewBox="0 0 24 28" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}><path d="M9 7.00002H2M2 2L9 2V20.2857L5.5 26L2 20.2857L2 2Z" stroke="black" strokeWidth={2.5} strokeLinejoin="round" /><path d="M18.5001 7.99993L15 7.99993M18.4998 13.9999H15M18.5001 19.6434H15M15 2L22 2V26H15L15 2Z" stroke="black" strokeWidth={2.5} strokeLinecap="round" strokeLinejoin="round" /></svg>;
 export default Tools;

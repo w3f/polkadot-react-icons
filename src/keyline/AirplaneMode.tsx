@@ -1,4 +1,4 @@
 import * as React from "react";
 import { SVGProps } from "react";
-const AirplaneMode = (props: SVGProps<SVGSVGElement>) => <svg width={28} height={24} viewBox="0 0 28 24" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}><path d="M12.2304 19.1309L9.45075 22.7394L13.9083 21.6569L18.3653 22.7395L15.5697 19.1309L15.5987 14.682L25.8467 17.4504L15.6426 9.5383L15.6891 4.08392C15.7114 1.47114 12.3812 1.4406 12.3589 4.05339L12.3121 9.5383L2.02107 17.4504L12.2683 14.682C12.2743 16.165 12.243 17.648 12.2304 19.1309Z" stroke="black" strokeWidth={2.5} strokeLinejoin="round" /></svg>;
+const AirplaneMode = (props: SVGProps<SVGSVGElement>) => <svg width={28} height={24} viewBox="0 0 28 24" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}><path d="M12.2538 19.1308L9.47419 22.7394L13.9318 21.6569L18.3887 22.7394L15.5932 19.1308L15.6222 14.682L25.8701 17.4504L15.666 9.53824L15.7125 4.08386C15.7348 1.47108 12.4046 1.44054 12.3823 4.05333L12.3356 9.53824L2.04451 17.4503L12.2917 14.682C12.2978 16.1649 12.2664 17.6479 12.2538 19.1308Z" stroke="black" strokeWidth={2.5} strokeLinejoin="round" /></svg>;
 export default AirplaneMode;

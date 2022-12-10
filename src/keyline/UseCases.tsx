@@ -1,4 +1,4 @@
 import * as React from "react";
 import { SVGProps } from "react";
-const UseCases = (props: SVGProps<SVGSVGElement>) => <svg width={29} height={24} viewBox="0 0 29 24" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}><path d="M27.0982 2H7.09824V22H27.0982V2Z" stroke="black" strokeWidth={2.5} strokeLinecap="round" strokeLinejoin="round" /><path d="M17.0982 7.27393L21.8203 11.996L17.0982 16.726" stroke="black" strokeWidth={2.5} strokeLinecap="round" strokeLinejoin="round" /><path d="M20.8262 12L1.99994 12" stroke="black" strokeWidth={2.5} strokeLinecap="round" strokeLinejoin="round" /></svg>;
+const UseCases = (props: SVGProps<SVGSVGElement>) => <svg width={28} height={23} viewBox="0 0 28 23" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}><path d="M26 2H6.87516V21.1248H26V2Z" stroke="black" strokeWidth={2.5} strokeLinecap="round" strokeLinejoin="round" /><path d="M16.4376 7.04315L20.953 11.5586L16.4376 16.0816" stroke="black" strokeWidth={2.5} strokeLinecap="round" strokeLinejoin="round" /><path d="M20.0024 11.5624L1.99994 11.5624" stroke="black" strokeWidth={2.5} strokeLinecap="round" strokeLinejoin="round" /></svg>;
 export default UseCases;

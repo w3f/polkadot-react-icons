@@ -1,4 +1,4 @@
 import * as React from "react";
 import { SVGProps } from "react";
-const EndingPeriod = (props: SVGProps<SVGSVGElement>) => <svg width={28} height={28} viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}><path d="M13.9999 26.7329C21.0321 26.7329 26.7328 21.0322 26.7328 14C26.7328 6.96781 21.0321 1.26709 13.9999 1.26709C6.96769 1.26709 1.26697 6.96781 1.26697 14C1.26697 21.0322 6.96769 26.7329 13.9999 26.7329Z" stroke="black" strokeWidth={2.5} strokeLinecap="round" strokeLinejoin="round" /><path d="M13.9998 13.3124L5.37517 13.3125" stroke="black" strokeWidth={2.5} strokeLinecap="round" strokeLinejoin="round" /></svg>;
+const EndingPeriod = (props: SVGProps<SVGSVGElement>) => <svg width={28} height={28} viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}><path d="M14 26C20.6274 26 26 20.6274 26 14C26 7.37258 20.6274 2 14 2C7.37258 2 2 7.37258 2 14C2 20.6274 7.37258 26 14 26Z" stroke="black" strokeWidth={2.5} strokeLinecap="round" strokeLinejoin="round" /><path d="M13.9999 13.3519L5.87173 13.352" stroke="black" strokeWidth={2.5} strokeLinecap="round" strokeLinejoin="round" /></svg>;
 export default EndingPeriod;

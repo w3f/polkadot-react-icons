@@ -1,9 +1,9 @@
-<svg width="29" height="29" viewBox="0 0 29 29" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M11.8 2H2V11.8H11.8V2Z" stroke="black" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M11.7998 17.6797H2V27.4795H11.7998V17.6797Z" stroke="black" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M27.4797 2H17.6797V11.8H27.4797V2Z" stroke="black" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M27.4796 17.6797H17.6797V27.4796H27.4796V17.6797Z" stroke="black" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M11.9219 6.99219H17.6797" stroke="black" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M17.4544 22.7383L11.9219 22.7383" stroke="black" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M11.7402 17.7393L17.7402 11.7393" stroke="black" stroke-width="2.5" stroke-linejoin="round"/>
+<svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M11.2309 2H2V11.2309H11.2309V2Z" stroke="black" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M11.2308 16.7692H2V26H11.2308V16.7692Z" stroke="black" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M26.0001 2H16.7692V11.2309H26.0001V2Z" stroke="black" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M26 16.7692H16.7692V26H26V16.7692Z" stroke="black" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M11.3457 6.7023H16.7692" stroke="black" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M16.5569 21.534L11.3457 21.534" stroke="black" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M11.1746 16.8253L16.8262 11.1737" stroke="black" stroke-width="2.5" stroke-linejoin="round"/>
 </svg>

@@ -1,4 +1,4 @@
 import * as React from "react";
 import { SVGProps } from "react";
-const EditOn = (props: SVGProps<SVGSVGElement>) => <svg width={26} height={26} viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}><path d="M20.4372 11.587L14.6625 5.81231M18.7874 1.6875L24.5621 7.46221L9.47711 22.5472L1.87572 24.3738L3.70241 16.7724L18.7874 1.6875Z" stroke="black" strokeWidth={2.5} strokeLinejoin="round" /></svg>;
+const EditOn = (props: SVGProps<SVGSVGElement>) => <svg width={24} height={25} viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}><path d="M18.9168 11.1924L13.5546 5.83018M17.3848 2L22.747 7.36223L8.73954 21.3697L1.6811 23.0659L3.37732 16.0074L17.3848 2Z" stroke="black" strokeWidth={2.5} strokeLinejoin="round" /></svg>;
 export default EditOn;

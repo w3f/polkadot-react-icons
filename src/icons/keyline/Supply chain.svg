@@ -1,6 +1,6 @@
-<svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M10.6632 5.49591C10.6632 7.68122 12.4347 9.45277 14.62 9.45277C16.8053 9.45277 18.5769 7.68122 18.5769 5.49591C18.5769 3.31061 16.8053 1.53906 14.62 1.53906C12.4347 1.53906 10.6632 3.3106 10.6632 5.49591Z" stroke="black" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M10.3922 5.49583L5.33443 5.49583L5.33443 20M5.33443 20L8.77661 16.453M5.33443 20L1.77661 16.547" stroke="black" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M17.3566 22.7822C17.3566 20.5969 15.5851 18.8253 13.3998 18.8253C11.2144 18.8253 9.4429 20.5969 9.4429 22.7822C9.4429 24.9675 11.2144 26.739 13.3998 26.739C15.5851 26.739 17.3566 24.9675 17.3566 22.7822Z" stroke="black" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M17.6276 22.7822L22.6853 22.7822L22.6853 8.27808M22.6853 8.27808L19.2432 11.825M22.6853 8.27808L26.2432 11.7311" stroke="black" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<svg width="27" height="28" viewBox="0 0 27 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M10.4636 5.76844C10.4636 7.84969 12.1507 9.53687 14.232 9.53687C16.3132 9.53688 18.0004 7.84969 18.0004 5.76844C18.0004 3.68719 16.3132 2 14.232 2C12.1507 2 10.4636 3.68719 10.4636 5.76844Z" stroke="black" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M10.2056 5.76839L5.38863 5.76839L5.38863 17.3158M8.66691 16.2038L5.38863 19.5819L2.00022 16.2933" stroke="black" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M16.838 22.2316C16.838 20.1503 15.1508 18.4631 13.0696 18.4631C10.9883 18.4631 9.30113 20.1503 9.30113 22.2316C9.30113 24.3128 10.9883 26 13.0696 26C15.1508 26 16.838 24.3128 16.838 22.2316Z" stroke="black" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M17.0962 22.2316L21.9132 22.2316L21.9132 10.3736M18.6349 11.7962L21.9132 8.41809L25.3016 11.7067" stroke="black" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>

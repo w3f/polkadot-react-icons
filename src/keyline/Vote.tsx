@@ -1,4 +1,4 @@
 import * as React from "react";
 import { SVGProps } from "react";
-const Vote = (props: SVGProps<SVGSVGElement>) => <svg width={29} height={29} viewBox="0 0 29 29" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}><path d="M13.0592 14.6996L15.6123 14.8189L16.0805 8.27967M2 26.954V20.45H27.462V26.954M4.59338 14.0208L16.6142 2L25.3189 10.7047L15.5712 20.4525H11.025L4.59338 14.0208Z" stroke="black" strokeWidth={2.5} strokeLinecap="round" strokeLinejoin="round" /></svg>;
+const Vote = (props: SVGProps<SVGSVGElement>) => <svg width={28} height={28} viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}><path d="M16.0555 1.99997L4.49426 13.5612L10.68 19.747L15.0524 19.747L24.4274 10.3719L16.0555 1.99997Z" stroke="black" strokeWidth={2.5} strokeLinecap="round" strokeLinejoin="round" /><path d="M12.6364 14.214L15.0919 14.3288L15.5422 8.03956" stroke="black" strokeWidth={2.5} strokeLinecap="round" strokeLinejoin="round" /><path d="M2 26V19.7446H26.4885V26" stroke="black" strokeWidth={2.5} strokeLinecap="round" strokeLinejoin="round" /></svg>;
 export default Vote;

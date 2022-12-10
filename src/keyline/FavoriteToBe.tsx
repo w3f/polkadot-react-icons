@@ -1,4 +1,4 @@
 import * as React from "react";
 import { SVGProps } from "react";
-const FavoriteToBe = (props: SVGProps<SVGSVGElement>) => <svg width={27} height={26} viewBox="0 0 27 26" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}><path d="M25.2741 10.3007L20.1148 16.125L20.8486 23.8295L13.6485 20.7798L6.47138 23.8524L7.18222 16.1479L2 10.3466L9.63574 8.64975L13.6256 2L17.6384 8.64975L25.2741 10.3007Z" fill="white" stroke="black" strokeWidth={2.5} strokeMiterlimit={10} strokeLinejoin="round" /></svg>;
+const FavoriteToBe = (props: SVGProps<SVGSVGElement>) => <svg width={28} height={27} viewBox="0 0 28 27" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}><path d="M26 10.8167L20.6798 16.9468L21.4365 25.0559L14.0118 21.8461L6.61084 25.0801L7.34384 16.9709L2 10.865L9.87389 9.07903L13.9882 2.08008L18.1261 9.07903L26 10.8167Z" stroke="black" strokeWidth={2.5} strokeMiterlimit={10} strokeLinejoin="round" /></svg>;
 export default FavoriteToBe;
