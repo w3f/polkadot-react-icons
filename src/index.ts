@@ -16,9 +16,9 @@ import AnonymousProxyAccount from './keyline/AnonymousProxyAccount.js'
 import ArbitraryMessage from './keyline/ArbitraryMessage.js'
 import ArchiveNode from './keyline/ArchiveNode.js'
 import ArrowDown from './keyline/ArrowDown.js'
+import ArrowRight from './keyline/ArrowRight.js'
 import ArrowBack from './keyline/ArrowBack.js'
 import ArrowLeft from './keyline/ArrowLeft.js'
-import ArrowRight from './keyline/ArrowRight.js'
 import ArrowUp from './keyline/ArrowUp.js'
 import Article from './keyline/Article.js'
 import AttackV2 from './keyline/AttackV2.js'
@@ -75,8 +75,6 @@ import Council from './keyline/Council.js'
 import Countdown from './keyline/Countdown.js'
 import CreateNewFromSource from './keyline/CreateNewFromSource.js'
 import CrossChainMessaging from './keyline/CrossChainMessaging.js'
-import CrossChainApplicationDevelopment from './keyline/CrossChainApplicationDevelopment.js'
-import CrossChainCertification from './keyline/CrossChainCertification.js'
 import CrossChainReputationSystems from './keyline/CrossChainReputationSystems.js'
 import CrossChainTokensAndNftTransfers from './keyline/CrossChainTokensAndNftTransfers.js'
 import CrossChain from './keyline/CrossChain.js'
@@ -135,7 +133,6 @@ import FundAccount from './keyline/FundAccount.js'
 import FundSavings from './keyline/FundSavings.js'
 import Gaming from './keyline/Gaming.js'
 import Genesis from './keyline/Genesis.js'
-import Gift from './keyline/Gift.js'
 import GlossaryV1 from './keyline/GlossaryV1.js'
 import GlossaryV2 from './keyline/GlossaryV2.js'
 import Go from './keyline/Go.js'
@@ -161,6 +158,8 @@ import IoT from './keyline/IoT.js'
 import Isolated from './keyline/Isolated.js'
 import KeepAliveCheck from './keyline/KeepAliveCheck.js'
 import Key from './keyline/Key.js'
+import LimitedSupply from './keyline/LimitedSupply.js'
+import Lock from './keyline/Lock.js'
 import Language from './keyline/Language.js'
 import Layer from './keyline/Layer.js'
 import LayerFour from './keyline/LayerFour.js'
@@ -168,14 +167,11 @@ import LayerOne from './keyline/LayerOne.js'
 import LayerThree from './keyline/LayerThree.js'
 import LayerTwo from './keyline/LayerTwo.js'
 import LearnMore from './keyline/LearnMore.js'
-import Learn from './keyline/Learn.js'
 import LeaseDuration from './keyline/LeaseDuration.js'
 import Library from './keyline/Library.js'
 import LightNode from './keyline/LightNode.js'
 import LightsOn from './keyline/LightsOn.js'
-import LimitedSupply from './keyline/LimitedSupply.js'
 import LinkedIn from './keyline/LinkedIn.js'
-import Lock from './keyline/Lock.js'
 import Maintain from './keyline/Maintain.js'
 import MarketingActivities from './keyline/MarketingActivities.js'
 import Menu from './keyline/Menu.js'
@@ -209,6 +205,7 @@ import OracleV1 from './keyline/OracleV1.js'
 import OracleV2 from './keyline/OracleV2.js'
 import Oracles from './keyline/Oracles.js'
 import PrivateKey from './keyline/PrivateKey.js'
+import ProofOfWork from './keyline/ProofOfWork.js'
 import PaperMoney from './keyline/PaperMoney.js'
 import Parachains from './keyline/Parachains.js'
 import PayingFeesBetweenChains from './keyline/PayingFeesBetweenChains.js'
@@ -217,7 +214,6 @@ import Picture from './keyline/Picture.js'
 import Podcasts from './keyline/Podcasts.js'
 import Privacy from './keyline/Privacy.js'
 import ProofOfStake from './keyline/ProofOfStake.js'
-import ProofOfWork from './keyline/ProofOfWork.js'
 import Proposal from './keyline/Proposal.js'
 import ProxyAccount from './keyline/ProxyAccount.js'
 import Proxy from './keyline/Proxy.js'
@@ -274,7 +270,6 @@ import SoftwareDevelopment from './keyline/SoftwareDevelopment.js'
 import Specialised from './keyline/Specialised.js'
 import Stablecoin from './keyline/Stablecoin.js'
 import Stake from './keyline/Stake.js'
-import Stake1 from './keyline/Stake1.js'
 import Staking from './keyline/Staking.js'
 import StartingPeriod from './keyline/StartingPeriod.js'
 import Success from './keyline/Success.js'
@@ -292,10 +287,10 @@ import Translate from './keyline/Translate.js'
 import Treasury from './keyline/Treasury.js'
 import Twitter from './keyline/Twitter.js'
 import Ui from './keyline/Ui.js'
+import Unlock from './keyline/Unlock.js'
 import Ux from './keyline/Ux.js'
 import Unbond from './keyline/Unbond.js'
 import Unchecked from './keyline/Unchecked.js'
-import Unlock from './keyline/Unlock.js'
 import Unstake from './keyline/Unstake.js'
 import Upgrade from './keyline/Upgrade.js'
 import UseCases from './keyline/UseCases.js'
@@ -316,8 +311,8 @@ import VotingPeriod from './keyline/VotingPeriod.js'
 import Wasm from './keyline/Wasm.js'
 import Wallet from './keyline/Wallet.js'
 import Wallets from './keyline/Wallets.js'
-import WhitepaperUpload from './keyline/WhitepaperUpload.js'
 import WhitepaperDownload from './keyline/WhitepaperDownload.js'
+import WhitepaperUpload from './keyline/WhitepaperUpload.js'
 import Whitepaper from './keyline/Whitepaper.js'
 import WiFiOff from './keyline/WiFiOff.js'
 import Wiki from './keyline/Wiki.js'
@@ -330,8 +325,12 @@ import BlogPost from './keyline/BlogPost.js'
 import BringingExternalTokensIntoPolkadot from './keyline/BringingExternalTokensIntoPolkadot.js'
 import Community from './keyline/Community.js'
 import Contract from './keyline/Contract.js'
+import CrossChainApplicationDevelopment from './keyline/CrossChainApplicationDevelopment.js'
+import CrossChainCertification from './keyline/CrossChainCertification.js'
 import EcosystemProvisions from './keyline/EcosystemProvisions.js'
+import Gift from './keyline/Gift.js'
 import InfrastructureDeployments from './keyline/InfrastructureDeployments.js'
+import Learn from './keyline/Learn.js'
 import MoreVertical from './keyline/MoreVertical.js'
 import NPoS from './keyline/NPoS.js'
 import NetworkSecurityOperations from './keyline/NetworkSecurityOperations.js'
@@ -711,9 +710,9 @@ const keylineIcons = {
 	ArbitraryMessage,
 	ArchiveNode,
 	ArrowDown,
+	ArrowRight,
 	ArrowBack,
 	ArrowLeft,
-	ArrowRight,
 	ArrowUp,
 	Article,
 	AttackV2,
@@ -770,8 +769,6 @@ const keylineIcons = {
 	Countdown,
 	CreateNewFromSource,
 	CrossChainMessaging,
-	CrossChainApplicationDevelopment,
-	CrossChainCertification,
 	CrossChainReputationSystems,
 	CrossChainTokensAndNftTransfers,
 	CrossChain,
@@ -830,7 +827,6 @@ const keylineIcons = {
 	FundSavings,
 	Gaming,
 	Genesis,
-	Gift,
 	GlossaryV1,
 	GlossaryV2,
 	Go,
@@ -856,6 +852,8 @@ const keylineIcons = {
 	Isolated,
 	KeepAliveCheck,
 	Key,
+	LimitedSupply,
+	Lock,
 	Language,
 	Layer,
 	LayerFour,
@@ -863,14 +861,11 @@ const keylineIcons = {
 	LayerThree,
 	LayerTwo,
 	LearnMore,
-	Learn,
 	LeaseDuration,
 	Library,
 	LightNode,
 	LightsOn,
-	LimitedSupply,
 	LinkedIn,
-	Lock,
 	Maintain,
 	MarketingActivities,
 	Menu,
@@ -904,6 +899,7 @@ const keylineIcons = {
 	OracleV2,
 	Oracles,
 	PrivateKey,
+	ProofOfWork,
 	PaperMoney,
 	Parachains,
 	PayingFeesBetweenChains,
@@ -912,7 +908,6 @@ const keylineIcons = {
 	Podcasts,
 	Privacy,
 	ProofOfStake,
-	ProofOfWork,
 	Proposal,
 	ProxyAccount,
 	Proxy,
@@ -969,7 +964,6 @@ const keylineIcons = {
 	Specialised,
 	Stablecoin,
 	Stake,
-	Stake1,
 	Staking,
 	StartingPeriod,
 	Success,
@@ -987,10 +981,10 @@ const keylineIcons = {
 	Treasury,
 	Twitter,
 	Ui,
+	Unlock,
 	Ux,
 	Unbond,
 	Unchecked,
-	Unlock,
 	Unstake,
 	Upgrade,
 	UseCases,
@@ -1011,8 +1005,8 @@ const keylineIcons = {
 	Wasm,
 	Wallet,
 	Wallets,
-	WhitepaperUpload,
 	WhitepaperDownload,
+	WhitepaperUpload,
 	Whitepaper,
 	WiFiOff,
 	Wiki,
@@ -1025,8 +1019,12 @@ const keylineIcons = {
 	BringingExternalTokensIntoPolkadot,
 	Community,
 	Contract,
+	CrossChainApplicationDevelopment,
+	CrossChainCertification,
 	EcosystemProvisions,
+	Gift,
 	InfrastructureDeployments,
+	Learn,
 	MoreVertical,
 	NPoS,
 	NetworkSecurityOperations,
