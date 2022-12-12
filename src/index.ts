@@ -145,7 +145,6 @@ import Hackathon from './keyline/Hackathon.js'
 import HandlesHeavyTrafficAtScale from './keyline/HandlesHeavyTrafficAtScale.js'
 import HashFunction from './keyline/HashFunction.js'
 import Healthcare from './keyline/Healthcare.js'
-import HeavyTrafficAtScale from './keyline/HeavyTrafficAtScale.js'
 import Help from './keyline/Help.js'
 import HeterogeneousSharding from './keyline/HeterogeneousSharding.js'
 import Identify from './keyline/Identify.js'
@@ -153,7 +152,6 @@ import Identity from './keyline/Identity.js'
 import Indeterminate from './keyline/Indeterminate.js'
 import Informational from './keyline/Informational.js'
 import InfrastructureTooling from './keyline/InfrastructureTooling.js'
-import Infrastructure from './keyline/Infrastructure.js'
 import InjectedAccount from './keyline/InjectedAccount.js'
 import Interconnected from './keyline/Interconnected.js'
 import Interoperability from './keyline/Interoperability.js'
@@ -276,11 +274,11 @@ import SoftwareDevelopment from './keyline/SoftwareDevelopment.js'
 import Specialised from './keyline/Specialised.js'
 import Stablecoin from './keyline/Stablecoin.js'
 import Stake from './keyline/Stake.js'
+import Stake1 from './keyline/Stake1.js'
 import Staking from './keyline/Staking.js'
 import StartingPeriod from './keyline/StartingPeriod.js'
 import Success from './keyline/Success.js'
 import SupplyChainAndLogistics from './keyline/SupplyChainAndLogistics.js'
-import SupplyChain from './keyline/SupplyChain.js'
 import Talent from './keyline/Talent.js'
 import TechnicalCommittee from './keyline/TechnicalCommittee.js'
 import Teleport from './keyline/Teleport.js'
@@ -842,7 +840,6 @@ const keylineIcons = {
 	HandlesHeavyTrafficAtScale,
 	HashFunction,
 	Healthcare,
-	HeavyTrafficAtScale,
 	Help,
 	HeterogeneousSharding,
 	Identify,
@@ -850,7 +847,6 @@ const keylineIcons = {
 	Indeterminate,
 	Informational,
 	InfrastructureTooling,
-	Infrastructure,
 	InjectedAccount,
 	Interconnected,
 	Interoperability,
@@ -973,11 +969,11 @@ const keylineIcons = {
 	Specialised,
 	Stablecoin,
 	Stake,
+	Stake1,
 	Staking,
 	StartingPeriod,
 	Success,
 	SupplyChainAndLogistics,
-	SupplyChain,
 	Talent,
 	TechnicalCommittee,
 	Teleport,
