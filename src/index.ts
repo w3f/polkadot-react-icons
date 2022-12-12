@@ -362,32 +362,30 @@ import SolidAnnouncement from './solid/Announcement.js'
 import SolidAnonymousProxyAccount from './solid/AnonymousProxyAccount.js'
 import SolidArbitraryMessage from './solid/ArbitraryMessage.js'
 import SolidArchiveNode from './solid/ArchiveNode.js'
-import SolidArrowBack from './solid/ArrowBack.js'
 import SolidArrowDown from './solid/ArrowDown.js'
-import SolidArrowLeft from './solid/ArrowLeft.js'
 import SolidArrowRight from './solid/ArrowRight.js'
+import SolidArrowBack from './solid/ArrowBack.js'
+import SolidArrowLeft from './solid/ArrowLeft.js'
 import SolidArrowUp from './solid/ArrowUp.js'
 import SolidArticle from './solid/Article.js'
 import SolidAttackV2 from './solid/AttackV2.js'
 import SolidAuctions from './solid/Auctions.js'
 import SolidAuthority from './solid/Authority.js'
+import SolidBid from './solid/Bid.js'
 import SolidBackUp from './solid/BackUp.js'
 import SolidBalance from './solid/Balance.js'
 import SolidBatchTransaction from './solid/BatchTransaction.js'
-import SolidBid from './solid/Bid.js'
 import SolidBlockExplorerV1 from './solid/BlockExplorerV1.js'
 import SolidBlockExplorerV2 from './solid/BlockExplorerV2.js'
 import SolidBlockNumber from './solid/BlockNumber.js'
 import SolidBlock from './solid/Block.js'
 import SolidBlockchain from './solid/Blockchain.js'
-import SolidBlogPost from './solid/BlogPost.js'
 import SolidBob from './solid/Bob.js'
 import SolidBond from './solid/Bond.js'
 import SolidBondedWithTimer from './solid/BondedWithTimer.js'
 import SolidBootNode from './solid/BootNode.js'
 import SolidBridge from './solid/Bridge.js'
 import SolidBridges from './solid/Bridges.js'
-import SolidBringingExternalTokensIntoPolkadot from './solid/BringingExternalTokensIntoPolkadot.js'
 import SolidBuild from './solid/Build.js'
 import SolidBuilders from './solid/Builders.js'
 import SolidBuiltinSecurity from './solid/BuiltinSecurity.js'
@@ -399,18 +397,17 @@ import SolidCareer from './solid/Career.js'
 import SolidChainspec from './solid/Chainspec.js'
 import SolidCheck from './solid/Check.js'
 import SolidChecked from './solid/Checked.js'
-import SolidChevronDown from './solid/ChevronDown.js'
 import SolidChevronUp from './solid/ChevronUp.js'
+import SolidChevronDown from './solid/ChevronDown.js'
 import SolidClaim from './solid/Claim.js'
 import SolidClose from './solid/Close.js'
-// import SolidCloud from './solid/Cloud.js'
+import SolidCloud from './solid/Cloud.js'
 import SolidCode from './solid/Code.js'
 import SolidCollapse from './solid/Collapse.js'
 import SolidCollators from './solid/Collators.js'
 import SolidCollective from './solid/Collective.js'
 import SolidCommunicationsAndMedia from './solid/CommunicationsAndMedia.js'
 import SolidCommunityEventsAndOutreach from './solid/CommunityEventsAndOutreach.js'
-import SolidCommunity from './solid/Community.js'
 import SolidCompanionAccount from './solid/CompanionAccount.js'
 import SolidConnectWallet from './solid/ConnectWallet.js'
 import SolidConnected from './solid/Connected.js'
@@ -418,55 +415,51 @@ import SolidConnectionViaLightNode from './solid/ConnectionViaLightNode.js'
 import SolidConnectionViaRemoteNode from './solid/ConnectionViaRemoteNode.js'
 import SolidConnectsNetworksAndDappsTogether from './solid/ConnectsNetworksAndDappsTogether.js'
 import SolidConsensus from './solid/Consensus.js'
-import SolidContract from './solid/Contract.js'
 import SolidCoolingPeriod from './solid/CoolingPeriod.js'
 import SolidCopy from './solid/Copy.js'
 import SolidCostlyToMaintain from './solid/CostlyToMaintain.js'
 import SolidCouncil from './solid/Council.js'
-// import SolidCountdown from './solid/Countdown.js'
+import SolidCountdown from './solid/Countdown.js'
 import SolidCreateNewFromSource from './solid/CreateNewFromSource.js'
 import SolidCrossChainMessaging from './solid/CrossChainMessaging.js'
-import SolidCrossChainApplicationDevelopment from './solid/CrossChainApplicationDevelopment.js'
-import SolidCrossChainCertification from './solid/CrossChainCertification.js'
 import SolidCrossChainReputationSystems from './solid/CrossChainReputationSystems.js'
-// import SolidCrossChainTokensAndNftTransfers from './solid/CrossChainTokensAndNftTransfers.js'
+import SolidCrossChainTokensAndNftTransfers from './solid/CrossChainTokensAndNftTransfers.js'
 import SolidCrossChain from './solid/CrossChain.js'
 import SolidCrowdloans from './solid/Crowdloans.js'
 import SolidCryptocurrency from './solid/Cryptocurrency.js'
 import SolidCustomMadePlatforms from './solid/CustomMadePlatforms.js'
 import SolidDaOs from './solid/DaOs.js'
-import SolidDex from './solid/Dex.js'
 import SolidDapps from './solid/Dapps.js'
 import SolidDataAndAnalytics from './solid/DataAndAnalytics.js'
 import SolidDayLightMode from './solid/DayLightMode.js'
 import SolidDecentralisedStorage from './solid/DecentralisedStorage.js'
-import SolidDeFi from './solid/DeFi.js'
+import SolidDefi from './solid/Defi.js'
 import SolidDeleteCancel from './solid/DeleteCancel.js'
 import SolidDemocracy from './solid/Democracy.js'
 import SolidDeposit from './solid/Deposit.js'
 import SolidDerivationPath from './solid/DerivationPath.js'
 import SolidDeriveAKeyPair from './solid/DeriveAKeyPair.js'
 import SolidDeriveAnAddress from './solid/DeriveAnAddress.js'
+import SolidDex from './solid/Dex.js'
 import SolidDisconnected from './solid/Disconnected.js'
 import SolidDistributedFileStorage from './solid/DistributedFileStorage.js'
 import SolidDocumentations from './solid/Documentations.js'
 import SolidDownload from './solid/Download.js'
-// import SolidDraw from './solid/Draw.js'
+import SolidDraw from './solid/Draw.js'
 import SolidDrip from './solid/Drip.js'
 import SolidDropdownUp from './solid/DropdownUp.js'
 import SolidDropdown from './solid/Dropdown.js'
-// import SolidEcosystemProvisions from './solid/EcosystemProvisions.js'
+import SolidEncryption from './solid/Encryption.js'
 import SolidEcosystem from './solid/Ecosystem.js'
 import SolidEditOff from './solid/EditOff.js'
 import SolidEditOn from './solid/EditOn.js'
 import SolidElections from './solid/Elections.js'
 import SolidEmail from './solid/Email.js'
-import SolidEncryption from './solid/Encryption.js'
 import SolidEndingPeriod from './solid/EndingPeriod.js'
 import SolidEnergyDeficiency from './solid/EnergyDeficiency.js'
 import SolidEnergyEfficiency from './solid/EnergyEfficiency.js'
 import SolidEnergy from './solid/Energy.js'
-// import SolidEnterprisesAndConsortium from './solid/EnterprisesAndConsortium.js'
+import SolidEnterpriseAndConsortium from './solid/EnterpriseAndConsortium.js'
 import SolidError from './solid/Error.js'
 import SolidEve from './solid/Eve.js'
 import SolidEvents from './solid/Events.js'
@@ -474,8 +467,8 @@ import SolidExistentialDeposit from './solid/ExistentialDeposit.js'
 import SolidExportML from './solid/ExportML.js'
 import SolidExportXsS from './solid/ExportXsS.js'
 import SolidExtension from './solid/Extension.js'
-// import SolidFavoriteToBe from './solid/FavoriteToBe.js'
-// import SolidFavorite from './solid/Favorite.js'
+import SolidFavoriteToBe from './solid/FavoriteToBe.js'
+import SolidFavorite from './solid/Favorite.js'
 import SolidFeeless from './solid/Feeless.js'
 import SolidFiat from './solid/Fiat.js'
 import SolidFilter from './solid/Filter.js'
@@ -487,23 +480,22 @@ import SolidFundAccount from './solid/FundAccount.js'
 import SolidFundSavings from './solid/FundSavings.js'
 import SolidGaming from './solid/Gaming.js'
 import SolidGenesis from './solid/Genesis.js'
-import SolidGift from './solid/Gift.js'
 import SolidGlossaryV1 from './solid/GlossaryV1.js'
 import SolidGlossaryV2 from './solid/GlossaryV2.js'
 import SolidGo from './solid/Go.js'
 import SolidGovernance from './solid/Governance.js'
 import SolidGovernments from './solid/Governments.js'
 import SolidHackathon from './solid/Hackathon.js'
+import SolidHandlesHeavyTrafficAtScale from './solid/HandlesHeavyTrafficAtScale.js'
 import SolidHashFunction from './solid/HashFunction.js'
 import SolidHealthcare from './solid/Healthcare.js'
-// import SolidHeavyTrafficAtScale from './solid/HeavyTrafficAtScale.js'
-// import SolidHelp from './solid/Help.js'
+import SolidHelp from './solid/Help.js'
 import SolidHeterogeneousSharding from './solid/HeterogeneousSharding.js'
 import SolidIdentify from './solid/Identify.js'
 import SolidIdentity from './solid/Identity.js'
 import SolidIndeterminate from './solid/Indeterminate.js'
 import SolidInformational from './solid/Informational.js'
-import SolidInfrastructure from './solid/Infrastructure.js'
+import SolidInfrastructureTooling from './solid/InfrastructureTooling.js'
 import SolidInjectedAccount from './solid/InjectedAccount.js'
 import SolidInterconnected from './solid/Interconnected.js'
 import SolidInteroperability from './solid/Interoperability.js'
@@ -513,6 +505,8 @@ import SolidIoT from './solid/IoT.js'
 import SolidIsolated from './solid/Isolated.js'
 import SolidKeepAliveCheck from './solid/KeepAliveCheck.js'
 import SolidKey from './solid/Key.js'
+import SolidLimitedSupply from './solid/LimitedSupply.js'
+import SolidLock from './solid/Lock.js'
 import SolidLanguage from './solid/Language.js'
 import SolidLayer from './solid/Layer.js'
 import SolidLayerFour from './solid/LayerFour.js'
@@ -520,16 +514,13 @@ import SolidLayerOne from './solid/LayerOne.js'
 import SolidLayerThree from './solid/LayerThree.js'
 import SolidLayerTwo from './solid/LayerTwo.js'
 import SolidLearnMore from './solid/LearnMore.js'
-import SolidLearn from './solid/Learn.js'
-// import SolidLeaseDuration from './solid/LeaseDuration.js'
+import SolidLeaseDuration from './solid/LeaseDuration.js'
 import SolidLibrary from './solid/Library.js'
 import SolidLightNode from './solid/LightNode.js'
 import SolidLightsOn from './solid/LightsOn.js'
-import SolidLimitedSupply from './solid/LimitedSupply.js'
 import SolidLinkedIn from './solid/LinkedIn.js'
-import SolidLock from './solid/Lock.js'
 import SolidMaintain from './solid/Maintain.js'
-// import SolidMarketingActivities from './solid/MarketingActivities.js'
+import SolidMarketingActivities from './solid/MarketingActivities.js'
 import SolidMenu from './solid/Menu.js'
 import SolidMessage from './solid/Message.js'
 import SolidMetaverse from './solid/Metaverse.js'
@@ -538,17 +529,15 @@ import SolidMobileApp from './solid/MobileApp.js'
 import SolidMonitor from './solid/Monitor.js'
 import SolidMoreHorizontal from './solid/MoreHorizontal.js'
 import SolidMoreMenu from './solid/MoreMenu.js'
-import SolidMoreVertical from './solid/MoreVertical.js'
 import SolidMultichainSmartContracts from './solid/MultichainSmartContracts.js'
-// import SolidMultichainTreasuries from './solid/MultichainTreasuries.js'
+import SolidMultichainTreasuries from './solid/MultichainTreasuries.js'
 import SolidMultisigAccount from './solid/MultisigAccount.js'
 import SolidMultisign from './solid/Multisign.js'
-// import SolidNftStaking from './solid/NftStaking.js'
-import SolidNft from './solid/Nft.js'
-// import SolidNetworkIsConnected from './solid/NetworkIsConnected.js'
-import SolidNetworkSecurityOperations from './solid/NetworkSecurityOperations.js'
-import SolidNewTab from './solid/NewTab.js'
 import SolidNews from './solid/News.js'
+import SolidNftStaking from './solid/NftStaking.js'
+import SolidNft from './solid/Nft.js'
+import SolidNetworkIsConnected from './solid/NetworkIsConnected.js'
+import SolidNewTab from './solid/NewTab.js'
 import SolidNightDarkMode from './solid/NightDarkMode.js'
 import SolidNode from './solid/Node.js'
 import SolidNominating from './solid/Nominating.js'
@@ -556,33 +545,31 @@ import SolidNominators from './solid/Nominators.js'
 import SolidNotAbleToUpgrade from './solid/NotAbleToUpgrade.js'
 import SolidNotScalable from './solid/NotScalable.js'
 import SolidNotification from './solid/Notification.js'
-// import SolidOffChainComputations from './solid/OffChainComputations.js'
+import SolidOverview from './solid/Overview.js'
 import SolidOffboarding from './solid/Offboarding.js'
-// import SolidOnChainScheduling from './solid/OnChainScheduling.js'
 import SolidOnboarding from './solid/Onboarding.js'
 import SolidOracleV1 from './solid/OracleV1.js'
 import SolidOracleV2 from './solid/OracleV2.js'
 import SolidOracles from './solid/Oracles.js'
-import SolidOverview from './solid/Overview.js'
+import SolidPrivateKey from './solid/PrivateKey.js'
+import SolidProofOfWork from './solid/ProofOfWork.js'
 import SolidPaperMoney from './solid/PaperMoney.js'
 import SolidParachains from './solid/Parachains.js'
-// import SolidPayingFeesBetweenChains from './solid/PayingFeesBetweenChains.js'
+import SolidPayingFeesBetweenChains from './solid/PayingFeesBetweenChains.js'
 import SolidPayout from './solid/Payout.js'
 import SolidPicture from './solid/Picture.js'
 import SolidPodcasts from './solid/Podcasts.js'
 import SolidPrivacy from './solid/Privacy.js'
-import SolidPrivateKey from './solid/PrivateKey.js'
 import SolidProofOfStake from './solid/ProofOfStake.js'
-import SolidProofOfWork from './solid/ProofOfWork.js'
 import SolidProposal from './solid/Proposal.js'
 import SolidProxyAccount from './solid/ProxyAccount.js'
 import SolidProxy from './solid/Proxy.js'
 import SolidPublicKey from './solid/PublicKey.js'
-// import SolidQrCode from './solid/QrCode.js'
+import SolidQrCode from './solid/QrCode.js'
 import SolidRandomness from './solid/Randomness.js'
-// import SolidReadTime from './solid/ReadTime.js'
-// import SolidRecoverKeys from './solid/RecoverKeys.js'
+import SolidReadTime from './solid/ReadTime.js'
 import SolidRecoverKeysAlt from './solid/RecoverKeysAlt.js'
+import SolidRecoverKeys from './solid/RecoverKeys.js'
 import SolidRecovery from './solid/Recovery.js'
 import SolidReddit from './solid/Reddit.js'
 import SolidReferendaV1 from './solid/ReferendaV1.js'
@@ -593,14 +580,15 @@ import SolidRegulators from './solid/Regulators.js'
 import SolidRelayChain from './solid/RelayChain.js'
 import SolidRemoteNode from './solid/RemoteNode.js'
 import SolidRemoveUser from './solid/RemoveUser.js'
-// import SolidRemove from './solid/Remove.js'
-import SolidReport from './solid/Report.js'
+import SolidRemove from './solid/Remove.js'
 import SolidResearch from './solid/Research.js'
 import SolidReserveBackAssets from './solid/ReserveBackAssets.js'
 import SolidRestoreFromBackUp from './solid/RestoreFromBackUp.js'
 import SolidRetailAndEcommerce from './solid/RetailAndEcommerce.js'
 import SolidRobustSystem from './solid/RobustSystem.js'
 import SolidRust from './solid/Rust.js'
+import SolidSignATransaction from './solid/SignATransaction.js'
+import SolidSignal from './solid/Signal.js'
 import SolidSave from './solid/Save.js'
 import SolidScalability from './solid/Scalability.js'
 import SolidScaling from './solid/Scaling.js'
@@ -609,7 +597,7 @@ import SolidSearch from './solid/Search.js'
 import SolidSecondAProposal from './solid/SecondAProposal.js'
 import SolidSecretPartOfTheDerivationPath from './solid/SecretPartOfTheDerivationPath.js'
 import SolidSecureDevice from './solid/SecureDevice.js'
-// import SolidSecurityV2 from './solid/SecurityV2.js'
+import SolidSecurityV2 from './solid/SecurityV2.js'
 import SolidSecurity from './solid/Security.js'
 import SolidSeedPhrase from './solid/SeedPhrase.js'
 import SolidSelectListItem from './solid/SelectListItem.js'
@@ -619,42 +607,37 @@ import SolidSharding from './solid/Sharding.js'
 import SolidShare from './solid/Share.js'
 import SolidSharedSecurity from './solid/SharedSecurity.js'
 import SolidSignSpecs from './solid/SignSpecs.js'
-import SolidSignATransaction from './solid/SignATransaction.js'
 import SolidSign from './solid/Sign.js'
-import SolidSignal from './solid/Signal.js'
 import SolidSignature from './solid/Signature.js'
 import SolidSignifierTab from './solid/SignifierTab.js'
 import SolidSmartContract from './solid/SmartContract.js'
-// import SolidSocialImpactAndHumanitarian from './solid/SocialImpactAndHumanitarian.js'
+import SolidSocialImpactAndHumanitarian from './solid/SocialImpactAndHumanitarian.js'
 import SolidSocialNetworking from './solid/SocialNetworking.js'
 import SolidSoftwareDevelopment from './solid/SoftwareDevelopment.js'
 import SolidSpecialised from './solid/Specialised.js'
 import SolidStablecoin from './solid/Stablecoin.js'
+import SolidStake from './solid/Stake.js'
 import SolidStaking from './solid/Staking.js'
 import SolidStartingPeriod from './solid/StartingPeriod.js'
 import SolidSuccess from './solid/Success.js'
-// import SolidSupplyChainAndLogistics from './solid/SupplyChainAndLogistics.js'
-import SolidSupplyChain from './solid/SupplyChain.js'
+import SolidSupplyChainAndLogistics from './solid/SupplyChainAndLogistics.js'
 import SolidTalent from './solid/Talent.js'
 import SolidTechnicalCommittee from './solid/TechnicalCommittee.js'
 import SolidTeleport from './solid/Teleport.js'
 import SolidTestnetToken from './solid/TestnetToken.js'
 import SolidThumbsDown from './solid/ThumbsDown.js'
 import SolidThumbsUp from './solid/ThumbsUp.js'
-import SolidTime from './solid/Time.js'
 import SolidTokenHolders from './solid/TokenHolders.js'
-import SolidToken from './solid/Token.js'
 import SolidTools from './solid/Tools.js'
 import SolidTransaction from './solid/Transaction.js'
 import SolidTranslate from './solid/Translate.js'
-import SolidTransparency from './solid/Transparency.js'
 import SolidTreasury from './solid/Treasury.js'
 import SolidTwitter from './solid/Twitter.js'
 import SolidUi from './solid/Ui.js'
+import SolidUnlock from './solid/Unlock.js'
 import SolidUx from './solid/Ux.js'
 import SolidUnbond from './solid/Unbond.js'
 import SolidUnchecked from './solid/Unchecked.js'
-import SolidUnlock from './solid/Unlock.js'
 import SolidUnstake from './solid/Unstake.js'
 import SolidUpgrade from './solid/Upgrade.js'
 import SolidUseCases from './solid/UseCases.js'
@@ -668,8 +651,6 @@ import SolidVerify from './solid/Verify.js'
 import SolidVersion from './solid/Version.js'
 import SolidVestingPeriod from './solid/VestingPeriod.js'
 import SolidVesting from './solid/Vesting.js'
-import SolidVideoPause from './solid/VideoPause.js'
-import SolidVideoPlay from './solid/VideoPlay.js'
 import SolidVideo from './solid/Video.js'
 import SolidVideos from './solid/Videos.js'
 import SolidVote from './solid/Vote.js'
@@ -677,19 +658,39 @@ import SolidVotingPeriod from './solid/VotingPeriod.js'
 import SolidWasm from './solid/Wasm.js'
 import SolidWallet from './solid/Wallet.js'
 import SolidWallets from './solid/Wallets.js'
-import SolidWeb3 from './solid/Web3.js'
 import SolidWhitepaperDownload from './solid/WhitepaperDownload.js'
 import SolidWhitepaperUpload from './solid/WhitepaperUpload.js'
 import SolidWhitepaper from './solid/Whitepaper.js'
 import SolidWiFiOff from './solid/WiFiOff.js'
-import SolidWiFi from './solid/WiFi.js'
 import SolidWiki from './solid/Wiki.js'
 import SolidWithdraw from './solid/Withdraw.js'
 import SolidWorkshop from './solid/Workshop.js'
 import SolidXcmMessage from './solid/XcmMessage.js'
 import SolidYoutube from './solid/Youtube.js'
+import SolidAddress from './solid/Address.js'
+import SolidBlogPost from './solid/BlogPost.js'
+import SolidBringingExternalTokensIntoPolkadot from './solid/BringingExternalTokensIntoPolkadot.js'
+import SolidCommunity from './solid/Community.js'
+import SolidContract from './solid/Contract.js'
+import SolidCrossChainApplicationDevelopment from './solid/CrossChainApplicationDevelopment.js'
+import SolidCrossChainCertification from './solid/CrossChainCertification.js'
+import SolidEcosystemProvisions from './solid/EcosystemProvisions.js'
+import SolidGift from './solid/Gift.js'
+import SolidInfrastructureDeployments from './solid/InfrastructureDeployments.js'
+import SolidLearn from './solid/Learn.js'
+import SolidMoreVertical from './solid/MoreVertical.js'
 import SolidNPoS from './solid/NPoS.js'
-import SolidStake from './solid/Stake.js'
+import SolidNetworkSecurityOperations from './solid/NetworkSecurityOperations.js'
+import SolidOffChainComputations from './solid/OffChainComputations.js'
+import SolidOnChainScheduling from './solid/OnChainScheduling.js'
+import SolidReport from './solid/Report.js'
+import SolidTime from './solid/Time.js'
+import SolidToken from './solid/Token.js'
+import SolidTransparency from './solid/Transparency.js'
+import SolidVideoPause from './solid/VideoPause.js'
+import SolidVideoPlay from './solid/VideoPlay.js'
+import SolidWeb3 from './solid/Web3.js'
+import SolidWifi from './solid/Wifi.js'
 
 const keylineIcons = {
 	AiAndComputing,
@@ -1058,32 +1059,30 @@ const solidIcons = {
 	SolidAnonymousProxyAccount,
 	SolidArbitraryMessage,
 	SolidArchiveNode,
-	SolidArrowBack,
 	SolidArrowDown,
-	SolidArrowLeft,
 	SolidArrowRight,
+	SolidArrowBack,
+	SolidArrowLeft,
 	SolidArrowUp,
 	SolidArticle,
 	SolidAttackV2,
 	SolidAuctions,
 	SolidAuthority,
+	SolidBid,
 	SolidBackUp,
 	SolidBalance,
 	SolidBatchTransaction,
-	SolidBid,
 	SolidBlockExplorerV1,
 	SolidBlockExplorerV2,
 	SolidBlockNumber,
 	SolidBlock,
 	SolidBlockchain,
-	SolidBlogPost,
 	SolidBob,
 	SolidBond,
 	SolidBondedWithTimer,
 	SolidBootNode,
 	SolidBridge,
 	SolidBridges,
-	SolidBringingExternalTokensIntoPolkadot,
 	SolidBuild,
 	SolidBuilders,
 	SolidBuiltinSecurity,
@@ -1095,18 +1094,17 @@ const solidIcons = {
 	SolidChainspec,
 	SolidCheck,
 	SolidChecked,
-	SolidChevronDown,
 	SolidChevronUp,
+	SolidChevronDown,
 	SolidClaim,
 	SolidClose,
-	// SolidCloud,
+	SolidCloud,
 	SolidCode,
 	SolidCollapse,
 	SolidCollators,
 	SolidCollective,
 	SolidCommunicationsAndMedia,
 	SolidCommunityEventsAndOutreach,
-	SolidCommunity,
 	SolidCompanionAccount,
 	SolidConnectWallet,
 	SolidConnected,
@@ -1114,55 +1112,51 @@ const solidIcons = {
 	SolidConnectionViaRemoteNode,
 	SolidConnectsNetworksAndDappsTogether,
 	SolidConsensus,
-	SolidContract,
 	SolidCoolingPeriod,
 	SolidCopy,
 	SolidCostlyToMaintain,
 	SolidCouncil,
-	// SolidCountdown,
+	SolidCountdown,
 	SolidCreateNewFromSource,
 	SolidCrossChainMessaging,
-	SolidCrossChainApplicationDevelopment,
-	SolidCrossChainCertification,
 	SolidCrossChainReputationSystems,
-	// SolidCrossChainTokensAndNftTransfers,
+	SolidCrossChainTokensAndNftTransfers,
 	SolidCrossChain,
 	SolidCrowdloans,
 	SolidCryptocurrency,
 	SolidCustomMadePlatforms,
 	SolidDaOs,
-	SolidDex,
 	SolidDapps,
 	SolidDataAndAnalytics,
 	SolidDayLightMode,
 	SolidDecentralisedStorage,
-	SolidDeFi,
+	SolidDefi,
 	SolidDeleteCancel,
 	SolidDemocracy,
 	SolidDeposit,
 	SolidDerivationPath,
 	SolidDeriveAKeyPair,
 	SolidDeriveAnAddress,
+	SolidDex,
 	SolidDisconnected,
 	SolidDistributedFileStorage,
 	SolidDocumentations,
 	SolidDownload,
-	// SolidDraw,
+	SolidDraw,
 	SolidDrip,
 	SolidDropdownUp,
 	SolidDropdown,
-	// SolidEcosystemProvisions,
+	SolidEncryption,
 	SolidEcosystem,
 	SolidEditOff,
 	SolidEditOn,
 	SolidElections,
 	SolidEmail,
-	SolidEncryption,
 	SolidEndingPeriod,
 	SolidEnergyDeficiency,
 	SolidEnergyEfficiency,
 	SolidEnergy,
-	// SolidEnterprisesAndConsortium,
+	SolidEnterpriseAndConsortium,
 	SolidError,
 	SolidEve,
 	SolidEvents,
@@ -1170,8 +1164,8 @@ const solidIcons = {
 	SolidExportML,
 	SolidExportXsS,
 	SolidExtension,
-	// SolidFavoriteToBe,
-	// SolidFavorite,
+	SolidFavoriteToBe,
+	SolidFavorite,
 	SolidFeeless,
 	SolidFiat,
 	SolidFilter,
@@ -1183,23 +1177,22 @@ const solidIcons = {
 	SolidFundSavings,
 	SolidGaming,
 	SolidGenesis,
-	SolidGift,
 	SolidGlossaryV1,
 	SolidGlossaryV2,
 	SolidGo,
 	SolidGovernance,
 	SolidGovernments,
 	SolidHackathon,
+	SolidHandlesHeavyTrafficAtScale,
 	SolidHashFunction,
 	SolidHealthcare,
-	// SolidHeavyTrafficAtScale,
-	// SolidHelp,
+	SolidHelp,
 	SolidHeterogeneousSharding,
 	SolidIdentify,
 	SolidIdentity,
 	SolidIndeterminate,
 	SolidInformational,
-	SolidInfrastructure,
+	SolidInfrastructureTooling,
 	SolidInjectedAccount,
 	SolidInterconnected,
 	SolidInteroperability,
@@ -1209,6 +1202,8 @@ const solidIcons = {
 	SolidIsolated,
 	SolidKeepAliveCheck,
 	SolidKey,
+	SolidLimitedSupply,
+	SolidLock,
 	SolidLanguage,
 	SolidLayer,
 	SolidLayerFour,
@@ -1216,16 +1211,13 @@ const solidIcons = {
 	SolidLayerThree,
 	SolidLayerTwo,
 	SolidLearnMore,
-	SolidLearn,
-	// SolidLeaseDuration,
+	SolidLeaseDuration,
 	SolidLibrary,
 	SolidLightNode,
 	SolidLightsOn,
-	SolidLimitedSupply,
 	SolidLinkedIn,
-	SolidLock,
 	SolidMaintain,
-	// SolidMarketingActivities,
+	SolidMarketingActivities,
 	SolidMenu,
 	SolidMessage,
 	SolidMetaverse,
@@ -1234,17 +1226,15 @@ const solidIcons = {
 	SolidMonitor,
 	SolidMoreHorizontal,
 	SolidMoreMenu,
-	SolidMoreVertical,
 	SolidMultichainSmartContracts,
-	// SolidMultichainTreasuries,
+	SolidMultichainTreasuries,
 	SolidMultisigAccount,
 	SolidMultisign,
-	// SolidNftStaking,
-	SolidNft,
-	// SolidNetworkIsConnected,
-	SolidNetworkSecurityOperations,
-	SolidNewTab,
 	SolidNews,
+	SolidNftStaking,
+	SolidNft,
+	SolidNetworkIsConnected,
+	SolidNewTab,
 	SolidNightDarkMode,
 	SolidNode,
 	SolidNominating,
@@ -1252,33 +1242,31 @@ const solidIcons = {
 	SolidNotAbleToUpgrade,
 	SolidNotScalable,
 	SolidNotification,
-	// SolidOffChainComputations,
+	SolidOverview,
 	SolidOffboarding,
-	// SolidOnChainScheduling,
 	SolidOnboarding,
 	SolidOracleV1,
 	SolidOracleV2,
 	SolidOracles,
-	SolidOverview,
+	SolidPrivateKey,
+	SolidProofOfWork,
 	SolidPaperMoney,
 	SolidParachains,
-	// SolidPayingFeesBetweenChains,
+	SolidPayingFeesBetweenChains,
 	SolidPayout,
 	SolidPicture,
 	SolidPodcasts,
 	SolidPrivacy,
-	SolidPrivateKey,
 	SolidProofOfStake,
-	SolidProofOfWork,
 	SolidProposal,
 	SolidProxyAccount,
 	SolidProxy,
 	SolidPublicKey,
-	// SolidQrCode,
+	SolidQrCode,
 	SolidRandomness,
-	// SolidReadTime,
-	// SolidRecoverKeys,
+	SolidReadTime,
 	SolidRecoverKeysAlt,
+	SolidRecoverKeys,
 	SolidRecovery,
 	SolidReddit,
 	SolidReferendaV1,
@@ -1289,14 +1277,15 @@ const solidIcons = {
 	SolidRelayChain,
 	SolidRemoteNode,
 	SolidRemoveUser,
-	// SolidRemove,
-	SolidReport,
+	SolidRemove,
 	SolidResearch,
 	SolidReserveBackAssets,
 	SolidRestoreFromBackUp,
 	SolidRetailAndEcommerce,
 	SolidRobustSystem,
 	SolidRust,
+	SolidSignATransaction,
+	SolidSignal,
 	SolidSave,
 	SolidScalability,
 	SolidScaling,
@@ -1305,7 +1294,7 @@ const solidIcons = {
 	SolidSecondAProposal,
 	SolidSecretPartOfTheDerivationPath,
 	SolidSecureDevice,
-	// SolidSecurityV2,
+	SolidSecurityV2,
 	SolidSecurity,
 	SolidSeedPhrase,
 	SolidSelectListItem,
@@ -1315,42 +1304,37 @@ const solidIcons = {
 	SolidShare,
 	SolidSharedSecurity,
 	SolidSignSpecs,
-	SolidSignATransaction,
 	SolidSign,
-	SolidSignal,
 	SolidSignature,
 	SolidSignifierTab,
 	SolidSmartContract,
-	// SolidSocialImpactAndHumanitarian,
+	SolidSocialImpactAndHumanitarian,
 	SolidSocialNetworking,
 	SolidSoftwareDevelopment,
 	SolidSpecialised,
 	SolidStablecoin,
+	SolidStake,
 	SolidStaking,
 	SolidStartingPeriod,
 	SolidSuccess,
-	// SolidSupplyChainAndLogistics,
-	SolidSupplyChain,
+	SolidSupplyChainAndLogistics,
 	SolidTalent,
 	SolidTechnicalCommittee,
 	SolidTeleport,
 	SolidTestnetToken,
 	SolidThumbsDown,
 	SolidThumbsUp,
-	SolidTime,
 	SolidTokenHolders,
-	SolidToken,
 	SolidTools,
 	SolidTransaction,
 	SolidTranslate,
-	SolidTransparency,
 	SolidTreasury,
 	SolidTwitter,
 	SolidUi,
+	SolidUnlock,
 	SolidUx,
 	SolidUnbond,
 	SolidUnchecked,
-	SolidUnlock,
 	SolidUnstake,
 	SolidUpgrade,
 	SolidUseCases,
@@ -1364,8 +1348,6 @@ const solidIcons = {
 	SolidVersion,
 	SolidVestingPeriod,
 	SolidVesting,
-	SolidVideoPause,
-	SolidVideoPlay,
 	SolidVideo,
 	SolidVideos,
 	SolidVote,
@@ -1373,18 +1355,39 @@ const solidIcons = {
 	SolidWasm,
 	SolidWallet,
 	SolidWallets,
-	SolidWeb3,
 	SolidWhitepaperDownload,
 	SolidWhitepaperUpload,
 	SolidWhitepaper,
 	SolidWiFiOff,
-	SolidWiFi,
 	SolidWiki,
 	SolidWithdraw,
 	SolidWorkshop,
 	SolidXcmMessage,
 	SolidYoutube,
+	SolidAddress,
+	SolidBlogPost,
+	SolidBringingExternalTokensIntoPolkadot,
+	SolidCommunity,
+	SolidContract,
+	SolidCrossChainApplicationDevelopment,
+	SolidCrossChainCertification,
+	SolidEcosystemProvisions,
+	SolidGift,
+	SolidInfrastructureDeployments,
+	SolidLearn,
+	SolidMoreVertical,
 	SolidNPoS,
-	SolidStake,
+	SolidNetworkSecurityOperations,
+	SolidOffChainComputations,
+	SolidOnChainScheduling,
+	SolidReport,
+	SolidTime,
+	SolidToken,
+	SolidTransparency,
+	SolidVideoPause,
+	SolidVideoPlay,
+	SolidWeb3,
+	SolidWifi,
 }
+
 export { keylineIcons, solidIcons }
