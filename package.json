@@ -1,6 +1,6 @@
 {
 	"name": "@nixstrom/polkadot-icons",
-	"version": "0.6.0",
+	"version": "0.5.4",
 	"private": false,
 	"description": "SVG icons for Polkadot",
 	"repository": {
@@ -12,13 +12,8 @@
 		"registry": "https://registry.npmjs.org/"
 	},
 	"type": "module",
-	"main": "./lib/index.js",
-	"types": "./lib/index.d.ts",
-	"exports": {
-		".": "./lib/index.js",
-		"./keyline/*.js": "./lib/keyline/*.js",
-		"./solid/*.js": "./lib/solid/*.js"
-	},
+	"main": "./lib/keyline/index.js",
+	"types": "./lib/keyline/index.d.ts",
 	"files": [
 		"lib"
 	],
