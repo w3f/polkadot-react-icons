@@ -1,0 +1,6 @@
+{
+	"name": "@nixstrom/polkadot-icons/solid",
+	"private": false,
+	"main": "../dist/solid/index.js",
+	"types": "../dist/solid/index.d.ts"
+}

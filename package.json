@@ -15,7 +15,9 @@
 	"main": "./lib/keyline/index.js",
 	"types": "./lib/keyline/index.d.ts",
 	"files": [
-		"lib"
+		"lib",
+		"solid",
+		"keyline"
 	],
 	"keywords": [
 		"icons",

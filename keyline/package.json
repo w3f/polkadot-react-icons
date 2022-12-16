@@ -1,0 +1,6 @@
+{
+	"name": "@nixstrom/polkadot-icons/keyline",
+	"private": false,
+	"main": "../dist/keyline/index.js",
+	"types": "../dist/keyline/index.d.ts"
+}
