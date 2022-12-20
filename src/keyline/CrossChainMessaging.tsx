@@ -1,4 +1,0 @@
-import * as React from "react";
-import { SVGProps } from "react";
-const CrossChainMessaging = (props: SVGProps<SVGSVGElement>) => <svg width={28} height={28} viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}><path d="M6.46257 2L6.46256 9.34381M6.46254 26L6.46255 18.6933" stroke="black" strokeWidth={2.5} strokeLinecap="round" strokeLinejoin="round" /><path d="M21.3759 2L21.3759 9.22694M21.3759 26L21.3759 18.732" stroke="black" strokeWidth={2.5} strokeLinecap="round" strokeLinejoin="round" /><path d="M11.2265 9.38394H2V18.6105H11.2265V9.38394Z" stroke="black" strokeWidth={2.5} strokeLinecap="round" strokeLinejoin="round" /><path d="M25.9891 9.38394H16.7626V18.6105H25.9891V9.38394Z" stroke="black" strokeWidth={2.5} strokeLinecap="round" strokeLinejoin="round" /><path d="M11.4342 13.9999L21.3759 13.9999" stroke="black" strokeWidth={2.5} strokeLinecap="round" strokeLinejoin="round" /></svg>;
-export default CrossChainMessaging;
