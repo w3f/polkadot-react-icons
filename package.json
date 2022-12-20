@@ -1,6 +1,6 @@
 {
 	"name": "@nixstrom/polkadot-icons",
-	"version": "0.8.0",
+	"version": "0.8.1",
 	"private": false,
 	"description": "SVG icons for Polkadot",
 	"repository": {
@@ -24,7 +24,7 @@
 		"svg icons",
 		"polkadot"
 	],
-	"author": "hello@tinybits.dk",
+	"author": "Nikki Strømsnes <hello@tinybits.dk>",
 	"license": "MIT",
 	"scripts": {
 		"prebuild": "rimraf lib && mkdir lib && echo 'DELETED'",
