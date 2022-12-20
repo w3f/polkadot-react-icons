@@ -5,7 +5,7 @@
 <path d="M3.99679 14.053C5.09958 14.053 5.99358 13.1575 5.99358 12.053C5.99358 10.9484 5.09958 10.053 3.99679 10.053C2.89399 10.053 2 10.9484 2 12.053C2 13.1575 2.89399 14.053 3.99679 14.053Z" stroke="black" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M10 12.0265L7.64988 12.0265L6.25677 12.0265" stroke="black" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M18.9999 18C17.8954 18 16.9999 18.8954 16.9999 20C16.9999 21.1046 17.8954 22 18.9999 22C20.1045 22 20.9999 21.1046 20.9999 20C20.9999 18.8954 20.1045 18 18.9999 18Z" stroke="black" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M16.5 20L12.9999 20L13 15.5" stroke="black" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M16.5 20L12.9999 20L13 15.5" stroke="black" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" data-nofill="true"/>
 <path d="M7.99679 6C9.09958 6 9.99358 5.10457 9.99358 4C9.99358 2.89543 9.09958 2 7.99679 2C6.89399 2 6 2.89543 6 4C6 5.10457 6.89399 6 7.99679 6Z" stroke="black" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M9.99993 4.00003L12.9999 4L12.9999 8.49998" stroke="black" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M9.99993 4.00003L12.9999 4L12.9999 8.49998" stroke="black" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" data-nofill="true"/>
 </svg>
