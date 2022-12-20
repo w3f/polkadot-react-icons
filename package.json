@@ -29,7 +29,7 @@
 	"scripts": {
 		"prebuild": "rimraf lib && mkdir lib && echo 'DELETED'",
 		"clean:index": "rimraf src/keyline && rimraf src/solid",
-		"build": "pnpm run prebuild && tsc && echo 'Build complete'",
+		"build": "pnpm run prebuild && tsc && cp package.json lib/package.json && echo 'Build complete'",
 		"generate": "pnpm run clean:index && rimraf src/components && node scripts/generate.js",
 		"prettier": "prettier --write ."
 	},

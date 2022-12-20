@@ -4,7 +4,6 @@ import { appendFile, readFile, writeFile, readdir } from 'node:fs/promises'
 import { transform } from '@svgr/core'
 import { pascalcase } from 'pascalcase'
 
-// const rootPath = path.join(__dirname, "..");
 const encoding = 'utf8'
 
 const directories = {
@@ -63,18 +62,6 @@ const composeIndexImports = filename => {
 	return `import ${filename} from './${filename}.js';`
 }
 
-const composeIndexExports = (currentExports, filename) => {
-	return `${currentExports}, ${filename}`
-}
-
-const composeReactComponent = (name, rawSvg) => `
-import React, { type SVGProps } from 'react'
-
-type Props = SVGProps<SVGSVGElement>
-
-export const ${name} = (props: Props) => (${rawSvg})
-`
-
 const writeReactComponent = async (filename, content, outputPath) => {
 	try {
 		return await writeFile(`${outputPath}/${filename}.tsx`, content)
@@ -87,10 +74,10 @@ const generate = async iconType => {
 	let indexImports = []
 	let indexExports = []
 
-	console.log(directories[iconType].input)
-
 	try {
 		const icons = await readdir(directories[iconType].input)
+
+		console.log(`Generating components for ${iconType} icons`)
 
 		for await (const icon of icons) {
 			if (path.extname(icon) === '.svg') {
@@ -111,10 +98,12 @@ const generate = async iconType => {
 			}
 		}
 
+		console.log(`✅ Done! Generated ${icons.length} ${iconType} components`)
+
 		writeIndex(indexImports, indexExports, directories[iconType].output)
 	} catch (err) {
+		console.error(`❌ Error while generating ${iconType} components`)
 		console.error(err)
-	} finally {
 	}
 }
 

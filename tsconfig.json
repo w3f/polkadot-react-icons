@@ -1,5 +1,5 @@
 {
-	"include": ["src/solid", "src/keyline"],
+	"include": ["src"],
 	"compilerOptions": {
 		"baseUrl": ".",
 		"jsx": "react-jsx",
