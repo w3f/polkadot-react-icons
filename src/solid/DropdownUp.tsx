@@ -1,4 +1,4 @@
 import * as React from "react";
 import { SVGProps } from "react";
-const DropdownUp = (props: SVGProps<SVGSVGElement>) => <svg width={26} height={15} viewBox="0 0 26 15" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}><path d="M13.581 0.659317L25.1432 13.185C25.7345 13.8256 25.2802 14.8633 24.4084 14.8633L1.28406 14.8633C0.412304 14.8633 -0.0420398 13.8256 0.549256 13.185L12.1114 0.659318C12.5074 0.230358 13.1851 0.230357 13.581 0.659317Z" fill="black" /></svg>;
+const DropdownUp = (props: SVGProps<SVGSVGElement>) => <svg width={28} height={17} viewBox="0 0 28 17" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}><path fillRule="evenodd" clipRule="evenodd" d="M1.08195 14.1517C0.744923 14.5164 0.65578 15.0461 0.854844 15.5011C1.05391 15.956 1.50342 16.25 2.00003 16.25H26C26.4964 16.25 26.9458 15.9563 27.145 15.5016C27.3442 15.047 27.2555 14.5175 26.919 14.1526L14.931 1.15261C14.6945 0.896137 14.3616 0.750174 14.0127 0.75C13.6638 0.749826 13.3307 0.895456 13.094 1.15169L1.08195 14.1517Z" fill="black" /></svg>;
 export default DropdownUp;
