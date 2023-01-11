@@ -17,11 +17,13 @@ pnpm add @nixstrom/polkadot-react-icons
 
 ## How to use
 
+### Direct import
+
 The icons can be imported directly from either the `keyline` or `solid` subdirectory, then used as regular React components
 
 ```jsx
-import Language from '@nixstrom/polkadot-reeact-icons/keyline/Language'
-import SmartContract from '@nixstrom/polkadot-reeact-icons/solid/SmartContract'
+import Language from '@nixstrom/polkadot-react-icons/keyline/Language'
+import SmartContract from '@nixstrom/polkadot-react-icons/solid/SmartContract'
 
 const MyComponent = () => (
 	<div>
@@ -36,6 +38,33 @@ The components accepts the same props as you can expect on any other SVG compone
 
 ```jsx
 <Share aria-hidden="true" focusable="false" className="share-button" />
+```
+
+### Import through Icon component
+
+Optionally, the icons can be imported through the Icon component.
+
+```jsx
+import Icon from '@nixstrom/polkadot-react-icons/Icon'
+
+const MyComponent = () => (
+	<div>
+		Hello, World!
+		<Icon name="Language" />
+		<Icon name="SmartContract" variant="solid" />
+	</div>
+)
+```
+
+This component accepts the same props as you can expect on any other SVG component.
+
+```jsx
+<Icon
+	name="Share"
+	aria-hidden="true"
+	focusable="false"
+	className="share-button"
+/>
 ```
 
 ## Contributing
