@@ -1,4 +1,5 @@
 import keyline from './keyline/index.js'
 import solid from './solid/index.js'
+import Icon from './Icon/Icon.js'
 
-export default { keyline, solid }
+export { keyline, solid, Icon }
