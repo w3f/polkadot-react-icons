@@ -12,7 +12,7 @@ type Props =
 			name: keyof typeof solidIcons
 	  }
 
-const Icon = ({ name, variant }: Props) => {
+export const Icon = ({ name, variant }: Props) => {
 	const Component =
 		variant === 'solid' && solidIcons[name]
 			? solidIcons[name]
@@ -20,4 +20,3 @@ const Icon = ({ name, variant }: Props) => {
 
 	return <Component />
 }
-export default Icon
