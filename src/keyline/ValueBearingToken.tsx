@@ -1,4 +1,17 @@
-import * as React from "react";
-import { SVGProps } from "react";
-const ValueBearingToken = (props: SVGProps<SVGSVGElement>) => <svg width={28} height={23} viewBox="0 0 28 23" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}><path d="M26 10.4443V13.7493C26 18.1676 20.6274 21.2493 14 21.2493C7.37258 21.2493 2 18.1676 2 13.7493V10.4443" stroke="black" strokeWidth={2.5} strokeLinecap="round" strokeLinejoin="round" /><path d="M14 17.7634C20.627 17.7634 26 14.1814 26 9.76343C26 5.34543 20.627 1.76343 14 1.76343C7.373 1.76343 2 5.34543 2 9.76343C2 14.1814 7.373 17.7634 14 17.7634Z" stroke="black" strokeWidth={2.5} strokeLinecap="round" strokeLinejoin="round" /><path d="M14 1.76343C12.935 1.76343 11.908 1.86543 10.924 2.03843V12.0144L13.998 10.6994L17.075 12.0074V2.03843C16.092 1.86443 15.065 1.76343 13.999 1.76343H14Z" stroke="black" strokeWidth={2.5} strokeLinecap="round" strokeLinejoin="round" /></svg>;
-export default ValueBearingToken;
+import * as React from 'react'
+import { SVGProps } from 'react'
+const ValueBearingToken = (props: SVGProps<SVGSVGElement>) => (
+	<svg
+		width={28}
+		height={23}
+		viewBox="0 0 28 23"
+		fill="none"
+		xmlns="http://www.w3.org/2000/svg"
+		{...props}
+	>
+		<path d="M26 10.4443V13.7493C26 18.1676 20.6274 21.2493 14 21.2493C7.37258 21.2493 2 18.1676 2 13.7493V10.4443" />
+		<path d="M14 17.7634C20.627 17.7634 26 14.1814 26 9.76343C26 5.34543 20.627 1.76343 14 1.76343C7.373 1.76343 2 5.34543 2 9.76343C2 14.1814 7.373 17.7634 14 17.7634Z" />
+		<path d="M14 1.76343C12.935 1.76343 11.908 1.86543 10.924 2.03843V12.0144L13.998 10.6994L17.075 12.0074V2.03843C16.092 1.86443 15.065 1.76343 13.999 1.76343H14Z" />
+	</svg>
+)
+export default ValueBearingToken

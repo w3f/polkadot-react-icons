@@ -1,4 +1,18 @@
-import * as React from "react";
-import { SVGProps } from "react";
-const BondedWithTimer = (props: SVGProps<SVGSVGElement>) => <svg width={27} height={28} viewBox="0 0 27 28" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}><path d="M6.55817 8.82291L6.55818 6.82267V6.82267C6.55818 4.15918 8.71736 2 11.3808 2V2C14.0443 2 16.2035 4.15918 16.2035 6.82267V6.82267L16.2035 8.82291" stroke="black" strokeWidth={2.5} /><path d="M20.7615 13.2941V8.82581H2V22.4706H12.9412" stroke="black" strokeWidth={2.5} strokeLinejoin="round" /><path d="M18.941 26C22.4496 26 25.294 23.1557 25.294 19.6471C25.294 16.1384 22.4496 13.2941 18.941 13.2941C15.4324 13.2941 12.5881 16.1384 12.5881 19.6471C12.5881 23.1557 15.4324 26 18.941 26Z" stroke="black" strokeWidth={2.5} strokeLinecap="round" strokeLinejoin="round" /><path d="M19.063 17.1428V19.853L18 21.1428" stroke="black" strokeWidth={2.49989} strokeLinecap="round" strokeLinejoin="round" /></svg>;
-export default BondedWithTimer;
+import * as React from 'react'
+import { SVGProps } from 'react'
+const BondedWithTimer = (props: SVGProps<SVGSVGElement>) => (
+	<svg
+		width={27}
+		height={28}
+		viewBox="0 0 27 28"
+		fill="none"
+		xmlns="http://www.w3.org/2000/svg"
+		{...props}
+	>
+		<path d="M6.55817 8.82291L6.55818 6.82267V6.82267C6.55818 4.15918 8.71736 2 11.3808 2V2C14.0443 2 16.2035 4.15918 16.2035 6.82267V6.82267L16.2035 8.82291" />
+		<path d="M20.7615 13.2941V8.82581H2V22.4706H12.9412" />
+		<path d="M18.941 26C22.4496 26 25.294 23.1557 25.294 19.6471C25.294 16.1384 22.4496 13.2941 18.941 13.2941C15.4324 13.2941 12.5881 16.1384 12.5881 19.6471C12.5881 23.1557 15.4324 26 18.941 26Z" />
+		<path d="M19.063 17.1428V19.853L18 21.1428" />
+	</svg>
+)
+export default BondedWithTimer

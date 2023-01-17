@@ -1,4 +1,35 @@
-import * as React from "react";
-import { SVGProps } from "react";
-const AiAndComputing = (props: SVGProps<SVGSVGElement>) => <svg width={24} height={22} viewBox="0 0 24 22" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}><path d="M8 8C8 7.44772 8.44772 7 9 7H15C15.5523 7 16 7.44772 16 8V13.9979C16 14.551 15.551 14.9991 14.9979 14.9979L8.99789 14.9852C8.44643 14.9841 8 14.5367 8 13.9853V8Z" fill="black" /><path d="M21 8C19.3431 8 18 9.34315 18 11C18 12.6569 19.3431 14 21 14C22.6569 14 24 12.6569 24 11C24 9.34315 22.6569 8 21 8Z" fill="black" /><path d="M15 11.0265H17.7524L19.1455 11.0265" stroke="black" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round" /><path d="M3 14C4.65685 14 6 12.6569 6 11C6 9.34315 4.65685 8 3 8C1.34315 8 -2.34843e-07 9.34315 -5.24537e-07 11C-8.1423e-07 12.6569 1.34314 14 3 14Z" fill="black" /><path d="M9.00006 11.0265L6.64994 11.0265L5.25684 11.0265" stroke="black" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round" /><path d="M18 16C16.3431 16 15 17.3431 15 19C15 20.6569 16.3431 22 18 22C19.6569 22 21 20.6569 21 19C21 17.3431 19.6569 16 18 16Z" fill="black" /><path d="M15.5 19.0001L11.9999 19.0001L12 14.5001" stroke="black" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round" /><path d="M6 6C7.65685 6 9 4.65685 9 3C9 1.34315 7.65685 0 6 0C4.34315 0 3 1.34315 3 3C3 4.65685 4.34315 6 6 6Z" fill="black" /><path d="M9 3.00003L12 3L12 7.49998" stroke="black" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round" /></svg>;
-export default AiAndComputing;
+import * as React from 'react'
+import { SVGProps } from 'react'
+const AiAndComputing = (props: SVGProps<SVGSVGElement>) => (
+	<svg
+		width={24}
+		height={22}
+		viewBox="0 0 24 22"
+		fill="none"
+		xmlns="http://www.w3.org/2000/svg"
+		{...props}
+	>
+		<path d="M8 8C8 7.44772 8.44772 7 9 7H15C15.5523 7 16 7.44772 16 8V13.9979C16 14.551 15.551 14.9991 14.9979 14.9979L8.99789 14.9852C8.44643 14.9841 8 14.5367 8 13.9853V8Z" />
+		<path
+			d="M21 8C19.3431 8 18 9.34315 18 11C18 12.6569 19.3431 14 21 14C22.6569 14 24 12.6569 24 11C24 9.34315 22.6569 8 21 8Z"
+			fill="black"
+		/>
+		<path d="M15 11.0265H17.7524L19.1455 11.0265" />
+		<path
+			d="M3 14C4.65685 14 6 12.6569 6 11C6 9.34315 4.65685 8 3 8C1.34315 8 -2.34843e-07 9.34315 -5.24537e-07 11C-8.1423e-07 12.6569 1.34314 14 3 14Z"
+			fill="black"
+		/>
+		<path d="M9.00006 11.0265L6.64994 11.0265L5.25684 11.0265" />
+		<path
+			d="M18 16C16.3431 16 15 17.3431 15 19C15 20.6569 16.3431 22 18 22C19.6569 22 21 20.6569 21 19C21 17.3431 19.6569 16 18 16Z"
+			fill="black"
+		/>
+		<path d="M15.5 19.0001L11.9999 19.0001L12 14.5001" />
+		<path
+			d="M6 6C7.65685 6 9 4.65685 9 3C9 1.34315 7.65685 0 6 0C4.34315 0 3 1.34315 3 3C3 4.65685 4.34315 6 6 6Z"
+			fill="black"
+		/>
+		<path d="M9 3.00003L12 3L12 7.49998" />
+	</svg>
+)
+export default AiAndComputing

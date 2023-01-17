@@ -1,4 +1,21 @@
-import * as React from "react";
-import { SVGProps } from "react";
-const DeriveAnAddress = (props: SVGProps<SVGSVGElement>) => <svg width={28} height={22} viewBox="0 0 28 22" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}><path d="M12.1663 15.3708L6.57475 6.56425" stroke="black" strokeWidth={2.5} strokeLinecap="round" /><path d="M16.0958 15.3709L21.6328 6.74797" stroke="black" strokeWidth={2.5} strokeLinecap="round" /><path d="M14.1048 6.74794L14.1048 14.6567" stroke="black" strokeWidth={2.5} strokeLinecap="round" /><path d="M14.1354 14.6568C15.7109 14.6568 16.9881 15.9339 16.9881 17.5094C16.9881 19.0849 15.7109 20.3621 14.1354 20.3621C12.56 20.3621 11.2828 19.0849 11.2828 17.5094C11.2828 15.9339 12.56 14.6568 14.1354 14.6568Z" stroke="black" strokeWidth={2.5} strokeLinecap="round" strokeLinejoin="round" /><path d="M6.74806 2L2.00001 2V6.74806H6.74806V2Z" stroke="black" strokeWidth={2.5} strokeMiterlimit={10} strokeLinecap="round" strokeLinejoin="round" /><path d="M16.5096 2L11.7615 2V6.74806H16.5096V2Z" stroke="black" strokeWidth={2.5} strokeMiterlimit={10} strokeLinecap="round" strokeLinejoin="round" /><path d="M26 2L21.2519 2V6.74806H26V2Z" stroke="black" strokeWidth={2.5} strokeMiterlimit={10} strokeLinecap="round" strokeLinejoin="round" /></svg>;
-export default DeriveAnAddress;
+import * as React from 'react'
+import { SVGProps } from 'react'
+const DeriveAnAddress = (props: SVGProps<SVGSVGElement>) => (
+	<svg
+		width={28}
+		height={22}
+		viewBox="0 0 28 22"
+		fill="none"
+		xmlns="http://www.w3.org/2000/svg"
+		{...props}
+	>
+		<path d="M12.1663 15.3708L6.57475 6.56425" />
+		<path d="M16.0958 15.3709L21.6328 6.74797" />
+		<path d="M14.1048 6.74794L14.1048 14.6567" />
+		<path d="M14.1354 14.6568C15.7109 14.6568 16.9881 15.9339 16.9881 17.5094C16.9881 19.0849 15.7109 20.3621 14.1354 20.3621C12.56 20.3621 11.2828 19.0849 11.2828 17.5094C11.2828 15.9339 12.56 14.6568 14.1354 14.6568Z" />
+		<path d="M6.74806 2L2.00001 2V6.74806H6.74806V2Z" strokeMiterlimit={10} />
+		<path d="M16.5096 2L11.7615 2V6.74806H16.5096V2Z" strokeMiterlimit={10} />
+		<path d="M26 2L21.2519 2V6.74806H26V2Z" strokeMiterlimit={10} />
+	</svg>
+)
+export default DeriveAnAddress

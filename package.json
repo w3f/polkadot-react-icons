@@ -1,6 +1,6 @@
 {
 	"name": "@nixstrom/polkadot-icons",
-	"version": "0.9.5",
+	"version": "0.10.0",
 	"private": false,
 	"description": "SVG icons for Polkadot",
 	"repository": {
@@ -35,7 +35,11 @@
 		"prettier": "prettier --write ."
 	},
 	"devDependencies": {
+		"@babel/core": "^7.20.12",
+		"@svgr/babel-plugin-remove-jsx-attribute": "^6.5.0",
 		"@svgr/core": "^6.5.1",
+		"@svgr/plugin-jsx": "^6.5.1",
+		"@svgr/plugin-prettier": "^6.5.1",
 		"@types/node": "^18.11.9",
 		"@types/react": "^18.0.0",
 		"pascalcase": "^2.0.0",

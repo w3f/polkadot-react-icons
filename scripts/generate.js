@@ -35,9 +35,30 @@ const readSvgFile = async (filename, dir) => {
 
 const transformSvg = async (rawSvg, componentName) => {
 	return await transform(
-		rawSvg,
+		rawSvg.replace('fill="black"', ''),
 		{
+			plugins: ['@svgr/plugin-jsx', '@svgr/plugin-prettier'],
+			jsx: {
+				babelConfig: {
+					plugins: [
+						[
+							'@svgr/babel-plugin-remove-jsx-attribute',
+							{
+								elements: ['path', 'rect', 'circle'],
+								attributes: [
+									'stroke',
+									'strokeWidth',
+									'strokeColor',
+									'strokeLinecap',
+									'strokeLinejoin',
+								],
+							},
+						],
+					],
+				},
+			},
 			typescript: true,
+			prettier: true,
 		},
 		{ componentName },
 	)
@@ -73,6 +94,7 @@ const writeReactComponent = async (filename, content, outputPath) => {
 const generate = async iconType => {
 	let indexImports = []
 	let indexExports = []
+	let hasError = false
 
 	try {
 		const icons = await readdir(directories[iconType].input)
@@ -98,12 +120,21 @@ const generate = async iconType => {
 			}
 		}
 
-		console.log(`✅ Done! Generated ${icons.length} ${iconType} components`)
-
 		writeIndex(indexImports, indexExports, directories[iconType].output)
 	} catch (err) {
 		console.error(`❌ Error while generating ${iconType} components`)
 		console.error(err)
+
+		hasError = true
+	} finally {
+		// this seems to be off by one if run in the try block
+		if (!hasError) {
+			const components = await readdir(directories[iconType].output)
+
+			console.log(
+				`✅ Done! Generated ${components.length} ${iconType} components`,
+			)
+		}
 	}
 }
 

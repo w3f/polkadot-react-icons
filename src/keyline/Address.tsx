@@ -1,4 +1,20 @@
-import * as React from "react";
-import { SVGProps } from "react";
-const Address = (props: SVGProps<SVGSVGElement>) => <svg width={28} height={28} viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}><path d="M14.1556 15.7924L14.1556 20.4568" stroke="black" strokeWidth={2.5} strokeLinecap="round" strokeLinejoin="round" /><path d="M26 23.2284L16.8586 23.2284M2 23.2284L11.2816 23.2284" stroke="black" strokeWidth={2.5} strokeLinecap="round" strokeLinejoin="round" /><path d="M14.0751 26C15.608 26 16.8507 24.7591 16.8507 23.2284C16.8507 21.6977 15.608 20.4568 14.0751 20.4568C12.5421 20.4568 11.2994 21.6977 11.2994 23.2284C11.2994 24.7591 12.5421 26 14.0751 26Z" stroke="black" strokeWidth={2.5} strokeLinecap="round" strokeLinejoin="round" /><path d="M22.3687 2H6V15.79H22.3687V2Z" stroke="black" strokeWidth={2.5} strokeLinecap="round" strokeLinejoin="round" /><path d="M21.56 5.67551H16.6018C14.8237 5.67551 13.3823 7.1169 13.3823 8.89496C13.3823 10.673 14.8237 12.1144 16.6018 12.1144H21.56C22.0117 12.1144 22.3778 11.7483 22.3778 11.2966V6.49328C22.3778 6.04164 22.0117 5.67551 21.56 5.67551Z" stroke="black" strokeWidth={2.5} strokeLinecap="round" /><path d="M16.438 8.85698L16.4228 8.84174" stroke="black" strokeWidth={2.5} strokeMiterlimit={10} strokeLinecap="round" /></svg>;
-export default Address;
+import * as React from 'react'
+import { SVGProps } from 'react'
+const Address = (props: SVGProps<SVGSVGElement>) => (
+	<svg
+		width={28}
+		height={28}
+		viewBox="0 0 28 28"
+		fill="none"
+		xmlns="http://www.w3.org/2000/svg"
+		{...props}
+	>
+		<path d="M14.1556 15.7924L14.1556 20.4568" />
+		<path d="M26 23.2284L16.8586 23.2284M2 23.2284L11.2816 23.2284" />
+		<path d="M14.0751 26C15.608 26 16.8507 24.7591 16.8507 23.2284C16.8507 21.6977 15.608 20.4568 14.0751 20.4568C12.5421 20.4568 11.2994 21.6977 11.2994 23.2284C11.2994 24.7591 12.5421 26 14.0751 26Z" />
+		<path d="M22.3687 2H6V15.79H22.3687V2Z" />
+		<path d="M21.56 5.67551H16.6018C14.8237 5.67551 13.3823 7.1169 13.3823 8.89496C13.3823 10.673 14.8237 12.1144 16.6018 12.1144H21.56C22.0117 12.1144 22.3778 11.7483 22.3778 11.2966V6.49328C22.3778 6.04164 22.0117 5.67551 21.56 5.67551Z" />
+		<path d="M16.438 8.85698L16.4228 8.84174" strokeMiterlimit={10} />
+	</svg>
+)
+export default Address
