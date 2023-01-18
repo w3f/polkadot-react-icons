@@ -10,7 +10,7 @@ const Validators = (props: SVGProps<SVGSVGElement>) => (
 		{...props}
 	>
 		<path d="M14 26C20.6274 26 26 20.6274 26 14C26 7.37258 20.6274 2 14 2C7.37258 2 2 7.37258 2 14C2 20.6274 7.37258 26 14 26Z" />
-		<path d="M8.03863 14.0733L13.0614 18.697L25.3774 2.42365" />
+		<path d="M8.03863 14.0733L13.0614 18.697L25.3774 2.42365" fill="none" />
 	</svg>
 )
 export default Validators

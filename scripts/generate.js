@@ -44,7 +44,7 @@ const transformSvg = async (rawSvg, componentName) => {
 						[
 							'@svgr/babel-plugin-remove-jsx-attribute',
 							{
-								elements: ['path', 'rect', 'circle'],
+								elements: ['path', 'rect', 'circle', 'ellipse'],
 								attributes: [
 									'stroke',
 									'strokeWidth',

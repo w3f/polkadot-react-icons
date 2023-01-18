@@ -1,6 +1,6 @@
 import * as React from 'react'
 import { SVGProps } from 'react'
-const OracleV2 = (props: SVGProps<SVGSVGElement>) => (
+const Oracle = (props: SVGProps<SVGSVGElement>) => (
 	<svg
 		width={24}
 		height={26}
@@ -16,4 +16,4 @@ const OracleV2 = (props: SVGProps<SVGSVGElement>) => (
 		/>
 	</svg>
 )
-export default OracleV2
+export default Oracle
