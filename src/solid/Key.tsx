@@ -7,7 +7,6 @@ const Key = (props: SVGProps<SVGSVGElement>) => (
 		viewBox="0 0 25 13"
 		fill="none"
 		xmlns="http://www.w3.org/2000/svg"
-		stroke="currentColor"
 		strokeLinecap="round"
 		strokeLinejoin="round"
 		{...props}
@@ -24,6 +23,7 @@ const Key = (props: SVGProps<SVGSVGElement>) => (
 		<path
 			d="M16.1839 5.48607L16.1871 9.63247L21.229 9.63384L21.2246 5.48863"
 			stroke="black"
+			strokeWidth={2}
 		/>
 	</svg>
 )

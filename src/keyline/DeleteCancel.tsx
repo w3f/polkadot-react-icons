@@ -7,7 +7,6 @@ const DeleteCancel = (props: SVGProps<SVGSVGElement>) => (
 		viewBox="0 0 28 21"
 		fill="none"
 		xmlns="http://www.w3.org/2000/svg"
-		stroke="currentColor"
 		strokeLinecap="round"
 		strokeLinejoin="round"
 		{...props}
@@ -15,9 +14,18 @@ const DeleteCancel = (props: SVGProps<SVGSVGElement>) => (
 		<path
 			d="M26.0527 2.125H9.35708L2.05273 10.4728L9.35708 18.8207H26.0527V2.125Z"
 			stroke="black"
+			strokeWidth={2.5}
 		/>
-		<path d="M14.0527 13.9231L20.8875 7.16182" stroke="black" />
-		<path d="M14.091 7.12504L20.8523 13.9598" stroke="black" />
+		<path
+			d="M14.0527 13.9231L20.8875 7.16182"
+			stroke="black"
+			strokeWidth={2.5}
+		/>
+		<path
+			d="M14.091 7.12504L20.8523 13.9598"
+			stroke="black"
+			strokeWidth={2.5}
+		/>
 	</svg>
 )
 export default DeleteCancel

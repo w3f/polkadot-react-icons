@@ -7,12 +7,16 @@ const ActionRight = (props: SVGProps<SVGSVGElement>) => (
 		viewBox="0 0 28 28"
 		fill="none"
 		xmlns="http://www.w3.org/2000/svg"
-		stroke="currentColor"
 		strokeLinecap="round"
 		strokeLinejoin="round"
 		{...props}
 	>
-		<path d="M9 6L18 13.5075L9 21" stroke="black" fill="none" />
+		<path
+			d="M9 6L18 13.5075L9 21"
+			stroke="black"
+			strokeWidth={2.5}
+			fill="none"
+		/>
 	</svg>
 )
 export default ActionRight

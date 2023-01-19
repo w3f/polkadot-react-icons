@@ -7,7 +7,6 @@ const Scalability = (props: SVGProps<SVGSVGElement>) => (
 		viewBox="0 0 28 28"
 		fill="none"
 		xmlns="http://www.w3.org/2000/svg"
-		stroke="currentColor"
 		strokeLinecap="round"
 		strokeLinejoin="round"
 		{...props}
@@ -15,40 +14,52 @@ const Scalability = (props: SVGProps<SVGSVGElement>) => (
 		<path
 			d="M20.8572 2.01674L25.9634 2L25.9802 7.09755"
 			stroke="black"
+			strokeWidth={2.5}
 			fill="none"
 		/>
 		<path
 			d="M7.12347 2.01674L2.01726 2L2.00049 7.09755"
 			stroke="black"
+			strokeWidth={2.5}
 			fill="none"
 		/>
-		<path d="M2.01674 20.877L2 25.9832L7.09755 26" stroke="black" fill="none" />
+		<path
+			d="M2.01674 20.877L2 25.9832L7.09755 26"
+			stroke="black"
+			strokeWidth={2.5}
+			fill="none"
+		/>
 		<path
 			d="M25.964 20.877L25.9807 25.9832L20.8831 26"
 			stroke="black"
+			strokeWidth={2.5}
 			fill="none"
 		/>
 		<path
 			d="M25.4783 2.67474L18.0903 9.96275"
 			stroke="black"
+			strokeWidth={2.5}
 			strokeMiterlimit={10}
 			fill="none"
 		/>
 		<path
 			d="M2.5026 2.67474L9.89059 9.96275"
 			stroke="black"
+			strokeWidth={2.5}
 			strokeMiterlimit={10}
 			fill="none"
 		/>
 		<path
 			d="M2.67484 25.498L9.96284 18.11"
 			stroke="black"
+			strokeWidth={2.5}
 			strokeMiterlimit={10}
 			fill="none"
 		/>
 		<path
 			d="M25.3061 25.498L18.0181 18.11"
 			stroke="black"
+			strokeWidth={2.5}
 			strokeMiterlimit={10}
 			fill="none"
 		/>

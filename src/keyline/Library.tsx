@@ -7,13 +7,19 @@ const Library = (props: SVGProps<SVGSVGElement>) => (
 		viewBox="0 0 28 28"
 		fill="none"
 		xmlns="http://www.w3.org/2000/svg"
-		stroke="currentColor"
 		strokeLinecap="round"
 		strokeLinejoin="round"
 		{...props}
 	>
-		<rect x={1.29297} y={2} width={4} height={24} stroke="black" />
-		<rect x={9} y={2} width={4} height={24} stroke="black" />
+		<rect
+			x={1.29297}
+			y={2}
+			width={4}
+			height={24}
+			stroke="black"
+			strokeWidth={2.5}
+		/>
+		<rect x={9} y={2} width={4} height={24} stroke="black" strokeWidth={2.5} />
 		<rect
 			x={16.3813}
 			y={3.03516}
@@ -21,6 +27,7 @@ const Library = (props: SVGProps<SVGSVGElement>) => (
 			height={24}
 			transform="rotate(-15 16.3813 3.03516)"
 			stroke="black"
+			strokeWidth={2.5}
 		/>
 	</svg>
 )

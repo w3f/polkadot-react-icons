@@ -7,29 +7,42 @@ const WiFiOff = (props: SVGProps<SVGSVGElement>) => (
 		viewBox="0 0 28 28"
 		fill="none"
 		xmlns="http://www.w3.org/2000/svg"
-		stroke="currentColor"
 		strokeLinecap="round"
 		strokeLinejoin="round"
 		{...props}
 	>
-		<circle cx={14.0706} cy={23.7471} r={1.83075} stroke="black" />
+		<circle
+			cx={14.0706}
+			cy={23.7471}
+			r={1.83075}
+			stroke="black"
+			strokeWidth={2.5}
+		/>
 		<path
 			d="M8.47437 18.1549C9.15254 17.327 10.0058 16.6596 10.9727 16.2008C11.9396 15.742 12.9961 15.5032 14.0664 15.5015C15.1366 15.4999 16.1939 15.7354 17.1622 16.1911C18.1305 16.6469 18.9858 17.3116 19.6666 18.1374"
 			stroke="black"
+			strokeWidth={2.5}
 			strokeMiterlimit={10}
 			fill="none"
 		/>
 		<path
 			d="M5.25122 13.8109C7.0518 11.4651 10.334 9.89465 14.0841 9.89465C17.8156 9.89465 21.0837 11.4498 22.8901 13.777"
 			stroke="black"
+			strokeWidth={2.5}
 			fill="none"
 		/>
 		<path
 			d="M2.07031 9.63129C3.54625 7.88719 5.38477 6.48594 7.45775 5.52519C9.53072 4.56443 11.7883 4.0673 14.0731 4.06842C16.3578 4.06955 18.6149 4.56891 20.6869 5.53171C22.759 6.4945 24.5961 7.89757 26.0703 9.64311"
 			stroke="black"
+			strokeWidth={2.5}
 			fill="none"
 		/>
-		<path d="M3.07013 2.06836L25.0701 26.0684" stroke="black" fill="none" />
+		<path
+			d="M3.07013 2.06836L25.0701 26.0684"
+			stroke="black"
+			strokeWidth={2.5}
+			fill="none"
+		/>
 	</svg>
 )
 export default WiFiOff

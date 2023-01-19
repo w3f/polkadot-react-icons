@@ -7,12 +7,16 @@ const ArrowBack = (props: SVGProps<SVGSVGElement>) => (
 		viewBox="0 0 18 28"
 		fill="none"
 		xmlns="http://www.w3.org/2000/svg"
-		stroke="currentColor"
 		strokeLinecap="round"
 		strokeLinejoin="round"
 		{...props}
 	>
-		<path d="M16 26L2 13.988L16 2" stroke="black" fill="none" />
+		<path
+			d="M16 26L2 13.988L16 2"
+			stroke="black"
+			strokeWidth={2.5}
+			fill="none"
+		/>
 	</svg>
 )
 export default ArrowBack

@@ -7,7 +7,6 @@ const Code = (props: SVGProps<SVGSVGElement>) => (
 		viewBox="0 0 28 21"
 		fill="none"
 		xmlns="http://www.w3.org/2000/svg"
-		stroke="currentColor"
 		strokeLinecap="round"
 		strokeLinejoin="round"
 		{...props}
@@ -15,14 +14,21 @@ const Code = (props: SVGProps<SVGSVGElement>) => (
 		<path
 			d="M7.90652 15.3812L1.93652 10.4112L7.90652 5.43115"
 			stroke="black"
+			strokeWidth={2.5}
 			fill="none"
 		/>
 		<path
 			d="M20.0063 5.42139L25.9963 10.4114L20.0063 15.3914"
 			stroke="black"
+			strokeWidth={2.5}
 			fill="none"
 		/>
-		<path d="M16.9814 1.41113L10.9314 19.4011" stroke="black" fill="none" />
+		<path
+			d="M16.9814 1.41113L10.9314 19.4011"
+			stroke="black"
+			strokeWidth={2.5}
+			fill="none"
+		/>
 	</svg>
 )
 export default Code

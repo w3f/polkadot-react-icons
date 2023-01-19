@@ -7,7 +7,6 @@ const Learn = (props: SVGProps<SVGSVGElement>) => (
 		viewBox="0 0 24 27"
 		fill="none"
 		xmlns="http://www.w3.org/2000/svg"
-		stroke="currentColor"
 		strokeLinecap="round"
 		strokeLinejoin="round"
 		{...props}
@@ -20,6 +19,7 @@ const Learn = (props: SVGProps<SVGSVGElement>) => (
 		<path
 			d="M8.38 11.2851L7.206 11.6111C5.964 11.9561 4.876 12.6072 4 13.4626V20.5H19.124V13.4636C18.248 12.6072 17.158 11.9551 15.916 11.6111L14.74 11.2851C13.905 11.0538 13.587 10.0399 14.141 9.37486L15.009 8.33398C16.491 6.55732 16.372 3.94815 14.735 2.31306C12.982 0.562314 10.137 0.562314 8.383 2.31306C6.746 3.94815 6.627 6.55831 8.109 8.33398L8.977 9.37486C9.532 10.0399 9.214 11.0528 8.378 11.2851H8.38Z"
 			stroke="black"
+			strokeWidth={2}
 		/>
 	</svg>
 )

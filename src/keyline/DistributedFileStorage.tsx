@@ -7,7 +7,6 @@ const DistributedFileStorage = (props: SVGProps<SVGSVGElement>) => (
 		viewBox="0 0 28 22"
 		fill="none"
 		xmlns="http://www.w3.org/2000/svg"
-		stroke="currentColor"
 		strokeLinecap="round"
 		strokeLinejoin="round"
 		{...props}
@@ -15,6 +14,7 @@ const DistributedFileStorage = (props: SVGProps<SVGSVGElement>) => (
 		<path
 			d="M1.98242 2H11.0874L14.3605 4.76827H25.9824V20H1.98242V2Z"
 			stroke="black"
+			strokeWidth={2.5}
 		/>
 	</svg>
 )

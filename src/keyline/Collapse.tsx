@@ -7,7 +7,6 @@ const Collapse = (props: SVGProps<SVGSVGElement>) => (
 		viewBox="0 0 17 27"
 		fill="none"
 		xmlns="http://www.w3.org/2000/svg"
-		stroke="currentColor"
 		strokeLinecap="round"
 		strokeLinejoin="round"
 		{...props}
@@ -15,11 +14,13 @@ const Collapse = (props: SVGProps<SVGSVGElement>) => (
 		<path
 			d="M2.00927 24.9096L8.56616 17.0334L15.1362 24.9096"
 			stroke="black"
+			strokeWidth={2.5}
 			fill="none"
 		/>
 		<path
 			d="M15.1357 2.13086L8.55247 10.0334L1.9824 2.13086"
 			stroke="black"
+			strokeWidth={2.5}
 			fill="none"
 		/>
 	</svg>

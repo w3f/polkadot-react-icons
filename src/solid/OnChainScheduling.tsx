@@ -7,7 +7,6 @@ const OnChainScheduling = (props: SVGProps<SVGSVGElement>) => (
 		viewBox="0 0 28 24"
 		fill="none"
 		xmlns="http://www.w3.org/2000/svg"
-		stroke="currentColor"
 		strokeLinecap="round"
 		strokeLinejoin="round"
 		{...props}
@@ -16,9 +15,14 @@ const OnChainScheduling = (props: SVGProps<SVGSVGElement>) => (
 			d="M14.0632 12.8305C17.3301 12.8305 19.9785 10.1822 19.9785 6.91526C19.9785 3.64835 17.3301 1 14.0632 1C10.7963 1 8.14795 3.64835 8.14795 6.91526C8.14795 10.1822 10.7963 12.8305 14.0632 12.8305Z"
 			fill="white"
 			stroke="black"
+			strokeWidth={2}
 		/>
 		<path d="M15.9063 6.43732L14.171 7.47841L14.171 4.25451" fill="white" />
-		<path d="M15.9063 6.43732L14.171 7.47841L14.171 4.25451" stroke="black" />
+		<path
+			d="M15.9063 6.43732L14.171 7.47841L14.171 4.25451"
+			stroke="black"
+			strokeWidth={2}
+		/>
 		<path
 			fillRule="evenodd"
 			clipRule="evenodd"

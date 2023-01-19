@@ -45,12 +45,7 @@ const transformSvg = async (rawSvg, componentName) => {
 							'@svgr/babel-plugin-remove-jsx-attribute',
 							{
 								elements: ['path', 'rect', 'circle', 'ellipse'],
-								attributes: [
-									'strokeWidth',
-									'strokeColor',
-									'strokeLinecap',
-									'strokeLinejoin',
-								],
+								attributes: ['strokeLinecap', 'strokeLinejoin'],
 							},
 						],
 						[
@@ -65,10 +60,6 @@ const transformSvg = async (rawSvg, componentName) => {
 									{
 										name: 'height',
 										value: '28',
-									},
-									{
-										name: 'stroke',
-										value: 'currentColor',
 									},
 									{
 										name: 'strokeLinecap',

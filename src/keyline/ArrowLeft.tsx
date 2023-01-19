@@ -7,13 +7,22 @@ const ArrowLeft = (props: SVGProps<SVGSVGElement>) => (
 		viewBox="0 0 28 24"
 		fill="none"
 		xmlns="http://www.w3.org/2000/svg"
-		stroke="currentColor"
 		strokeLinecap="round"
 		strokeLinejoin="round"
 		{...props}
 	>
-		<path d="M3 11.9914L26 11.9914" stroke="black" fill="none" />
-		<path d="M12.1997 22L2 11.9914L12.1997 2" stroke="black" fill="none" />
+		<path
+			d="M3 11.9914L26 11.9914"
+			stroke="black"
+			strokeWidth={2.5}
+			fill="none"
+		/>
+		<path
+			d="M12.1997 22L2 11.9914L12.1997 2"
+			stroke="black"
+			strokeWidth={2.5}
+			fill="none"
+		/>
 	</svg>
 )
 export default ArrowLeft

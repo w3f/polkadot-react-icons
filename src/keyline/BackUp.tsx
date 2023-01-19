@@ -7,7 +7,6 @@ const BackUp = (props: SVGProps<SVGSVGElement>) => (
 		viewBox="0 0 28 28"
 		fill="none"
 		xmlns="http://www.w3.org/2000/svg"
-		stroke="currentColor"
 		strokeLinecap="round"
 		strokeLinejoin="round"
 		{...props}
@@ -15,10 +14,12 @@ const BackUp = (props: SVGProps<SVGSVGElement>) => (
 		<path
 			d="M14 26C20.6274 26 26 20.6274 26 14C26 7.37258 20.6274 2 14 2C7.37258 2 2 7.37258 2 14C2 20.6274 7.37258 26 14 26Z"
 			stroke="black"
+			strokeWidth={2.5}
 		/>
 		<path
 			d="M13.9981 25.5L13.9981 10.5M10.3377 12.9485L14 9.28807L17.6654 12.9474"
 			stroke="black"
+			strokeWidth={2.5}
 		/>
 	</svg>
 )

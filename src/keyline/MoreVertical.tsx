@@ -7,7 +7,6 @@ const MoreVertical = (props: SVGProps<SVGSVGElement>) => (
 		viewBox="0 0 8 27"
 		fill="none"
 		xmlns="http://www.w3.org/2000/svg"
-		stroke="currentColor"
 		strokeLinecap="round"
 		strokeLinejoin="round"
 		{...props}
@@ -18,6 +17,7 @@ const MoreVertical = (props: SVGProps<SVGSVGElement>) => (
 			r={2.35489}
 			transform="rotate(135 3.99409 3.89896)"
 			stroke="black"
+			strokeWidth={2.5}
 		/>
 		<circle
 			cx={3.99409}
@@ -25,6 +25,7 @@ const MoreVertical = (props: SVGProps<SVGSVGElement>) => (
 			r={2.35489}
 			transform="rotate(135 3.99409 13.5685)"
 			stroke="black"
+			strokeWidth={2.5}
 		/>
 		<circle
 			cx={3.99409}
@@ -32,6 +33,7 @@ const MoreVertical = (props: SVGProps<SVGSVGElement>) => (
 			r={2.35489}
 			transform="rotate(135 3.99409 23.2382)"
 			stroke="black"
+			strokeWidth={2.5}
 		/>
 	</svg>
 )

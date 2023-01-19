@@ -7,7 +7,6 @@ const Council = (props: SVGProps<SVGSVGElement>) => (
 		viewBox="0 0 26 25"
 		fill="none"
 		xmlns="http://www.w3.org/2000/svg"
-		stroke="currentColor"
 		strokeLinecap="round"
 		strokeLinejoin="round"
 		{...props}
@@ -15,6 +14,7 @@ const Council = (props: SVGProps<SVGSVGElement>) => (
 		<path
 			d="M23.8752 14.1661C23.8098 11.7308 22.1735 9.61 19.8144 8.95453L18.9352 8.71032C18.311 8.53644 18.0737 7.77644 18.4878 7.27825L19.1365 6.49774C20.2442 5.16629 20.1553 3.20965 18.9313 1.98467C17.6214 0.671777 15.4948 0.671777 14.1848 1.98467C12.9608 3.21062 12.8729 5.16629 13.9797 6.49774L14.6283 7.27825C15.0425 7.77644 14.8051 8.53644 14.1809 8.71032L13.3037 8.95453C11.9683 9.32574 10.8762 10.1766 10.1562 11.2775M15.6628 16.7235H19.411"
 			stroke="black"
+			strokeWidth={2}
 		/>
 		<path
 			fillRule="evenodd"

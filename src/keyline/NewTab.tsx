@@ -7,7 +7,6 @@ const NewTab = (props: SVGProps<SVGSVGElement>) => (
 		viewBox="0 0 28 28"
 		fill="none"
 		xmlns="http://www.w3.org/2000/svg"
-		stroke="currentColor"
 		strokeLinecap="round"
 		strokeLinejoin="round"
 		{...props}
@@ -15,10 +14,21 @@ const NewTab = (props: SVGProps<SVGSVGElement>) => (
 		<path
 			d="M26 16.9434V26.2383H2V2.23828H11.2908"
 			stroke="black"
+			strokeWidth={2.5}
 			fill="none"
 		/>
-		<path d="M11.4286 16.8097L25 3.23431" stroke="black" fill="none" />
-		<path d="M16.3685 2.29291H25.9474V11.8719" stroke="black" fill="none" />
+		<path
+			d="M11.4286 16.8097L25 3.23431"
+			stroke="black"
+			strokeWidth={2.5}
+			fill="none"
+		/>
+		<path
+			d="M16.3685 2.29291H25.9474V11.8719"
+			stroke="black"
+			strokeWidth={2.5}
+			fill="none"
+		/>
 	</svg>
 )
 export default NewTab

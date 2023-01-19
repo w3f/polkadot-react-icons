@@ -7,7 +7,6 @@ const NftStaking = (props: SVGProps<SVGSVGElement>) => (
 		viewBox="0 0 26 27"
 		fill="none"
 		xmlns="http://www.w3.org/2000/svg"
-		stroke="currentColor"
 		strokeLinecap="round"
 		strokeLinejoin="round"
 		{...props}
@@ -15,9 +14,14 @@ const NftStaking = (props: SVGProps<SVGSVGElement>) => (
 		<path
 			d="M2 20.0299L13.0769 25.5684L24.1538 20.0299V7.10682L13.0769 1.56836L2 7.10682V20.0299Z"
 			stroke="black"
+			strokeWidth={2.5}
 		/>
-		<path d="M16.448 12.4007L13.0767 9.81335L9.70551 12.4007" stroke="black" />
-		<path d="M13.0536 10.6296V17.2098" stroke="black" />
+		<path
+			d="M16.448 12.4007L13.0767 9.81335L9.70551 12.4007"
+			stroke="black"
+			strokeWidth={2.5}
+		/>
+		<path d="M13.0536 10.6296V17.2098" stroke="black" strokeWidth={2.5} />
 	</svg>
 )
 export default NftStaking

@@ -7,7 +7,6 @@ const Chainspec = (props: SVGProps<SVGSVGElement>) => (
 		viewBox="0 0 27 27"
 		fill="none"
 		xmlns="http://www.w3.org/2000/svg"
-		stroke="currentColor"
 		strokeLinecap="round"
 		strokeLinejoin="round"
 		{...props}
@@ -15,12 +14,18 @@ const Chainspec = (props: SVGProps<SVGSVGElement>) => (
 		<path
 			d="M18.8289 2.00001L25.4517 8.6228L18.7983 15.2762L12.1755 8.65344L18.8289 2.00001Z"
 			stroke="black"
+			strokeWidth={2.5}
 		/>
 		<path
 			d="M8.61599 12.1604L15.2388 18.7832L8.62279 25.3992L1.99999 18.7764L8.61599 12.1604Z"
 			stroke="black"
+			strokeWidth={2.5}
 		/>
-		<path d="M17.9941 9.41468L9.42018 17.9886" stroke="black" />
+		<path
+			d="M17.9941 9.41468L9.42018 17.9886"
+			stroke="black"
+			strokeWidth={2.5}
+		/>
 	</svg>
 )
 export default Chainspec
