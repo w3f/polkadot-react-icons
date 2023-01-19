@@ -2,11 +2,14 @@ import * as React from 'react'
 import { SVGProps } from 'react'
 const HashFunction = (props: SVGProps<SVGSVGElement>) => (
 	<svg
-		width={19}
-		height={27}
+		width="28"
+		height="28"
 		viewBox="0 0 19 27"
 		fill="none"
 		xmlns="http://www.w3.org/2000/svg"
+		stroke="currentColor"
+		strokeLinecap="round"
+		strokeLinejoin="round"
 		{...props}
 	>
 		<path

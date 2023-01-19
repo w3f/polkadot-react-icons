@@ -2,11 +2,14 @@ import * as React from 'react'
 import { SVGProps } from 'react'
 const ReferendaV1 = (props: SVGProps<SVGSVGElement>) => (
 	<svg
-		width={26}
-		height={25}
+		width="28"
+		height="28"
 		viewBox="0 0 26 25"
 		fill="none"
 		xmlns="http://www.w3.org/2000/svg"
+		stroke="currentColor"
+		strokeLinecap="round"
+		strokeLinejoin="round"
 		{...props}
 	>
 		<path

@@ -2,11 +2,14 @@ import * as React from 'react'
 import { SVGProps } from 'react'
 const DeriveAKeyPair = (props: SVGProps<SVGSVGElement>) => (
 	<svg
-		width={25}
-		height={26}
+		width="28"
+		height="28"
 		viewBox="0 0 25 26"
 		fill="none"
 		xmlns="http://www.w3.org/2000/svg"
+		stroke="currentColor"
+		strokeLinecap="round"
+		strokeLinejoin="round"
 		{...props}
 	>
 		<path
@@ -18,12 +21,18 @@ const DeriveAKeyPair = (props: SVGProps<SVGSVGElement>) => (
 			d="M16.4261 5.25908L16.4235 8.53152L21.324 8.53743L21.3255 5.26614"
 			fill="black"
 		/>
-		<path d="M16.4261 5.25908L16.4235 8.53152L21.324 8.53743L21.3255 5.26614" />
+		<path
+			d="M16.4261 5.25908L16.4235 8.53152L21.324 8.53743L21.3255 5.26614"
+			stroke="black"
+		/>
 		<path
 			d="M16.4261 20.2549L16.4235 23.5273L21.324 23.5332L21.3255 20.2619"
 			fill="black"
 		/>
-		<path d="M16.4261 20.2549L16.4235 23.5273L21.324 23.5332L21.3255 20.2619" />
+		<path
+			d="M16.4261 20.2549L16.4235 23.5273L21.324 23.5332L21.3255 20.2619"
+			stroke="black"
+		/>
 	</svg>
 )
 export default DeriveAKeyPair

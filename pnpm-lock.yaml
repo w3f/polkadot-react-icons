@@ -2,6 +2,7 @@ lockfileVersion: 5.4
 
 specifiers:
   '@babel/core': ^7.20.12
+  '@svgr/babel-plugin-add-jsx-attribute': ^6.5.1
   '@svgr/babel-plugin-remove-jsx-attribute': ^6.5.0
   '@svgr/core': ^6.5.1
   '@svgr/plugin-jsx': ^6.5.1
@@ -15,6 +16,7 @@ specifiers:
 
 devDependencies:
   '@babel/core': 7.20.12
+  '@svgr/babel-plugin-add-jsx-attribute': 6.5.1_@babel+core@7.20.12
   '@svgr/babel-plugin-remove-jsx-attribute': 6.5.0_@babel+core@7.20.12
   '@svgr/core': 6.5.1
   '@svgr/plugin-jsx': 6.5.1_@svgr+core@6.5.1

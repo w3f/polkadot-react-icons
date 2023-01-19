@@ -2,15 +2,19 @@ import * as React from 'react'
 import { SVGProps } from 'react'
 const FavoriteToBe = (props: SVGProps<SVGSVGElement>) => (
 	<svg
-		width={26}
-		height={26}
+		width="28"
+		height="28"
 		viewBox="0 0 26 26"
 		fill="none"
 		xmlns="http://www.w3.org/2000/svg"
+		stroke="currentColor"
+		strokeLinecap="round"
+		strokeLinejoin="round"
 		{...props}
 	>
 		<path
 			d="M25 9.8167L19.6798 15.9468L20.4365 24.0559L13.0118 20.8461L5.61084 24.0801L6.34384 15.9709L1 9.86497L8.87389 8.07903L12.9882 1.08008L17.1261 8.07903L25 9.8167Z"
+			stroke="black"
 			strokeMiterlimit={10}
 		/>
 	</svg>

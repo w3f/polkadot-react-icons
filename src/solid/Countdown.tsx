@@ -2,11 +2,14 @@ import * as React from 'react'
 import { SVGProps } from 'react'
 const Countdown = (props: SVGProps<SVGSVGElement>) => (
 	<svg
-		width={21}
-		height={28}
+		width="28"
+		height="28"
 		viewBox="0 0 21 28"
 		fill="none"
 		xmlns="http://www.w3.org/2000/svg"
+		stroke="currentColor"
+		strokeLinecap="round"
+		strokeLinejoin="round"
 		{...props}
 	>
 		<path

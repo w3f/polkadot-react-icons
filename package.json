@@ -1,6 +1,6 @@
 {
 	"name": "@nixstrom/polkadot-icons",
-	"version": "0.10.1",
+	"version": "0.10.2",
 	"private": false,
 	"description": "SVG icons for Polkadot",
 	"repository": {
@@ -36,6 +36,7 @@
 	},
 	"devDependencies": {
 		"@babel/core": "^7.20.12",
+		"@svgr/babel-plugin-add-jsx-attribute": "^6.5.1",
 		"@svgr/babel-plugin-remove-jsx-attribute": "^6.5.0",
 		"@svgr/core": "^6.5.1",
 		"@svgr/plugin-jsx": "^6.5.1",

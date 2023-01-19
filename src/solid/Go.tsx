@@ -2,11 +2,14 @@ import * as React from 'react'
 import { SVGProps } from 'react'
 const Go = (props: SVGProps<SVGSVGElement>) => (
 	<svg
-		width={22}
-		height={25}
+		width="28"
+		height="28"
 		viewBox="0 0 22 25"
 		fill="none"
 		xmlns="http://www.w3.org/2000/svg"
+		stroke="currentColor"
+		strokeLinecap="round"
+		strokeLinejoin="round"
 		{...props}
 	>
 		<path
@@ -17,6 +20,7 @@ const Go = (props: SVGProps<SVGSVGElement>) => (
 		<path
 			d="M14 11C14 12.657 12.657 14 11 14C9.343 14 8 12.657 8 11C8 9.343 9.343 8 11 8C12.657 8 14 9.343 14 11Z"
 			fill="white"
+			stroke="black"
 		/>
 		<path
 			d="M17.5 9C15.0147 9 13 6.98529 13 4.5C13 2.01471 15.0147 0 17.5 0C19.9853 0 22 2.01471 22 4.5C22 6.98529 19.9853 9 17.5 9Z"

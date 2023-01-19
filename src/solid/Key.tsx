@@ -2,11 +2,14 @@ import * as React from 'react'
 import { SVGProps } from 'react'
 const Key = (props: SVGProps<SVGSVGElement>) => (
 	<svg
-		width={25}
-		height={13}
+		width="28"
+		height="28"
 		viewBox="0 0 25 13"
 		fill="none"
 		xmlns="http://www.w3.org/2000/svg"
+		stroke="currentColor"
+		strokeLinecap="round"
+		strokeLinejoin="round"
 		{...props}
 	>
 		<path
@@ -18,7 +21,10 @@ const Key = (props: SVGProps<SVGSVGElement>) => (
 			d="M16.1839 5.48607L16.1871 9.63247L21.229 9.63384L21.2246 5.48863"
 			fill="black"
 		/>
-		<path d="M16.1839 5.48607L16.1871 9.63247L21.229 9.63384L21.2246 5.48863" />
+		<path
+			d="M16.1839 5.48607L16.1871 9.63247L21.229 9.63384L21.2246 5.48863"
+			stroke="black"
+		/>
 	</svg>
 )
 export default Key

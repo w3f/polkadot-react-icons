@@ -2,15 +2,18 @@ import * as React from 'react'
 import { SVGProps } from 'react'
 const Add = (props: SVGProps<SVGSVGElement>) => (
 	<svg
-		width={28}
-		height={28}
+		width="28"
+		height="28"
 		viewBox="0 0 28 28"
 		fill="none"
 		xmlns="http://www.w3.org/2000/svg"
+		stroke="currentColor"
+		strokeLinecap="round"
+		strokeLinejoin="round"
 		{...props}
 	>
-		<path d="M22.9991 8.00464V2.00464" />
-		<path d="M25.9991 5.00464L19.9991 5.00464" />
+		<path d="M22.9991 8.00464V2.00464" stroke="black" />
+		<path d="M25.9991 5.00464L19.9991 5.00464" stroke="black" />
 		<path
 			fillRule="evenodd"
 			clipRule="evenodd"

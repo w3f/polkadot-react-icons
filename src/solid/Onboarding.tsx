@@ -2,11 +2,14 @@ import * as React from 'react'
 import { SVGProps } from 'react'
 const Onboarding = (props: SVGProps<SVGSVGElement>) => (
 	<svg
-		width={28}
-		height={29}
+		width="28"
+		height="28"
 		viewBox="0 0 28 29"
 		fill="none"
 		xmlns="http://www.w3.org/2000/svg"
+		stroke="currentColor"
+		strokeLinecap="round"
+		strokeLinejoin="round"
 		{...props}
 	>
 		<g clipPath="url(#clip0_93_1544)">

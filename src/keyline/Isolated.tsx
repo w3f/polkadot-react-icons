@@ -2,11 +2,14 @@ import * as React from 'react'
 import { SVGProps } from 'react'
 const Isolated = (props: SVGProps<SVGSVGElement>) => (
 	<svg
-		width={24}
-		height={24}
+		width="28"
+		height="28"
 		viewBox="0 0 24 24"
 		fill="none"
 		xmlns="http://www.w3.org/2000/svg"
+		stroke="currentColor"
+		strokeLinecap="round"
+		strokeLinejoin="round"
 		{...props}
 	>
 		<circle
@@ -15,6 +18,7 @@ const Isolated = (props: SVGProps<SVGSVGElement>) => (
 			r={3.19226}
 			transform="rotate(45 4.51454 10.0567)"
 			fill="white"
+			stroke="black"
 		/>
 		<circle
 			cx={4.51454}
@@ -22,6 +26,7 @@ const Isolated = (props: SVGProps<SVGSVGElement>) => (
 			r={3.19226}
 			transform="rotate(45 4.51454 19.4854)"
 			fill="white"
+			stroke="black"
 		/>
 		<circle
 			cx={19.4858}
@@ -29,6 +34,7 @@ const Isolated = (props: SVGProps<SVGSVGElement>) => (
 			r={3.19226}
 			transform="rotate(45 19.4858 4.51454)"
 			fill="white"
+			stroke="black"
 		/>
 		<circle
 			cx={13.9432}
@@ -36,6 +42,7 @@ const Isolated = (props: SVGProps<SVGSVGElement>) => (
 			r={3.19226}
 			transform="rotate(45 13.9432 19.4854)"
 			fill="white"
+			stroke="black"
 		/>
 	</svg>
 )

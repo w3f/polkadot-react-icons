@@ -46,11 +46,38 @@ const transformSvg = async (rawSvg, componentName) => {
 							{
 								elements: ['path', 'rect', 'circle', 'ellipse'],
 								attributes: [
-									'stroke',
 									'strokeWidth',
 									'strokeColor',
 									'strokeLinecap',
 									'strokeLinejoin',
+								],
+							},
+						],
+						[
+							'@svgr/babel-plugin-add-jsx-attribute',
+							{
+								elements: ['svg'],
+								attributes: [
+									{
+										name: 'width',
+										value: '28',
+									},
+									{
+										name: 'height',
+										value: '28',
+									},
+									{
+										name: 'stroke',
+										value: 'currentColor',
+									},
+									{
+										name: 'strokeLinecap',
+										value: 'round',
+									},
+									{
+										name: 'strokeLinejoin',
+										value: 'round',
+									},
 								],
 							},
 						],

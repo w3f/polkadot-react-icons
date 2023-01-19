@@ -2,11 +2,14 @@ import * as React from 'react'
 import { SVGProps } from 'react'
 const RemoteNode = (props: SVGProps<SVGSVGElement>) => (
 	<svg
-		width={26}
-		height={20}
+		width="28"
+		height="28"
 		viewBox="0 0 26 20"
 		fill="none"
 		xmlns="http://www.w3.org/2000/svg"
+		stroke="currentColor"
+		strokeLinecap="round"
+		strokeLinejoin="round"
 		{...props}
 	>
 		<path

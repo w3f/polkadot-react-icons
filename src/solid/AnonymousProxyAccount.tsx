@@ -2,11 +2,14 @@ import * as React from 'react'
 import { SVGProps } from 'react'
 const AnonymousProxyAccount = (props: SVGProps<SVGSVGElement>) => (
 	<svg
-		width={28}
-		height={27}
+		width="28"
+		height="28"
 		viewBox="0 0 28 27"
 		fill="none"
 		xmlns="http://www.w3.org/2000/svg"
+		stroke="currentColor"
+		strokeLinecap="round"
+		strokeLinejoin="round"
 		{...props}
 	>
 		<path d="M23.2243 25.0434C24.7573 25.0434 26 23.8007 26 22.2677C26 20.7348 24.7573 19.4921 23.2243 19.4921C21.6914 19.4921 20.4487 20.7348 20.4487 22.2677C20.4487 23.8007 21.6914 25.0434 23.2243 25.0434Z" />
