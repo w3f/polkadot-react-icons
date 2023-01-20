@@ -16,18 +16,21 @@ const Translate = (props: SVGProps<SVGSVGElement>) => (
 			stroke="black"
 			strokeWidth={2.5}
 			fill="none"
+			data-nofill="true"
 		/>
 		<path
 			d="M6.6192 7.73853L6.47795 3.24239L1.9818 3.38364"
 			stroke="black"
 			strokeWidth={2.5}
 			fill="none"
+			data-nofill="true"
 		/>
 		<path
 			d="M17.0228 15.5961L16.2373 20.0253L20.6665 20.8108"
 			stroke="black"
 			strokeWidth={2.5}
 			fill="none"
+			data-nofill="true"
 		/>
 	</svg>
 )

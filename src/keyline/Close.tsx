@@ -16,12 +16,14 @@ const Close = (props: SVGProps<SVGSVGElement>) => (
 			stroke="black"
 			strokeWidth={2.5}
 			fill="none"
+			data-nofill="true"
 		/>
 		<path
 			d="M24.6915 4.23135L4.89248 24.0303"
 			stroke="black"
 			strokeWidth={2.5}
 			fill="none"
+			data-nofill="true"
 		/>
 	</svg>
 )

@@ -22,18 +22,21 @@ const HandlesHeavyTrafficAtScale = (props: SVGProps<SVGSVGElement>) => (
 			stroke="black"
 			strokeWidth={2.5}
 			fill="none"
+			data-nofill="true"
 		/>
 		<path
 			d="M16.8975 13.3932L11.2373 13.3932"
 			stroke="black"
 			strokeWidth={2.5}
 			fill="none"
+			data-nofill="true"
 		/>
 		<path
 			d="M20.8724 1.5851L25.9828 1.56836L25.9996 6.66591"
 			stroke="black"
 			strokeWidth={2.5}
 			fill="none"
+			data-nofill="true"
 		/>
 		<path
 			d="M25.4971 2.24304L19.7224 7.93492"
@@ -41,12 +44,14 @@ const HandlesHeavyTrafficAtScale = (props: SVGProps<SVGSVGElement>) => (
 			strokeWidth={2.5}
 			strokeMiterlimit={10}
 			fill="none"
+			data-nofill="true"
 		/>
 		<path
 			d="M7.12708 1.5851L2.01666 1.56836L1.99988 6.66591"
 			stroke="black"
 			strokeWidth={2.5}
 			fill="none"
+			data-nofill="true"
 		/>
 		<path
 			d="M2.50257 2.24304L8.29218 7.93514"
@@ -54,12 +59,14 @@ const HandlesHeavyTrafficAtScale = (props: SVGProps<SVGSVGElement>) => (
 			strokeWidth={2.5}
 			strokeMiterlimit={10}
 			fill="none"
+			data-nofill="true"
 		/>
 		<path
 			d="M2.01675 20.4453L2 25.5515L7.10175 25.5683"
 			stroke="black"
 			strokeWidth={2.5}
 			fill="none"
+			data-nofill="true"
 		/>
 		<path
 			d="M2.67505 25.0664L8.39066 19.2771"
@@ -67,12 +74,14 @@ const HandlesHeavyTrafficAtScale = (props: SVGProps<SVGSVGElement>) => (
 			strokeWidth={2.5}
 			strokeMiterlimit={10}
 			fill="none"
+			data-nofill="true"
 		/>
 		<path
 			d="M25.9832 20.4453L25.9999 25.5515L20.8982 25.5683"
 			stroke="black"
 			strokeWidth={2.5}
 			fill="none"
+			data-nofill="true"
 		/>
 		<path
 			d="M25.3246 25.0664L19.6092 19.2773"
@@ -80,6 +89,7 @@ const HandlesHeavyTrafficAtScale = (props: SVGProps<SVGSVGElement>) => (
 			strokeWidth={2.5}
 			strokeMiterlimit={10}
 			fill="none"
+			data-nofill="true"
 		/>
 	</svg>
 )

@@ -21,12 +21,14 @@ const Wiki = (props: SVGProps<SVGSVGElement>) => (
 			stroke="black"
 			strokeWidth={2.5}
 			fill="none"
+			data-nofill="true"
 		/>
 		<path
 			d="M7.65649 10.4158L11.7176 17.9578L15.7787 10.4158"
 			stroke="black"
 			strokeWidth={2.5}
 			fill="none"
+			data-nofill="true"
 		/>
 	</svg>
 )

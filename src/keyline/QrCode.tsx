@@ -16,24 +16,28 @@ const QrCode = (props: SVGProps<SVGSVGElement>) => (
 			stroke="black"
 			strokeWidth={2.5}
 			fill="none"
+			data-nofill="true"
 		/>
 		<path
 			d="M9.67999 25.375L1.99999 25.375L1.99999 16.735"
 			stroke="black"
 			strokeWidth={2.5}
 			fill="none"
+			data-nofill="true"
 		/>
 		<path
 			d="M26 17.695L26 25.375L18.32 25.375"
 			stroke="black"
 			strokeWidth={2.5}
 			fill="none"
+			data-nofill="true"
 		/>
 		<path
 			d="M2 9.05496L2 1.37496L9.68 1.37496"
 			stroke="black"
 			strokeWidth={2.5}
 			fill="none"
+			data-nofill="true"
 		/>
 		<path
 			d="M12.0001 5.37503H6.00006V11.375H12.0001V5.37503Z"

@@ -11,7 +11,13 @@ const Infrastructure = (props: SVGProps<SVGSVGElement>) => (
 		strokeLinejoin="round"
 		{...props}
 	>
-		<path d="M5 16V12H23V16" stroke="black" strokeWidth={2.5} fill="none" />
+		<path
+			d="M5 16V12H23V16"
+			stroke="black"
+			strokeWidth={2.5}
+			fill="none"
+			data-nofill="true"
+		/>
 		<path
 			d="M14.0335 7.54287C15.5641 7.54287 16.805 6.30206 16.805 4.77144C16.805 3.24081 15.5641 2 14.0335 2C12.5029 2 11.2621 3.24081 11.2621 4.77144C11.2621 6.30206 12.5029 7.54287 14.0335 7.54287Z"
 			stroke="black"

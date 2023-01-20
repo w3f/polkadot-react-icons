@@ -22,18 +22,21 @@ const NotScalable = (props: SVGProps<SVGSVGElement>) => (
 			stroke="black"
 			strokeWidth={2.5}
 			fill="none"
+			data-nofill="true"
 		/>
 		<path
 			d="M16.0572 11.8251L12.0581 15.8242"
 			stroke="black"
 			strokeWidth={2.5}
 			fill="none"
+			data-nofill="true"
 		/>
 		<path
 			d="M20.857 2.01674L25.9632 2L25.98 7.09755"
 			stroke="black"
 			strokeWidth={2.5}
 			fill="none"
+			data-nofill="true"
 		/>
 		<path
 			d="M25.478 2.67471L19.708 8.36659"
@@ -41,12 +44,14 @@ const NotScalable = (props: SVGProps<SVGSVGElement>) => (
 			strokeWidth={2.5}
 			strokeMiterlimit={10}
 			fill="none"
+			data-nofill="true"
 		/>
 		<path
 			d="M7.12301 2.01674L2.0168 2L2.00003 7.09755"
 			stroke="black"
 			strokeWidth={2.5}
 			fill="none"
+			data-nofill="true"
 		/>
 		<path
 			d="M2.50202 2.67471L8.28687 8.36681"
@@ -54,12 +59,14 @@ const NotScalable = (props: SVGProps<SVGSVGElement>) => (
 			strokeWidth={2.5}
 			strokeMiterlimit={10}
 			fill="none"
+			data-nofill="true"
 		/>
 		<path
 			d="M2.01674 20.877L2 25.9832L7.09755 26"
 			stroke="black"
 			strokeWidth={2.5}
 			fill="none"
+			data-nofill="true"
 		/>
 		<path
 			d="M2.67472 25.4979L8.38563 19.7086"
@@ -67,12 +74,14 @@ const NotScalable = (props: SVGProps<SVGSVGElement>) => (
 			strokeWidth={2.5}
 			strokeMiterlimit={10}
 			fill="none"
+			data-nofill="true"
 		/>
 		<path
 			d="M25.9635 20.877L25.9802 25.9832L20.8827 26"
 			stroke="black"
 			strokeWidth={2.5}
 			fill="none"
+			data-nofill="true"
 		/>
 		<path
 			d="M25.3055 25.498L19.5948 19.709"
@@ -80,6 +89,7 @@ const NotScalable = (props: SVGProps<SVGSVGElement>) => (
 			strokeWidth={2.5}
 			strokeMiterlimit={10}
 			fill="none"
+			data-nofill="true"
 		/>
 	</svg>
 )

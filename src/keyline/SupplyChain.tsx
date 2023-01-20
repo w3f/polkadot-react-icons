@@ -21,6 +21,7 @@ const SupplyChain = (props: SVGProps<SVGSVGElement>) => (
 			stroke="black"
 			strokeWidth={2.5}
 			fill="none"
+			data-nofill="true"
 		/>
 		<path
 			d="M16.8145 21.7882C16.8145 19.707 15.1273 18.0198 13.0461 18.0198C10.9648 18.0198 9.27765 19.707 9.27765 21.7882C9.27765 23.8695 10.9648 25.5566 13.0461 25.5566C15.1273 25.5566 16.8145 23.8695 16.8145 21.7882Z"
@@ -32,6 +33,7 @@ const SupplyChain = (props: SVGProps<SVGSVGElement>) => (
 			stroke="black"
 			strokeWidth={2.5}
 			fill="none"
+			data-nofill="true"
 		/>
 	</svg>
 )

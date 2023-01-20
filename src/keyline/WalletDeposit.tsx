@@ -26,6 +26,7 @@ const WalletDeposit = (props: SVGProps<SVGSVGElement>) => (
 			stroke="black"
 			strokeWidth={2.5}
 			fill="none"
+			data-nofill="true"
 		/>
 		<path d="M11.0732 25L11.0732 18.3316" stroke="black" strokeWidth={2.5} />
 		<path

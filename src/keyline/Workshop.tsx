@@ -28,6 +28,7 @@ const Workshop = (props: SVGProps<SVGSVGElement>) => (
 			stroke="black"
 			strokeWidth={2.5}
 			fill="none"
+			data-nofill="true"
 		/>
 	</svg>
 )

@@ -40,6 +40,7 @@ const SmartContract = (props: SVGProps<SVGSVGElement>) => (
 			strokeWidth={2.5}
 			strokeMiterlimit={10}
 			fill="none"
+			data-nofill="true"
 		/>
 		<path
 			d="M4.45977 2.18872L7.63774 2.18872L7.63774 20L4.45972 20"
@@ -47,6 +48,7 @@ const SmartContract = (props: SVGProps<SVGSVGElement>) => (
 			strokeWidth={2.5}
 			strokeMiterlimit={10}
 			fill="none"
+			data-nofill="true"
 		/>
 		<path
 			d="M1.26074 2.18872L1.24995 2.18872"

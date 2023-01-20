@@ -16,18 +16,21 @@ const Connected = (props: SVGProps<SVGSVGElement>) => (
 			stroke="black"
 			strokeWidth={2.5}
 			fill="none"
+			data-nofill="true"
 		/>
 		<path
 			d="M11.4206 2.13085L6.70051 2.13085C4.08831 2.13085 1.9707 4.24845 1.9707 6.86065V6.86065C1.9707 9.47285 4.08831 11.5905 6.70051 11.5905L11.4206 11.5905"
 			stroke="black"
 			strokeWidth={2.5}
 			fill="none"
+			data-nofill="true"
 		/>
 		<path
 			d="M20.079 6.86746L7.83264 6.86746"
 			stroke="black"
 			strokeWidth={2.5}
 			fill="none"
+			data-nofill="true"
 		/>
 	</svg>
 )

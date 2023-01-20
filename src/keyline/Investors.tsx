@@ -30,12 +30,14 @@ const Investors = (props: SVGProps<SVGSVGElement>) => (
 			strokeWidth={2.5}
 			strokeMiterlimit={10}
 			fill="none"
+			data-nofill="true"
 		/>
 		<path
 			d="M21 10.2504L26.7784 10.2314L26.7974 16"
 			stroke="black"
 			strokeWidth={2.5}
 			fill="none"
+			data-nofill="true"
 		/>
 	</svg>
 )

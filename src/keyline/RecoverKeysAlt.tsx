@@ -16,24 +16,28 @@ const RecoverKeysAlt = (props: SVGProps<SVGSVGElement>) => (
 			stroke="black"
 			strokeWidth={2.5}
 			fill="none"
+			data-nofill="true"
 		/>
 		<path
 			d="M14 1.37494C7.37258 1.37494 2 6.74752 2 13.3749C2 20.0024 7.37258 25.3749 14 25.3749"
 			stroke="black"
 			strokeWidth={2.5}
 			fill="none"
+			data-nofill="true"
 		/>
 		<path
 			d="M17 14.1404L14.0013 17.1404L11 14.1413"
 			stroke="black"
 			strokeWidth={2.5}
 			fill="none"
+			data-nofill="true"
 		/>
 		<path
 			d="M13.9999 16L13.9999 9"
 			stroke="black"
 			strokeWidth={2.5}
 			fill="none"
+			data-nofill="true"
 		/>
 	</svg>
 )

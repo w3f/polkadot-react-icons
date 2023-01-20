@@ -16,6 +16,7 @@ const Collective = (props: SVGProps<SVGSVGElement>) => (
 			stroke="black"
 			strokeWidth={2.5}
 			fill="none"
+			data-nofill="true"
 		/>
 		<circle
 			cx={21.8596}

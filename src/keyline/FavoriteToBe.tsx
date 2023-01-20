@@ -17,6 +17,7 @@ const FavoriteToBe = (props: SVGProps<SVGSVGElement>) => (
 			strokeWidth={2.5}
 			strokeMiterlimit={10}
 			fill="none"
+			data-nofill="true"
 		/>
 	</svg>
 )

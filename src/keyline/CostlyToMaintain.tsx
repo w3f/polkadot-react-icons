@@ -16,6 +16,7 @@ const CostlyToMaintain = (props: SVGProps<SVGSVGElement>) => (
 			stroke="black"
 			strokeWidth={2.5}
 			fill="none"
+			data-nofill="true"
 		/>
 		<path d="M5.31042 3.85219V2" stroke="black" strokeWidth={2.5} />
 		<path d="M5.30995 15.856V14.0896" stroke="black" strokeWidth={2.5} />

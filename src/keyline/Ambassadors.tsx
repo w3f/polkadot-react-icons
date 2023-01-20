@@ -21,12 +21,14 @@ const Ambassadors = (props: SVGProps<SVGSVGElement>) => (
 			stroke="black"
 			strokeWidth={2.5}
 			fill="none"
+			data-nofill="true"
 		/>
 		<path
 			d="M20.7148 2C20.7148 2 23.3154 3.47646 24.6316 5.70262C25.9479 7.92878 26 11.351 26 11.351"
 			stroke="black"
 			strokeWidth={2.5}
 			fill="none"
+			data-nofill="true"
 		/>
 		<path
 			d="M10.0083 17.53L8.63049 15.1436L7.25269 12.7572"

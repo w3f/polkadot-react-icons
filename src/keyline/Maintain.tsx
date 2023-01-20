@@ -16,12 +16,14 @@ const Maintain = (props: SVGProps<SVGSVGElement>) => (
 			stroke="black"
 			strokeWidth={2.5}
 			fill="none"
+			data-nofill="true"
 		/>
 		<path
 			d="M5.62964 7.05725C4.34892 8.00527 3.3384 9.28218 2.71112 10.7614C1.9389 12.5825 1.79091 14.6079 2.29021 16.5219C2.7895 18.4358 3.90803 20.1308 5.47142 21.3426C7.03482 22.5544 8.95521 23.2148 10.9332 23.221L11.8064 23.1759M9.2705 19.7809L12.6044 23.1112L9.33718 26.5096"
 			stroke="black"
 			strokeWidth={2.5}
 			fill="none"
+			data-nofill="true"
 		/>
 	</svg>
 )

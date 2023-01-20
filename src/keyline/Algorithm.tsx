@@ -16,6 +16,7 @@ const Algorithm = (props: SVGProps<SVGSVGElement>) => (
 			stroke="black"
 			strokeWidth={2.5}
 			fill="none"
+			data-nofill="true"
 		/>
 		<path d="M11.9375 13.9775H14.9584" stroke="black" strokeWidth={2.5} />
 		<path

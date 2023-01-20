@@ -27,6 +27,7 @@ const SignATransaction = (props: SVGProps<SVGSVGElement>) => (
 			stroke="black"
 			strokeWidth={2.5}
 			fill="none"
+			data-nofill="true"
 		/>
 		<path
 			d="M15.3611 5.28467L1.95577 5.28468"
@@ -38,6 +39,7 @@ const SignATransaction = (props: SVGProps<SVGSVGElement>) => (
 			stroke="black"
 			strokeWidth={2.5}
 			fill="none"
+			data-nofill="true"
 		/>
 		<path
 			d="M2.76658 11.8463L16.2054 11.8463"

@@ -16,6 +16,7 @@ const ExportXsS = (props: SVGProps<SVGSVGElement>) => (
 			stroke="black"
 			strokeWidth={2.5}
 			fill="none"
+			data-nofill="true"
 		/>
 		<path
 			d="M2.00002 26.0001L18 26.0001L18 22.3334L18 15.0001L2.00001 15.0001L2 22.3334L2.00002 26.0001Z"
@@ -27,12 +28,14 @@ const ExportXsS = (props: SVGProps<SVGSVGElement>) => (
 			stroke="black"
 			strokeWidth={2.5}
 			fill="none"
+			data-nofill="true"
 		/>
 		<path
 			d="M9.8617 3L9.86169 17.5825"
 			stroke="black"
 			strokeWidth={2.5}
 			fill="none"
+			data-nofill="true"
 		/>
 	</svg>
 )

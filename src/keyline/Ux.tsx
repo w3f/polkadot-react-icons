@@ -26,12 +26,14 @@ const Ux = (props: SVGProps<SVGSVGElement>) => (
 			stroke="black"
 			strokeWidth={2.5}
 			fill="none"
+			data-nofill="true"
 		/>
 		<path
 			d="M13.7919 12.1343L4.46362 12.1343L4.46362 16.2048"
 			stroke="black"
 			strokeWidth={2.5}
 			fill="none"
+			data-nofill="true"
 		/>
 		<path
 			d="M6.91706 16.2047L2 16.2047L2 21.1024L6.91706 21.1024L6.91706 16.2047Z"

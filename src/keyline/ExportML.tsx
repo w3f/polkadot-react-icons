@@ -21,12 +21,14 @@ const ExportML = (props: SVGProps<SVGSVGElement>) => (
 			stroke="black"
 			strokeWidth={2.5}
 			fill="none"
+			data-nofill="true"
 		/>
 		<path
 			d="M6.11719 5.39988L9.82963 1.68744L13.5483 5.39988"
 			stroke="black"
 			strokeWidth={2.5}
 			fill="none"
+			data-nofill="true"
 		/>
 		<path d="M9.83246 2.46911L9.83246 17.27" stroke="black" strokeWidth={2.5} />
 	</svg>

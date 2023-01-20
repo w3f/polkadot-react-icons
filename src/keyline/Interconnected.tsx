@@ -16,6 +16,7 @@ const Interconnected = (props: SVGProps<SVGSVGElement>) => (
 			stroke="black"
 			strokeWidth={2.5}
 			fill="none"
+			data-nofill="true"
 		/>
 		<path
 			d="M17.9999 5.95697C17.9999 3.77166 16.2283 2.00011 14.043 2.00011C11.8577 2.00011 10.0862 3.77166 10.0862 5.95697C10.0862 8.14228 11.8577 9.91382 14.043 9.91382C16.2283 9.91382 17.9999 8.14228 17.9999 5.95697Z"

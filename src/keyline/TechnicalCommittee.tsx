@@ -17,6 +17,7 @@ const TechnicalCommittee = (props: SVGProps<SVGSVGElement>) => (
 			strokeWidth={2.5}
 			strokeMiterlimit={10}
 			fill="none"
+			data-nofill="true"
 		/>
 		<circle
 			cx={13.267}

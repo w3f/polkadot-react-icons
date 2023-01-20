@@ -26,6 +26,7 @@ const WalletWithdraw = (props: SVGProps<SVGSVGElement>) => (
 			stroke="black"
 			strokeWidth={2.5}
 			fill="none"
+			data-nofill="true"
 		/>
 		<path
 			d="M14.0181 18.0181L14 18"

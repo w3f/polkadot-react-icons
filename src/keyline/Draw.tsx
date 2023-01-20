@@ -16,6 +16,7 @@ const Draw = (props: SVGProps<SVGSVGElement>) => (
 			stroke="black"
 			strokeWidth={2.5}
 			fill="none"
+			data-nofill="true"
 		/>
 		<path
 			d="M18.8649 6.05542L23.6589 10.8494L11.1359 23.3723L4.82555 24.8887L6.342 18.5784L18.8649 6.05542Z"

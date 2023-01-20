@@ -16,18 +16,21 @@ const EnergyEfficiency = (props: SVGProps<SVGSVGElement>) => (
 			stroke="black"
 			strokeWidth={2.5}
 			fill="none"
+			data-nofill="true"
 		/>
 		<path
 			d="M6.78601 19.3839C7.73403 20.6646 9.01094 21.6752 10.4902 22.3024C12.3113 23.0746 14.3367 23.2226 16.2506 22.7233C18.1646 22.224 19.8596 21.1055 21.0714 19.5421C22.2831 17.9787 22.9436 16.0583 22.9498 14.0803L22.9047 13.2071M19.5096 15.7431L22.84 12.4092L26.2383 15.6764"
 			stroke="black"
 			strokeWidth={2.5}
 			fill="none"
+			data-nofill="true"
 		/>
 		<path
 			d="M13.8499 10.2246L12.6312 14.0837H15.5425L14.1884 17.9428"
 			stroke="black"
 			strokeWidth={2.5}
 			fill="none"
+			data-nofill="true"
 		/>
 	</svg>
 )

@@ -26,6 +26,7 @@ const OnChainScheduling = (props: SVGProps<SVGSVGElement>) => (
 			stroke="black"
 			strokeWidth={2.5}
 			fill="none"
+			data-nofill="true"
 		/>
 		<path
 			d="M14.063 13.3989C17.3299 13.3989 19.9783 10.7505 19.9783 7.48362C19.9783 4.21671 17.3299 1.56836 14.063 1.56836C10.7961 1.56836 8.14777 4.21671 8.14777 7.48362C8.14777 10.7505 10.7961 13.3989 14.063 13.3989Z"

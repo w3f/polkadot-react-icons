@@ -16,6 +16,7 @@ const DerivationPath = (props: SVGProps<SVGSVGElement>) => (
 			stroke="black"
 			strokeWidth={2.5}
 			fill="none"
+			data-nofill="true"
 		/>
 		<path
 			d="M14.0215 9.44831L14.0215 14.0507"

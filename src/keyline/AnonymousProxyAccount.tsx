@@ -29,12 +29,14 @@ const AnonymousProxyAccount = (props: SVGProps<SVGSVGElement>) => (
 			strokeWidth={2.5}
 			strokeMiterlimit={10}
 			fill="none"
+			data-nofill="true"
 		/>
 		<path
 			d="M11.2739 4.77561C11.2739 3.24265 12.5167 1.99994 14.0496 1.99994C15.5826 1.99994 16.8253 3.24265 16.8253 4.77561C16.8253 6.30857 15.5826 7.55128 14.0496 7.55128V9.38381M14.0496 12.8443V12.8545"
 			stroke="black"
 			strokeWidth={2.5}
 			fill="none"
+			data-nofill="true"
 		/>
 	</svg>
 )

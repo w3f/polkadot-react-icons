@@ -24,24 +24,28 @@ const WiFiOff = (props: SVGProps<SVGSVGElement>) => (
 			strokeWidth={2.5}
 			strokeMiterlimit={10}
 			fill="none"
+			data-nofill="true"
 		/>
 		<path
 			d="M5.25122 13.8109C7.0518 11.4651 10.334 9.89465 14.0841 9.89465C17.8156 9.89465 21.0837 11.4498 22.8901 13.777"
 			stroke="black"
 			strokeWidth={2.5}
 			fill="none"
+			data-nofill="true"
 		/>
 		<path
 			d="M2.07031 9.63129C3.54625 7.88719 5.38477 6.48594 7.45775 5.52519C9.53072 4.56443 11.7883 4.0673 14.0731 4.06842C16.3578 4.06955 18.6149 4.56891 20.6869 5.53171C22.759 6.4945 24.5961 7.89757 26.0703 9.64311"
 			stroke="black"
 			strokeWidth={2.5}
 			fill="none"
+			data-nofill="true"
 		/>
 		<path
 			d="M3.07013 2.06836L25.0701 26.0684"
 			stroke="black"
 			strokeWidth={2.5}
 			fill="none"
+			data-nofill="true"
 		/>
 	</svg>
 )

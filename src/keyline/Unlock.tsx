@@ -17,6 +17,7 @@ const Unlock = (props: SVGProps<SVGSVGElement>) => (
 			strokeWidth={2.5}
 			strokeMiterlimit={10}
 			fill="none"
+			data-nofill="true"
 		/>
 		<path
 			d="M21.1735 8.86182H2V22.8062H21.1735V8.86182Z"

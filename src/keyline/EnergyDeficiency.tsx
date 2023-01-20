@@ -17,18 +17,21 @@ const EnergyDeficiency = (props: SVGProps<SVGSVGElement>) => (
 			strokeWidth={2.5}
 			strokeDasharray="0.1 4.5"
 			fill="none"
+			data-nofill="true"
 		/>
 		<path
 			d="M13.7787 10.2817L12.5601 14.1408H15.4713L14.1173 17.9999"
 			stroke="black"
 			strokeWidth={2.5}
 			fill="none"
+			data-nofill="true"
 		/>
 		<path
 			d="M5.30628 14.8423C5.19187 12.8048 5.74122 10.8835 6.76633 9.28875"
 			stroke="black"
 			strokeWidth={2.5}
 			fill="none"
+			data-nofill="true"
 		/>
 	</svg>
 )

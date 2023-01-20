@@ -11,12 +11,19 @@ const Deposit = (props: SVGProps<SVGSVGElement>) => (
 		strokeLinejoin="round"
 		{...props}
 	>
-		<path d="M18.706 26L2 26" stroke="black" strokeWidth={2.5} fill="none" />
+		<path
+			d="M18.706 26L2 26"
+			stroke="black"
+			strokeWidth={2.5}
+			fill="none"
+			data-nofill="true"
+		/>
 		<path
 			d="M10.4865 2L10.4865 20.5M16.0165 15.921L10.4865 21.4482L4.95172 15.9227"
 			stroke="black"
 			strokeWidth={2.5}
 			fill="none"
+			data-nofill="true"
 		/>
 	</svg>
 )
