@@ -33,9 +33,38 @@ const readSvgFile = async (filename, dir) => {
 	}
 }
 
+// perform some manipulations/cleanup on icons depending on icon type
+const prepareSvg = (rawSvg, iconType) => {
+	const preparedSvg =
+		iconType === 'solid'
+			? // adds a stroke="none" to any element that doesn't explicitly set it
+			  // this allows us to customise an icon by setting a stroke on the svg
+			  // which is then inherited to all children without a stroke attribute
+			  rawSvg.replace(
+					/<(path|circle|rect|ellipsis)( .*?)( *\/>|> *<\/\1>)/gis,
+					(tag, g1, g2, g3) => {
+						if (!g2.match(/\bstroke=["']/i)) {
+							return '<' + g1 + g2 + ' stroke="none"' + g3
+						} else {
+							return tag
+						}
+					},
+			  )
+			: rawSvg
+
+	return (
+		preparedSvg
+			// removes all <def> (part of the artboard)
+			.replace(/(\<defs\>)(.*?)(\<\/defs\>)/gs, '')
+			// remove all stroke attributes which are not explicitly set to "none"
+			.replace(/(fill|stroke)="(black|white)\w*"/g, '')
+	)
+}
+
+// transforms SVG strings into React components
 const transformSvg = async (rawSvg, componentName) => {
 	return await transform(
-		rawSvg.replace('fill="black"', ''),
+		rawSvg,
 		{
 			plugins: ['@svgr/plugin-jsx', '@svgr/plugin-prettier'],
 			jsx: {
@@ -44,8 +73,13 @@ const transformSvg = async (rawSvg, componentName) => {
 						[
 							'@svgr/babel-plugin-remove-jsx-attribute',
 							{
-								elements: ['path', 'rect', 'circle', 'ellipse'],
-								attributes: ['strokeLinecap', 'strokeLinejoin'],
+								elements: ['path', 'rect', 'circle', 'ellipse', 'g'],
+								attributes: [
+									'strokeLinecap',
+									'strokeLinejoin',
+									'clipPath',
+									'strokeWidth',
+								],
 							},
 						],
 						[
@@ -60,6 +94,10 @@ const transformSvg = async (rawSvg, componentName) => {
 									{
 										name: 'height',
 										value: '28',
+									},
+									{
+										name: 'strokeWidth',
+										value: '2',
 									},
 									{
 										name: 'strokeLinecap',
@@ -125,7 +163,10 @@ const generate = async iconType => {
 
 				const rawSvg = await readSvgFile(icon, directories[iconType].input)
 
-				const reactSvg = await transformSvg(rawSvg, componentName)
+				const reactSvg = await transformSvg(
+					prepareSvg(rawSvg, iconType),
+					componentName,
+				)
 
 				indexImports.push(composeIndexImports(componentName))
 				indexExports.push(componentName)
