@@ -4,20 +4,19 @@ const Career = (props: SVGProps<SVGSVGElement>) => (
 	<svg
 		width="28"
 		height="28"
-		viewBox="0 0 28 25"
+		viewBox="0 0 29 29"
 		fill="none"
 		xmlns="http://www.w3.org/2000/svg"
+		strokeWidth="2"
 		strokeLinecap="round"
 		strokeLinejoin="round"
 		{...props}
 	>
-		<path d="M9.38129 6.45019V2H18.6192V6.5" stroke="black" strokeWidth={2.5} />
-		<path
-			d="M26 6.62796H2V23.2377H26V6.62796Z"
-			stroke="black"
-			strokeWidth={2.5}
-		/>
-		<path d="M3 13.3445L25 13.3445" stroke="black" strokeWidth={2.5} />
+		<g>
+			<path d="M10.3813 7.45019V3H19.6192V7.5" />
+			<path d="M27 7.62796H3V24.2377H27V7.62796Z" />
+			<path d="M4 14.3445L26 14.3445" />
+		</g>
 	</svg>
 )
 export default Career

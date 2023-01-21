@@ -7,20 +7,13 @@ const EndingPeriod = (props: SVGProps<SVGSVGElement>) => (
 		viewBox="0 0 28 28"
 		fill="none"
 		xmlns="http://www.w3.org/2000/svg"
+		strokeWidth="2"
 		strokeLinecap="round"
 		strokeLinejoin="round"
 		{...props}
 	>
-		<path
-			d="M14 26C20.6274 26 26 20.6274 26 14C26 7.37258 20.6274 2 14 2C7.37258 2 2 7.37258 2 14C2 20.6274 7.37258 26 14 26Z"
-			stroke="black"
-			strokeWidth={2.5}
-		/>
-		<path
-			d="M13.9999 13.3519L5.87173 13.352"
-			stroke="black"
-			strokeWidth={2.5}
-		/>
+		<path d="M14 26C20.6274 26 26 20.6274 26 14C26 7.37258 20.6274 2 14 2C7.37258 2 2 7.37258 2 14C2 20.6274 7.37258 26 14 26Z" />
+		<path d="M13.9999 13.3519L5.87173 13.352" />
 	</svg>
 )
 export default EndingPeriod

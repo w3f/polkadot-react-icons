@@ -4,9 +4,10 @@ const Monitor = (props: SVGProps<SVGSVGElement>) => (
 	<svg
 		width="28"
 		height="28"
-		viewBox="0 0 26 25"
+		viewBox="0 0 28 28"
 		fill="none"
 		xmlns="http://www.w3.org/2000/svg"
+		strokeWidth="2"
 		strokeLinecap="round"
 		strokeLinejoin="round"
 		{...props}
@@ -14,7 +15,8 @@ const Monitor = (props: SVGProps<SVGSVGElement>) => (
 		<path
 			fillRule="evenodd"
 			clipRule="evenodd"
-			d="M0 1.5C0 0.947715 0.447715 0.5 1 0.5H25C25.5523 0.5 26 0.947715 26 1.5V14.5029H0V1.5ZM0 16.5029V19.5C0 20.0523 0.447715 20.5 1 20.5H12V23H9C8.44771 23 8 23.4477 8 24C8 24.5523 8.44771 25 9 25H17C17.5523 25 18 24.5523 18 24C18 23.4477 17.5523 23 17 23H14V20.5H25C25.5523 20.5 26 20.0523 26 19.5V16.5029H0Z"
+			d="M1 2.5C1 1.94772 1.44772 1.5 2 1.5H26C26.5523 1.5 27 1.94772 27 2.5V15.5029H1V2.5ZM1 17.5029V20.5C1 21.0523 1.44772 21.5 2 21.5H13V24H10C9.44771 24 9 24.4477 9 25C9 25.5523 9.44771 26 10 26H18C18.5523 26 19 25.5523 19 25C19 24.4477 18.5523 24 18 24H15V21.5H26C26.5523 21.5 27 21.0523 27 20.5V17.5029H1Z"
+			stroke="none"
 		/>
 	</svg>
 )

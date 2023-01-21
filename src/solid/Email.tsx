@@ -4,9 +4,10 @@ const Email = (props: SVGProps<SVGSVGElement>) => (
 	<svg
 		width="28"
 		height="28"
-		viewBox="0 0 26 23"
+		viewBox="0 0 28 28"
 		fill="none"
 		xmlns="http://www.w3.org/2000/svg"
+		strokeWidth="2"
 		strokeLinecap="round"
 		strokeLinejoin="round"
 		{...props}
@@ -14,7 +15,8 @@ const Email = (props: SVGProps<SVGSVGElement>) => (
 		<path
 			fillRule="evenodd"
 			clipRule="evenodd"
-			d="M26 1.8513L13.6726 13.055C13.2856 13.4067 12.6931 13.4009 12.3131 13.0417L0 1.40341V21.219C0 21.7713 0.447715 22.219 1 22.219H25C25.5523 22.219 26 21.7713 26 21.219V1.8513ZM25.0613 0.00184796L13.0133 10.9515L1.42679 0H25C25.0206 0 25.041 0.000621908 25.0613 0.00184796Z"
+			d="M27 4.8513L14.6726 16.055C14.2856 16.4067 13.6931 16.4009 13.3131 16.0417L1 4.40341V24.219C1 24.7713 1.44772 25.219 2 25.219H26C26.5523 25.219 27 24.7713 27 24.219V4.8513ZM26.0613 3.00185L14.0133 13.9515L2.42679 3H26C26.0206 3 26.041 3.00062 26.0613 3.00185Z"
+			stroke="none"
 		/>
 	</svg>
 )

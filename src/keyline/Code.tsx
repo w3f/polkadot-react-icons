@@ -4,34 +4,25 @@ const Code = (props: SVGProps<SVGSVGElement>) => (
 	<svg
 		width="28"
 		height="28"
-		viewBox="0 0 28 21"
+		viewBox="0 0 28 28"
 		fill="none"
 		xmlns="http://www.w3.org/2000/svg"
+		strokeWidth="2"
 		strokeLinecap="round"
 		strokeLinejoin="round"
 		{...props}
 	>
 		<path
-			d="M7.90652 15.3812L1.93652 10.4112L7.90652 5.43115"
-			stroke="black"
-			strokeWidth={2.5}
+			d="M7.97391 18.5638L2.00391 13.5938L7.97391 8.61377"
 			fill="none"
 			data-nofill="true"
 		/>
 		<path
-			d="M20.0063 5.42139L25.9963 10.4114L20.0063 15.3914"
-			stroke="black"
-			strokeWidth={2.5}
+			d="M20.0737 8.604L26.0637 13.594L20.0737 18.574"
 			fill="none"
 			data-nofill="true"
 		/>
-		<path
-			d="M16.9814 1.41113L10.9314 19.4011"
-			stroke="black"
-			strokeWidth={2.5}
-			fill="none"
-			data-nofill="true"
-		/>
+		<path d="M17.0488 4.59375L10.9988 22.5837" fill="none" data-nofill="true" />
 	</svg>
 )
 export default Code

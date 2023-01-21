@@ -7,11 +7,12 @@ const SignifierTab = (props: SVGProps<SVGSVGElement>) => (
 		viewBox="0 0 28 3"
 		fill="none"
 		xmlns="http://www.w3.org/2000/svg"
+		strokeWidth="2"
 		strokeLinecap="round"
 		strokeLinejoin="round"
 		{...props}
 	>
-		<path d="M1.98828 1.51172H25.9883" stroke="black" strokeWidth={2.5} />
+		<path d="M1.98828 1.51172H25.9883" />
 	</svg>
 )
 export default SignifierTab

@@ -7,20 +7,13 @@ const Indeterminate = (props: SVGProps<SVGSVGElement>) => (
 		viewBox="0 0 28 27"
 		fill="none"
 		xmlns="http://www.w3.org/2000/svg"
+		strokeWidth="2"
 		strokeLinecap="round"
 		strokeLinejoin="round"
 		{...props}
 	>
-		<path
-			d="M25.9941 1.67578H1.99414V25.6758H25.9941V1.67578Z"
-			stroke="black"
-			strokeWidth={2.5}
-		/>
-		<path
-			d="M8.85114 13.6997L19.2407 13.7558"
-			stroke="black"
-			strokeWidth={2.5}
-		/>
+		<path d="M25.9941 1.67578H1.99414V25.6758H25.9941V1.67578Z" />
+		<path d="M8.85114 13.6997L19.2407 13.7558" />
 	</svg>
 )
 export default Indeterminate

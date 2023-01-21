@@ -4,34 +4,31 @@ const Connected = (props: SVGProps<SVGSVGElement>) => (
 	<svg
 		width="28"
 		height="28"
-		viewBox="0 0 28 13"
+		viewBox="0 0 29 29"
 		fill="none"
 		xmlns="http://www.w3.org/2000/svg"
+		strokeWidth="2"
 		strokeLinecap="round"
 		strokeLinejoin="round"
 		{...props}
 	>
-		<path
-			d="M16.4675 11.6279L21.241 11.6279C23.8532 11.6279 25.9708 9.51032 25.9708 6.89813V6.89813C25.9708 4.28593 23.8532 2.16832 21.241 2.16832L16.4675 2.16832"
-			stroke="black"
-			strokeWidth={2.5}
-			fill="none"
-			data-nofill="true"
-		/>
-		<path
-			d="M11.4206 2.13085L6.70051 2.13085C4.08831 2.13085 1.9707 4.24845 1.9707 6.86065V6.86065C1.9707 9.47285 4.08831 11.5905 6.70051 11.5905L11.4206 11.5905"
-			stroke="black"
-			strokeWidth={2.5}
-			fill="none"
-			data-nofill="true"
-		/>
-		<path
-			d="M20.079 6.86746L7.83264 6.86746"
-			stroke="black"
-			strokeWidth={2.5}
-			fill="none"
-			data-nofill="true"
-		/>
+		<g>
+			<path
+				d="M17.4675 18.6279L22.241 18.6279C24.8532 18.6279 26.9708 16.5103 26.9708 13.8981V13.8981C26.9708 11.2859 24.8532 9.16832 22.241 9.16832L17.4675 9.16832"
+				fill="none"
+				data-nofill="true"
+			/>
+			<path
+				d="M12.4206 9.13085L7.70051 9.13085C5.08831 9.13085 2.9707 11.2485 2.9707 13.8607V13.8607C2.9707 16.4728 5.08831 18.5905 7.70051 18.5905L12.4206 18.5905"
+				fill="none"
+				data-nofill="true"
+			/>
+			<path
+				d="M21.079 13.8675L8.83264 13.8675"
+				fill="none"
+				data-nofill="true"
+			/>
+		</g>
 	</svg>
 )
 export default Connected

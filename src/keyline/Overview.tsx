@@ -7,15 +7,12 @@ const Overview = (props: SVGProps<SVGSVGElement>) => (
 		viewBox="0 0 28 28"
 		fill="none"
 		xmlns="http://www.w3.org/2000/svg"
+		strokeWidth="2"
 		strokeLinecap="round"
 		strokeLinejoin="round"
 		{...props}
 	>
-		<path
-			d="M11.5 26H2V10.5L14 2L26 10.5V26H17V17.5H11.5V26Z"
-			stroke="black"
-			strokeWidth={2.5}
-		/>
+		<path d="M11.5 26H2V10.5L14 2L26 10.5V26H17V17.5H11.5V26Z" />
 	</svg>
 )
 export default Overview

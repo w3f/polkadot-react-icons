@@ -7,15 +7,12 @@ const Unchecked = (props: SVGProps<SVGSVGElement>) => (
 		viewBox="0 0 28 28"
 		fill="none"
 		xmlns="http://www.w3.org/2000/svg"
+		strokeWidth="2"
 		strokeLinecap="round"
 		strokeLinejoin="round"
 		{...props}
 	>
-		<path
-			d="M25.9707 2.08008H1.9707V26.0801H25.9707V2.08008Z"
-			stroke="black"
-			strokeWidth={2.5}
-		/>
+		<path d="M25.9707 2.08008H1.9707V26.0801H25.9707V2.08008Z" />
 	</svg>
 )
 export default Unchecked

@@ -7,32 +7,15 @@ const Multisign = (props: SVGProps<SVGSVGElement>) => (
 		viewBox="0 0 27 28"
 		fill="none"
 		xmlns="http://www.w3.org/2000/svg"
+		strokeWidth="2"
 		strokeLinecap="round"
 		strokeLinejoin="round"
 		{...props}
 	>
-		<path
-			d="M9.3712 25.6559H1.28534"
-			stroke="black"
-			strokeWidth={2.5}
-			strokeMiterlimit={10}
-		/>
-		<path
-			d="M22.0711 12.9278L25.2854 16.1421L16.9642 24.4633L12.5532 25.6559L13.7499 21.249L22.0711 12.9278Z"
-			stroke="black"
-			strokeWidth={2.5}
-		/>
-		<path
-			d="M22.0711 2L25.2854 5.21432L16.9642 13.5355L12.5532 14.7281L13.7499 10.3212L22.0711 2Z"
-			stroke="black"
-			strokeWidth={2.5}
-		/>
-		<path
-			d="M9.3712 14.728H1.28534"
-			stroke="black"
-			strokeWidth={2.5}
-			strokeMiterlimit={10}
-		/>
+		<path d="M9.3712 25.6559H1.28534" strokeMiterlimit={10} />
+		<path d="M22.0711 12.9278L25.2854 16.1421L16.9642 24.4633L12.5532 25.6559L13.7499 21.249L22.0711 12.9278Z" />
+		<path d="M22.0711 2L25.2854 5.21432L16.9642 13.5355L12.5532 14.7281L13.7499 10.3212L22.0711 2Z" />
+		<path d="M9.3712 14.728H1.28534" strokeMiterlimit={10} />
 	</svg>
 )
 export default Multisign

@@ -4,66 +4,23 @@ const DataAndAnalytics = (props: SVGProps<SVGSVGElement>) => (
 	<svg
 		width="28"
 		height="28"
-		viewBox="0 0 23 23"
+		viewBox="0 0 29 28"
 		fill="none"
 		xmlns="http://www.w3.org/2000/svg"
+		strokeWidth="2"
 		strokeLinecap="round"
 		strokeLinejoin="round"
 		{...props}
 	>
+		<path d="M5.00616 11.1631L11.3374 4.83182" fill="none" data-nofill="true" />
+		<path d="M17.6687 11.1631L11.3374 4.83182" fill="none" data-nofill="true" />
+		<path d="M17.6687 11.1631L24 4.83182" fill="none" data-nofill="true" />
+		<path d="M11.3313 11.3865L11.3313 23.2954" fill="none" data-nofill="true" />
+		<path d="M5 15.6073L5 23.2953" fill="none" data-nofill="true" />
+		<path d="M17.6625 15.6073L17.6625 23.2954" fill="none" data-nofill="true" />
+		<path d="M23.9938 12.4417L23.9938 23.2953" fill="none" data-nofill="true" />
 		<path
-			d="M2.00616 9.16309L8.33744 2.83182"
-			stroke="black"
-			strokeWidth={2.5}
-			fill="none"
-			data-nofill="true"
-		/>
-		<path
-			d="M14.6687 9.16309L8.33743 2.83182"
-			stroke="black"
-			strokeWidth={2.5}
-			fill="none"
-			data-nofill="true"
-		/>
-		<path
-			d="M14.6687 9.16309L21 2.83182"
-			stroke="black"
-			strokeWidth={2.5}
-			fill="none"
-			data-nofill="true"
-		/>
-		<path
-			d="M8.3313 9.38647L8.3313 21.2954"
-			stroke="black"
-			strokeWidth={2.5}
-			fill="none"
-			data-nofill="true"
-		/>
-		<path
-			d="M2 13.6073L2 21.2953"
-			stroke="black"
-			strokeWidth={2.5}
-			fill="none"
-			data-nofill="true"
-		/>
-		<path
-			d="M14.6625 13.6073L14.6625 21.2954"
-			stroke="black"
-			strokeWidth={2.5}
-			fill="none"
-			data-nofill="true"
-		/>
-		<path
-			d="M20.9938 10.4417L20.9938 21.2953"
-			stroke="black"
-			strokeWidth={2.5}
-			fill="none"
-			data-nofill="true"
-		/>
-		<path
-			d="M16.7792 1.99998L20.9938 1.99998L20.9938 6.22083"
-			stroke="black"
-			strokeWidth={2.5}
+			d="M19.7792 3.99998L23.9938 3.99998L23.9938 8.22083"
 			fill="none"
 			data-nofill="true"
 		/>

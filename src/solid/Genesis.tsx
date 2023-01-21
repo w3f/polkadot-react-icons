@@ -4,9 +4,10 @@ const Genesis = (props: SVGProps<SVGSVGElement>) => (
 	<svg
 		width="28"
 		height="28"
-		viewBox="0 0 26 20"
+		viewBox="0 0 28 28"
 		fill="none"
 		xmlns="http://www.w3.org/2000/svg"
+		strokeWidth="2"
 		strokeLinecap="round"
 		strokeLinejoin="round"
 		{...props}
@@ -14,7 +15,8 @@ const Genesis = (props: SVGProps<SVGSVGElement>) => (
 		<path
 			fillRule="evenodd"
 			clipRule="evenodd"
-			d="M1 0C0.447715 0 0 0.447715 0 1V19C0 19.5523 0.447715 20 1 20H18C18.5523 20 19 19.5523 19 19V11H25C25.5523 11 26 10.5523 26 10C26 9.44771 25.5523 9 25 9H19V1C19 0.447715 18.5523 0 18 0H1ZM19 9V11H11C10.4477 11 10 10.5523 10 10C10 9.44772 10.4477 9 11 9H19Z"
+			d="M2 4C1.44772 4 1 4.44772 1 5V23C1 23.5523 1.44772 24 2 24H19C19.5523 24 20 23.5523 20 23V15H26C26.5523 15 27 14.5523 27 14C27 13.4477 26.5523 13 26 13H20V5C20 4.44772 19.5523 4 19 4H2ZM20 13V15H12C11.4477 15 11 14.5523 11 14C11 13.4477 11.4477 13 12 13H20Z"
+			stroke="none"
 		/>
 	</svg>
 )

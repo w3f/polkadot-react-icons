@@ -4,9 +4,10 @@ const Whitepaper = (props: SVGProps<SVGSVGElement>) => (
 	<svg
 		width="28"
 		height="28"
-		viewBox="0 0 21 26"
+		viewBox="0 0 28 28"
 		fill="none"
 		xmlns="http://www.w3.org/2000/svg"
+		strokeWidth="2"
 		strokeLinecap="round"
 		strokeLinejoin="round"
 		{...props}
@@ -14,7 +15,8 @@ const Whitepaper = (props: SVGProps<SVGSVGElement>) => (
 		<path
 			fillRule="evenodd"
 			clipRule="evenodd"
-			d="M12 0H1C0.447716 0 0 0.447715 0 1V25C0 25.5523 0.447716 26 1 26H19.4615C20.0138 26 20.4615 25.5523 20.4615 25V8.46176H13C12.4477 8.46176 12 8.01405 12 7.46176V0ZM19.876 6.46176H14V0.585765L19.876 6.46176Z"
+			d="M15 1H4C3.44772 1 3 1.44772 3 2V26C3 26.5523 3.44772 27 4 27H22.4615C23.0138 27 23.4615 26.5523 23.4615 26V9.46176H16C15.4477 9.46176 15 9.01405 15 8.46176V1ZM22.876 7.46176H17V1.58576L22.876 7.46176Z"
+			stroke="none"
 		/>
 	</svg>
 )
