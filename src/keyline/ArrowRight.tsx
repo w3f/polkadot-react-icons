@@ -12,8 +12,8 @@ const ArrowRight = (props: SVGProps<SVGSVGElement>) => (
 		strokeLinejoin="round"
 		{...props}
 	>
-		<path d="M25 14.0086L2 14.0086" />
-		<path d="M15.8003 4L26 14.0086L15.8003 24" />
+		<path d="M25 14.0086L2 14.0086" fill="none" data-nofill="true" />
+		<path d="M15.8003 4L26 14.0086L15.8003 24" fill="none" data-nofill="true" />
 	</svg>
 )
 export default ArrowRight
