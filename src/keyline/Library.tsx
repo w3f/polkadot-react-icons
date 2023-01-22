@@ -12,15 +12,17 @@ const Library = (props: SVGProps<SVGSVGElement>) => (
 		strokeLinejoin="round"
 		{...props}
 	>
-		<rect x={1.29297} y={2} width={4} height={24} />
-		<rect x={9} y={2} width={4} height={24} />
-		<rect
-			x={16.3813}
-			y={3.03516}
-			width={4}
-			height={24}
-			transform="rotate(-15 16.3813 3.03516)"
-		/>
+		<g>
+			<rect x={1.29297} y={2} width={4} height={24} />
+			<rect x={9} y={2} width={4} height={24} />
+			<rect
+				x={16.3813}
+				y={3.03516}
+				width={4}
+				height={24}
+				transform="rotate(-15 16.3813 3.03516)"
+			/>
+		</g>
 	</svg>
 )
 export default Library

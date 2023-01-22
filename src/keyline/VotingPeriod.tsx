@@ -12,11 +12,13 @@ const VotingPeriod = (props: SVGProps<SVGSVGElement>) => (
 		strokeLinejoin="round"
 		{...props}
 	>
-		<path d="M26.0027 25.9999L1.99998 25.9999L2.00009 5.22553L26.0027 5.22553L26.0027 25.9999Z" />
-		<path d="M8.36707 6.6583V2" />
-		<path d="M19.681 6.6583V2" />
-		<path d="M15.3665 8.64696L6.72153 17.292L11.2508 21.8212L14.7127 21.8212L21.6267 14.9071L15.3665 8.64696Z" />
-		<path d="M21.6031 21.8198L6.07577 21.8198" strokeMiterlimit={10} />
+		<g>
+			<path d="M26 26H2V3.88452H26V26Z" strokeMiterlimit={10} />
+			<path d="M9.42337 6.34171V2" strokeMiterlimit={10} />
+			<path d="M18.5764 6.34177V2.00006" strokeMiterlimit={10} />
+			<path d="M15.2908 8.99999L6.64577 17.645L11.175 22.1742L14.6369 22.1742L21.551 15.2602L15.2908 8.99999Z" />
+			<path d="M21.5273 22.1729L6 22.1729" strokeMiterlimit={10} />
+		</g>
 	</svg>
 )
 export default VotingPeriod

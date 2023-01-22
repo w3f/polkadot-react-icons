@@ -4,7 +4,7 @@ const Monitor = (props: SVGProps<SVGSVGElement>) => (
 	<svg
 		width="28"
 		height="28"
-		viewBox="0 0 28 26"
+		viewBox="0 0 28 28"
 		fill="none"
 		xmlns="http://www.w3.org/2000/svg"
 		strokeWidth="2"
@@ -12,10 +12,10 @@ const Monitor = (props: SVGProps<SVGSVGElement>) => (
 		strokeLinejoin="round"
 		{...props}
 	>
-		<path d="M2 15.5029H26V19.5H2V15.5029Z" />
-		<path d="M2 1.5H26V15.5029H2V1.5Z" />
-		<path d="M10 24H18" />
-		<path d="M14 23.5L14 19.5" />
+		<path d="M2 16.5029H26V20.5H2V16.5029Z" />
+		<path d="M2 2.5H26V16.5029H2V2.5Z" />
+		<path d="M10 25H18" />
+		<path d="M14 24.5L14 20.5" />
 	</svg>
 )
 export default Monitor

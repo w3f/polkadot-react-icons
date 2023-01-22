@@ -4,7 +4,7 @@ const KeepAliveCheck = (props: SVGProps<SVGSVGElement>) => (
 	<svg
 		width="28"
 		height="28"
-		viewBox="0 0 28 22"
+		viewBox="0 0 28 28"
 		fill="none"
 		xmlns="http://www.w3.org/2000/svg"
 		strokeWidth="2"
@@ -12,8 +12,8 @@ const KeepAliveCheck = (props: SVGProps<SVGSVGElement>) => (
 		strokeLinejoin="round"
 		{...props}
 	>
-		<path d="M26 2L26 11.5L26 20L2 20L2 11L2 2L26 2Z" />
-		<path d="M2 11H8L10 8L14 16L19 5.5L22 11H26" />
+		<path d="M26 5L26 14.5L26 23L2 23L2 14L2 5L26 5Z" />
+		<path d="M2 14H8L10 11L14 19L19 8.5L22 14H26" />
 	</svg>
 )
 export default KeepAliveCheck

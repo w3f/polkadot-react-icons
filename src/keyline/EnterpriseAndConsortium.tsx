@@ -4,7 +4,7 @@ const EnterpriseAndConsortium = (props: SVGProps<SVGSVGElement>) => (
 	<svg
 		width="28"
 		height="28"
-		viewBox="0 0 25 27"
+		viewBox="0 0 29 29"
 		fill="none"
 		xmlns="http://www.w3.org/2000/svg"
 		strokeWidth="2"
@@ -12,9 +12,9 @@ const EnterpriseAndConsortium = (props: SVGProps<SVGSVGElement>) => (
 		strokeLinejoin="round"
 		{...props}
 	>
-		<path d="M19.7057 25L19.7057 1.56836L4.79767 1.56836L4.79767 25" />
-		<path d="M1.54956 25.5681L22.8959 25.5681" />
-		<path d="M14.5428 24.7709V18.2742H9.90234V24.7709" />
+		<path d="M22.7057 26L22.7057 2.56836L7.79767 2.56836L7.79767 26" />
+		<path d="M4.54956 26.5681L25.8959 26.5681" />
+		<path d="M17.5428 25.7709V19.2742H12.9023V25.7709" />
 	</svg>
 )
 export default EnterpriseAndConsortium

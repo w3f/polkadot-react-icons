@@ -4,7 +4,7 @@ const RobustSystem = (props: SVGProps<SVGSVGElement>) => (
 	<svg
 		width="28"
 		height="28"
-		viewBox="0 0 21 26"
+		viewBox="0 0 28 29"
 		fill="none"
 		xmlns="http://www.w3.org/2000/svg"
 		strokeWidth="2"
@@ -12,8 +12,8 @@ const RobustSystem = (props: SVGProps<SVGSVGElement>) => (
 		strokeLinejoin="round"
 		{...props}
 	>
-		<path d="M12.1328 1.56837L3.73413 9.96704L9.95707 15.8913L11.4041 14.4607L18.2146 7.65016L12.1328 1.56837Z" />
-		<path d="M1.9223 20.1604V24.7046H19.712V20.1604H1.9223Z" />
+		<path d="M15.1328 2.56837L6.73413 10.967L12.9571 16.8913L14.4041 15.4607L21.2146 8.65016L15.1328 2.56837Z" />
+		<path d="M4.9223 21.1604V25.7046H22.712V21.1604H4.9223Z" />
 	</svg>
 )
 export default RobustSystem

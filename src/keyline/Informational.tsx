@@ -4,7 +4,7 @@ const Informational = (props: SVGProps<SVGSVGElement>) => (
 	<svg
 		width="28"
 		height="28"
-		viewBox="0 0 28 27"
+		viewBox="0 0 29 29"
 		fill="none"
 		xmlns="http://www.w3.org/2000/svg"
 		strokeWidth="2"
@@ -12,9 +12,11 @@ const Informational = (props: SVGProps<SVGSVGElement>) => (
 		strokeLinejoin="round"
 		{...props}
 	>
-		<path d="M13.9883 25.6758C20.6157 25.6758 25.9883 20.3032 25.9883 13.6758C25.9883 7.04836 20.6157 1.67578 13.9883 1.67578C7.36086 1.67578 1.98828 7.04836 1.98828 13.6758C1.98828 20.3032 7.36086 25.6758 13.9883 25.6758Z" />
-		<path d="M13.998 12.082L14.0075 19.2122" strokeMiterlimit={10} />
-		<path d="M13.9881 7.67574L14.0063 7.69388" strokeMiterlimit={10} />
+		<g>
+			<path d="M14.9883 26.6758C21.6157 26.6758 26.9883 21.3032 26.9883 14.6758C26.9883 8.04836 21.6157 2.67578 14.9883 2.67578C8.36086 2.67578 2.98828 8.04836 2.98828 14.6758C2.98828 21.3032 8.36086 26.6758 14.9883 26.6758Z" />
+			<path d="M14.998 13.082L15.0075 20.2122" strokeMiterlimit={10} />
+			<path d="M14.9881 8.67574L15.0063 8.69388" strokeMiterlimit={10} />
+		</g>
 	</svg>
 )
 export default Informational

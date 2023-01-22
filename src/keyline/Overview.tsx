@@ -12,7 +12,9 @@ const Overview = (props: SVGProps<SVGSVGElement>) => (
 		strokeLinejoin="round"
 		{...props}
 	>
-		<path d="M11.5 26H2V10.5L14 2L26 10.5V26H17V17.5H11.5V26Z" />
+		<g>
+			<path d="M11.5 26.1934H2V10.6934L14 2.19336L26 10.6934V26.1934H17V17.6934H11.5V26.1934Z" />
+		</g>
 	</svg>
 )
 export default Overview

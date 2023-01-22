@@ -4,7 +4,7 @@ const Unlock = (props: SVGProps<SVGSVGElement>) => (
 	<svg
 		width="28"
 		height="28"
-		viewBox="0 0 23 25"
+		viewBox="0 0 28 28"
 		fill="none"
 		xmlns="http://www.w3.org/2000/svg"
 		strokeWidth="2"
@@ -13,12 +13,12 @@ const Unlock = (props: SVGProps<SVGSVGElement>) => (
 		{...props}
 	>
 		<path
-			d="M15.6869 4.80748C15.4115 4.12236 15.0106 3.69148 14.7695 3.41665C13.7381 2.2427 12.4559 1.93051 10.9403 2.01224C9.13955 2.11153 7.60805 3.39009 7.027 5.05031C6.7804 5.75346 6.7028 6.64953 6.71804 8.5"
+			d="M17.6869 6.80748C17.4115 6.12236 17.0106 5.69148 16.7695 5.41665C15.7381 4.2427 14.4559 3.93051 12.9403 4.01224C11.1395 4.11153 9.60805 5.39009 9.027 7.05031C8.7804 7.75346 8.7028 8.64953 8.71804 10.5"
 			strokeMiterlimit={10}
 			fill="none"
 			data-nofill="true"
 		/>
-		<path d="M21.1735 8.86182H2V22.8062H21.1735V8.86182Z" />
+		<path d="M23.1735 10.8618H4V24.8062H23.1735V10.8618Z" />
 	</svg>
 )
 export default Unlock

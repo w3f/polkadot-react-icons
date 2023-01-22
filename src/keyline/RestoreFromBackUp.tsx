@@ -4,7 +4,7 @@ const RestoreFromBackUp = (props: SVGProps<SVGSVGElement>) => (
 	<svg
 		width="28"
 		height="28"
-		viewBox="0 0 25 22"
+		viewBox="0 0 28 28"
 		fill="none"
 		xmlns="http://www.w3.org/2000/svg"
 		strokeWidth="2"
@@ -13,21 +13,21 @@ const RestoreFromBackUp = (props: SVGProps<SVGSVGElement>) => (
 		{...props}
 	>
 		<path
-			d="M7.87428 9.46289L4.97656 12.4395L2 9.54174"
+			d="M8.87428 12.4629L5.97656 15.4395L3 12.5417"
 			fill="none"
 			data-nofill="true"
 		/>
 		<path
-			d="M4.89111 11.2763C4.89111 6.15314 9.05996 2 14.2025 2C19.345 2 23.5139 6.15314 23.5139 11.2763C23.5139 16.3995 19.345 20.5526 14.2025 20.5526C11.1324 20.5526 8.40941 19.0724 6.71323 16.7893"
+			d="M5.89111 14.2763C5.89111 9.15314 10.06 5 15.2025 5C20.345 5 24.5139 9.15314 24.5139 14.2763C24.5139 19.3995 20.345 23.5526 15.2025 23.5526C12.1324 23.5526 9.40941 22.0724 7.71323 19.7893"
 			fill="none"
 			data-nofill="true"
 		/>
 		<path
-			d="M11.2654 11.6313L14.1631 8.65478L17.1396 11.5525"
+			d="M12.2654 14.6313L15.1631 11.6548L18.1396 14.5525"
 			fill="none"
 			data-nofill="true"
 		/>
-		<path d="M14.1631 9.5L14.1631 20.4966" fill="none" data-nofill="true" />
+		<path d="M15.1631 12.5L15.1631 23.4966" fill="none" data-nofill="true" />
 	</svg>
 )
 export default RestoreFromBackUp

@@ -4,7 +4,7 @@ const WalletDeposit = (props: SVGProps<SVGSVGElement>) => (
 	<svg
 		width="28"
 		height="28"
-		viewBox="0 0 23 28"
+		viewBox="0 0 28 28"
 		fill="none"
 		xmlns="http://www.w3.org/2000/svg"
 		strokeWidth="2"
@@ -12,15 +12,17 @@ const WalletDeposit = (props: SVGProps<SVGSVGElement>) => (
 		strokeLinejoin="round"
 		{...props}
 	>
-		<path d="M20.9449 2H2V17.9603H20.9449V2Z" />
-		<path d="M20.009 6.25403H14.2704C12.2125 6.25403 10.5443 7.92228 10.5443 9.98016C10.5443 12.0381 12.2125 13.7063 14.2704 13.7063H20.009C20.5317 13.7063 20.9555 13.2826 20.9555 12.7598V7.2005C20.9555 6.67778 20.5317 6.25403 20.009 6.25403Z" />
-		<path
-			d="M14.213 22.741L11.0732 26L7.93884 22.741"
-			fill="none"
-			data-nofill="true"
-		/>
-		<path d="M11.0732 25L11.0732 18.3316" />
-		<path d="M14.0181 10.0181L14 10" strokeMiterlimit={10} />
+		<g>
+			<path d="M23.9449 2H5V17.9603H23.9449V2Z" />
+			<path d="M23.009 6.25403H17.2704C15.2125 6.25403 13.5443 7.92228 13.5443 9.98016C13.5443 12.0381 15.2125 13.7063 17.2704 13.7063H23.009C23.5317 13.7063 23.9555 13.2826 23.9555 12.7598V7.2005C23.9555 6.67778 23.5317 6.25403 23.009 6.25403Z" />
+			<path
+				d="M17.213 22.741L14.0732 26L10.9388 22.741"
+				fill="none"
+				data-nofill="true"
+			/>
+			<path d="M14.0732 25L14.0732 18.3316" />
+			<path d="M17.0181 10.0181L17 10" strokeMiterlimit={10} />
+		</g>
 	</svg>
 )
 export default WalletDeposit

@@ -4,7 +4,7 @@ const ReadTime = (props: SVGProps<SVGSVGElement>) => (
 	<svg
 		width="28"
 		height="28"
-		viewBox="0 0 24 28"
+		viewBox="0 0 28 29"
 		fill="none"
 		xmlns="http://www.w3.org/2000/svg"
 		strokeWidth="2"
@@ -12,12 +12,14 @@ const ReadTime = (props: SVGProps<SVGSVGElement>) => (
 		strokeLinejoin="round"
 		{...props}
 	>
-		<path d="M10.7499 18.1897H5.13043" strokeMiterlimit={10} />
-		<path d="M14 14.9621H5.13043" strokeMiterlimit={10} />
-		<path d="M18.1537 14.8824V7.65379L12.5 2H2.00005V22.9998H10.5" />
-		<path d="M17.3281 7.6538H12.4999V3" />
-		<path d="M16.3088 26C19.3788 26 21.8675 23.5112 21.8675 20.4412C21.8675 17.3712 19.3788 14.8824 16.3088 14.8824C13.2387 14.8824 10.75 17.3712 10.75 20.4412C10.75 23.5112 13.2387 26 16.3088 26Z" />
-		<path d="M16.4153 18.1429V20.5143L15.4852 21.6429" />
+		<g>
+			<path d="M12.7499 19.1897H7.13043" strokeMiterlimit={10} />
+			<path d="M16 15.9621H7.13043" strokeMiterlimit={10} />
+			<path d="M20.1537 15.8824V8.65379L14.5 3H4.00005V23.9998H12.5" />
+			<path d="M19.3281 8.6538H14.4999V4" />
+			<path d="M18.5 27.25C21.6756 27.25 24.25 24.6756 24.25 21.5C24.25 18.3244 21.6756 15.75 18.5 15.75C15.3244 15.75 12.75 18.3244 12.75 21.5C12.75 24.6756 15.3244 27.25 18.5 27.25Z" />
+			<path d="M18.4153 19.1429V21.5143L17.4852 22.6429" />
+		</g>
 	</svg>
 )
 export default ReadTime

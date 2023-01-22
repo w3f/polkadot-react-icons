@@ -4,7 +4,7 @@ const Healthcare = (props: SVGProps<SVGSVGElement>) => (
 	<svg
 		width="28"
 		height="28"
-		viewBox="0 0 24 27"
+		viewBox="0 0 29 29"
 		fill="none"
 		xmlns="http://www.w3.org/2000/svg"
 		strokeWidth="2"
@@ -12,9 +12,9 @@ const Healthcare = (props: SVGProps<SVGSVGElement>) => (
 		strokeLinejoin="round"
 		{...props}
 	>
-		<path d="M2.02344 5.28188V13.6254C2.02344 17.0247 3.75033 20.1913 6.60811 22.0322L12.0977 25.5684L17.727 21.9405C20.5838 20.0994 22.3099 16.9334 22.3099 13.5348V5.28188L12.1621 1.56836L2.02344 5.28188Z" />
-		<path d="M8.70978 12.5192L15.3695 12.5552" />
-		<path d="M12.0586 9.2083L12.0226 15.868" />
+		<path d="M4.02344 6.28188V14.6254C4.02344 18.0247 5.75033 21.1913 8.60811 23.0322L14.0977 26.5684L19.727 22.9405C22.5838 21.0994 24.3099 17.9334 24.3099 14.5348V6.28188L14.1621 2.56836L4.02344 6.28188Z" />
+		<path d="M10.7098 13.5192L17.3695 13.5552" />
+		<path d="M14.0586 10.2083L14.0226 16.868" />
 	</svg>
 )
 export default Healthcare

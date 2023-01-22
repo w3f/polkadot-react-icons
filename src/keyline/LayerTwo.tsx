@@ -4,7 +4,7 @@ const LayerTwo = (props: SVGProps<SVGSVGElement>) => (
 	<svg
 		width="28"
 		height="28"
-		viewBox="0 0 26 19"
+		viewBox="0 0 28 28"
 		fill="none"
 		xmlns="http://www.w3.org/2000/svg"
 		strokeWidth="2"
@@ -13,11 +13,11 @@ const LayerTwo = (props: SVGProps<SVGSVGElement>) => (
 		{...props}
 	>
 		<path
-			d="M20.3211 10.3433L24 12.2396L13.1947 17.6293L2 11.8589L5.6688 10.0289"
+			d="M21.3211 14.3433L25 16.2396L14.1947 21.6293L3 15.8589L6.6688 14.0289"
 			strokeMiterlimit={10}
 		/>
 		<path
-			d="M24 7.77035L13.1947 13.16L2 7.3897L12.8053 2L24 7.77035Z"
+			d="M25 11.7704L14.1947 17.16L3 11.3897L13.8053 6L25 11.7704Z"
 			strokeMiterlimit={10}
 		/>
 	</svg>

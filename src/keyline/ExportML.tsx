@@ -4,7 +4,7 @@ const ExportML = (props: SVGProps<SVGSVGElement>) => (
 	<svg
 		width="28"
 		height="28"
-		viewBox="0 0 19 27"
+		viewBox="0 0 28 28"
 		fill="none"
 		xmlns="http://www.w3.org/2000/svg"
 		strokeWidth="2"
@@ -12,18 +12,18 @@ const ExportML = (props: SVGProps<SVGSVGElement>) => (
 		strokeLinejoin="round"
 		{...props}
 	>
-		<path d="M17.6943 25.6875L17.6943 9.96376L1.9706 9.96376L1.9706 25.6875L17.6943 25.6875Z" />
+		<path d="M21.7238 26L21.7238 10.2763L6.00002 10.2763L6.00002 26L21.7238 26Z" />
 		<path
-			d="M6.11719 5.40004L9.82963 1.6876L13.5483 5.40004"
+			d="M10.1466 5.71254L13.859 2.0001L17.5777 5.71254"
 			fill="none"
 			data-nofill="true"
 		/>
 		<path
-			d="M6.11719 5.39988L9.82963 1.68744L13.5483 5.39988"
+			d="M10.1466 5.71238L13.859 1.99994L17.5777 5.71238"
 			fill="none"
 			data-nofill="true"
 		/>
-		<path d="M9.83246 2.46911L9.83246 17.27" />
+		<path d="M13.8619 2.78161L13.8619 17.5825" />
 	</svg>
 )
 export default ExportML

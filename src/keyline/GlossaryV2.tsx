@@ -12,8 +12,10 @@ const GlossaryV2 = (props: SVGProps<SVGSVGElement>) => (
 		strokeLinejoin="round"
 		{...props}
 	>
-		<path d="M2 19.8022V2L14 7.60066L26 2V19.8022L14 26L2 19.8022Z" />
-		<path d="M14 25L14 8" />
+		<g>
+			<path d="M2 19.8022V2L14 7.60066L26 2V19.8022L14 26L2 19.8022Z" />
+			<path d="M14 25L14 8" />
+		</g>
 	</svg>
 )
 export default GlossaryV2

@@ -4,7 +4,7 @@ const Stablecoin = (props: SVGProps<SVGSVGElement>) => (
 	<svg
 		width="28"
 		height="28"
-		viewBox="0 0 26 21"
+		viewBox="0 0 28 28"
 		fill="none"
 		xmlns="http://www.w3.org/2000/svg"
 		strokeWidth="2"
@@ -12,10 +12,10 @@ const Stablecoin = (props: SVGProps<SVGSVGElement>) => (
 		strokeLinejoin="round"
 		{...props}
 	>
-		<circle cx={5} cy={5} r={3} />
-		<circle cx={21} cy={5} r={3} />
-		<path d="M13.5 11H13.5276L18.2631 19.25H8.73682L13.5 11Z" />
-		<path d="M23 11L3 11" />
+		<circle cx={6} cy={9} r={3} />
+		<circle cx={22} cy={9} r={3} />
+		<path d="M14.5 15H14.5276L19.2631 23.25H9.73682L14.5 15Z" />
+		<path d="M24 15L4 15" />
 	</svg>
 )
 export default Stablecoin
