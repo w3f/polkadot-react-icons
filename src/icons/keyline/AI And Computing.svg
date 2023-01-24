@@ -3,9 +3,9 @@
 <path d="M6.90002 14L10.9 14" stroke="black" stroke-width="2.5" stroke-linejoin="round"/>
 <circle cx="9" cy="6" r="2" stroke="black" stroke-width="2.5"/>
 <path d="M17 11H11V17H17V11Z" stroke="black" stroke-width="2.5" stroke-linejoin="round"/>
-<path d="M11 6H14V11" stroke="black" stroke-width="2.5" stroke-linejoin="round"/>
+<path d="M11 6H14V11" stroke="black" stroke-width="2.5" stroke-linejoin="round" fill="none"/>
 <circle cx="19" cy="22" r="2" transform="rotate(-180 19 22)" stroke="black" stroke-width="2.5"/>
-<path d="M17 22L14 22L14 17" stroke="black" stroke-width="2.5" stroke-linejoin="round"/>
+<path d="M17 22L14 22L14 17" stroke="black" stroke-width="2.5" stroke-linejoin="round" fill="none"/>
 <circle cx="23.4" cy="14" r="2" stroke="black" stroke-width="2.5"/>
 <path d="M21.5 14H17.5" stroke="black" stroke-width="2.5" stroke-linejoin="round"/>
 </svg>

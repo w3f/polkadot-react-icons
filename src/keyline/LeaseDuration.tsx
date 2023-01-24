@@ -12,13 +12,11 @@ const LeaseDuration = (props: SVGProps<SVGSVGElement>) => (
 		strokeLinejoin="round"
 		{...props}
 	>
-		<g>
-			<path d="M27 27H3V4.88454H27V27Z" strokeMiterlimit={10} />
-			<path d="M10.4233 7.34171V3" strokeMiterlimit={10} />
-			<path d="M19.5764 7.34178V3.00008" strokeMiterlimit={10} />
-			<path d="M15.1147 15.4439V18.0033L14.1109 19.2213" />
-			<path d="M14.9994 22.9988C18.3128 22.9988 20.9988 20.3128 20.9988 16.9994C20.9988 13.686 18.3128 11 14.9994 11C11.686 11 9 13.686 9 16.9994C9 20.3128 11.686 22.9988 14.9994 22.9988Z" />
-		</g>
+		<path d="M27 27H3V4.88454H27V27Z" strokeMiterlimit={10} />
+		<path d="M10.4233 7.34171V3" strokeMiterlimit={10} />
+		<path d="M19.5764 7.34178V3.00008" strokeMiterlimit={10} />
+		<path d="M14.9994 22.9988C18.3128 22.9988 20.9988 20.3128 20.9988 16.9994C20.9988 13.686 18.3128 11 14.9994 11C11.686 11 9 13.686 9 16.9994C9 20.3128 11.686 22.9988 14.9994 22.9988Z" />
+		<path d="M15.1147 15.4439V18.0033L14.1109 19.2213" />
 	</svg>
 )
 export default LeaseDuration

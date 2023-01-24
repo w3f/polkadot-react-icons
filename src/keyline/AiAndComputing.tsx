@@ -16,9 +16,9 @@ const AiAndComputing = (props: SVGProps<SVGSVGElement>) => (
 		<path d="M6.90002 14L10.9 14" />
 		<circle cx={9} cy={6} r={2} />
 		<path d="M17 11H11V17H17V11Z" />
-		<path d="M11 6H14V11" />
+		<path d="M11 6H14V11" fill="none" />
 		<circle cx={19} cy={22} r={2} transform="rotate(-180 19 22)" />
-		<path d="M17 22L14 22L14 17" />
+		<path d="M17 22L14 22L14 17" fill="none" />
 		<circle cx={23.4} cy={14} r={2} />
 		<path d="M21.5 14H17.5" />
 	</svg>
