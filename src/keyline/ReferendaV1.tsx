@@ -12,7 +12,8 @@ const ReferendaV1 = (props: SVGProps<SVGSVGElement>) => (
 		strokeLinejoin="round"
 		{...props}
 	>
-		<path d="M2 25.5212V19.3906H26V25.5212M4.45782 13.3306L15.7884 2L23.9933 10.2049L14.8053 19.393H10.5202L4.45782 13.3306Z" />
+		<path d="M2 25.5212V19.3907H26V25.5212" fill="none" />
+		<path d="M15.7884 2L4.45782 13.3306L10.5202 19.393H14.8053L23.9933 10.2049L15.7884 2Z" />
 	</svg>
 )
 export default ReferendaV1

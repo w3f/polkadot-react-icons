@@ -103,4 +103,4 @@ This will publish both icon sets in the same package.
 
 ### Important note about two-colour icons
 
-Some icons needs special treatment in order to work properly in two-colour mode. With keyline and solid icons, we simply colour all paths, circles and rectangles indiscriminately. With two-colour icons, however, we need to be selective with which nodes we want to apply colour. These nodes have a `data-nofill` attribute applied. This is a manual process, and it will need to be redone when importing a new SVG from Figma.
+Some icons needs special treatment in order to work properly in two-colour mode. With keyline and solid icons, we simply colour all paths, circles and rectangles indiscriminately. With two-colour icons, however, we need to be selective with which nodes we want to apply colour. These nodes have a `fill="none"` attribute applied. This is a manual process, and it will need to be redone when importing a new SVG from Figma.
