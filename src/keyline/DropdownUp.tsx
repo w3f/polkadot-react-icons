@@ -12,7 +12,7 @@ const DropdownUp = (props: SVGProps<SVGSVGElement>) => (
 		strokeLinejoin="round"
 		{...props}
 	>
-		<path d="M2 20L14.012 7L26 20" fill="none" data-nofill="true" />
+		<path d="M2 20L14.012 7L26 20" />
 	</svg>
 )
 export default DropdownUp
