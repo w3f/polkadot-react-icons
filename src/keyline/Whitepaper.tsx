@@ -12,8 +12,8 @@ const Whitepaper = (props: SVGProps<SVGSVGElement>) => (
 		strokeLinejoin="round"
 		{...props}
 	>
-		<path d="M5.00001 26V2H17L23.4615 8.46154V26H5.00001Z" />
-		<path d="M22.5 8.46152H17.0001V3" />
+		<path d="M5.00001 26.0005V2.00049H17L23.4615 8.46203V26.0005H5.00001Z" />
+		<path d="M23 8.46201H17V2.50024" />
 	</svg>
 )
 export default Whitepaper
