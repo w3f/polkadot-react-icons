@@ -12,8 +12,14 @@ const Transaction = (props: SVGProps<SVGSVGElement>) => (
 		strokeLinejoin="round"
 		{...props}
 	>
-		<path d="M26 8.47375L2 8.47375M26 8.47375L20.4787 2.95249M26 8.47375L20.4787 14.0045" />
-		<path d="M2 19.5213H25.9918M2 19.5213L7.52138 25.0521M2 19.5213L7.52138 14.0001" />
+		<path
+			d="M2 8.47366L25 8.47366M20.4787 2.95239L26 8.47366L20.4787 14.0044"
+			fill="none"
+		/>
+		<path
+			d="M25.9918 19.5213H3M7.52138 25.0521L2 19.5213L7.52138 14.0001"
+			fill="none"
+		/>
 	</svg>
 )
 export default Transaction
