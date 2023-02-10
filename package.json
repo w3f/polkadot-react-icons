@@ -26,7 +26,7 @@
 		"polkadot"
 	],
 	"author": "Nikki Strømsnes <hello@tinybits.dk>",
-	"license": "MIT",
+	"license": "CC-BY-NC-SA-4.0",
 	"scripts": {
 		"prebuild": "rimraf lib && mkdir lib && echo 'DELETED'",
 		"clean:index": "rimraf src/keyline && rimraf src/solid",
