@@ -1,0 +1,19 @@
+{
+	"include": ["src"],
+	"compilerOptions": {
+		"baseUrl": ".",
+		"jsx": "react-jsx",
+		"target": "es2020",
+		"outDir": "lib",
+		"module": "node16",
+		"moduleResolution": "node16",
+		"moduleDetection": "force",
+		"allowSyntheticDefaultImports": true,
+		"resolveJsonModule": false,
+		"lib": ["dom", "esnext"],
+		"declaration": true,
+		"sourceMap": true,
+		"strict": true,
+		"esModuleInterop": true
+	}
+}

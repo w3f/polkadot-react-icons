@@ -1,0 +1,54 @@
+{
+	"name": "@nixstrom/polkadot-icons",
+	"version": "0.11.12",
+	"private": false,
+	"description": "SVG icons for Polkadot",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/nixstrom/polkadot-react-icons.git"
+	},
+	"publishConfig": {
+		"access": "public",
+		"registry": "https://registry.npmjs.org/"
+	},
+	"type": "module",
+	"main": "./lib/index.js",
+	"types": "./lib/index.d.ts",
+	"files": [
+		"lib",
+		"Icon",
+		"solid",
+		"keyline"
+	],
+	"keywords": [
+		"icons",
+		"svg icons",
+		"polkadot"
+	],
+	"author": "Nikki Strømsnes <hello@tinybits.dk>",
+	"license": "CC-BY-NC-SA-4.0",
+	"scripts": {
+		"prebuild": "rimraf lib && mkdir lib && echo 'DELETED'",
+		"clean:index": "rimraf src/keyline && rimraf src/solid",
+		"build": "pnpm run prebuild && tsc && cp package.json lib/package.json && echo 'Build complete'",
+		"generate": "pnpm run clean:index && rimraf src/components && node scripts/generate.js",
+		"prettier": "prettier --write ."
+	},
+	"devDependencies": {
+		"@babel/core": "^7.20.12",
+		"@svgr/babel-plugin-add-jsx-attribute": "^6.5.1",
+		"@svgr/babel-plugin-remove-jsx-attribute": "^6.5.0",
+		"@svgr/core": "^6.5.1",
+		"@svgr/plugin-jsx": "^6.5.1",
+		"@svgr/plugin-prettier": "^6.5.1",
+		"@types/node": "^18.11.9",
+		"@types/react": "^18.0.0",
+		"pascalcase": "^2.0.0",
+		"prettier": "^2.8.0",
+		"rimraf": "^3.0.2",
+		"typescript": "^4.8.4"
+	},
+	"peerDependencies": {
+		"react": ">=17.0.0"
+	}
+}
