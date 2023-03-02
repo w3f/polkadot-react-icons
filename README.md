@@ -8,11 +8,11 @@ In any React project, you can install this package from npm:
 
 ```bash
 # Install with npm, Yarn or pnpm
-npm install @nixstrom/polkadot-react-icons
+npm install @w3f/polkadot-icons
 
-yarn add @nixstrom/polkadot-react-icons
+yarn add @w3f/polkadot-icons
 
-pnpm add @nixstrom/polkadot-react-icons
+pnpm add @w3f/polkadot-icons
 ```
 
 ## How to use
@@ -22,8 +22,8 @@ pnpm add @nixstrom/polkadot-react-icons
 The icons can be imported directly from either the `keyline` or `solid` subdirectory, then used as regular React components
 
 ```jsx
-import Language from '@nixstrom/polkadot-react-icons/keyline/Language'
-import SmartContract from '@nixstrom/polkadot-react-icons/solid/SmartContract'
+import Language from '@w3f/polkadot-icons/keyline/Language'
+import SmartContract from '@w3f/polkadot-icons/solid/SmartContract'
 
 const MyComponent = () => (
 	<div>
@@ -45,7 +45,7 @@ The components accepts the same props as you can expect on any other SVG compone
 Optionally, the icons can be imported through the Icon component.
 
 ```jsx
-import Icon from '@nixstrom/polkadot-react-icons/Icon'
+import Icon from '@w3f/polkadot-icons/Icon'
 
 const MyComponent = () => (
 	<div>
