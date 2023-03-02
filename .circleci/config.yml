@@ -1,0 +1,27 @@
+version: 2
+
+jobs:
+
+  publishPackage:
+    docker:
+      - image: node:14
+    steps:
+      - checkout
+      - run:
+          name: Publish package
+          command: |
+            echo "//registry.npmjs.org/:_authToken=${NPM_TOKEN}" > ~/.npmrc
+            yarn
+            yarn publish --access public
+
+workflows:
+  version: 2
+  deploy-npm-registry:
+    jobs:
+      - publishPackage:
+          context: npm-publisher
+          filters:
+            tags:
+              only: /^v(0|[1-9]\d*)\.(0|[1-9]\d*)\.(0|[1-9]\d*)(?:-((?:0|[1-9]\d*|\d*[a-zA-Z-][0-9a-zA-Z-]*)(?:\.(?:0|[1-9]\d*|\d*[a-zA-Z-][0-9a-zA-Z-]*))*))?(?:\+([0-9a-zA-Z-]+(?:\.[0-9a-zA-Z-]+)*))?$/
+            branches:
+              ignore: /.*/
