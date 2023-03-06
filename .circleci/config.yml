@@ -14,6 +14,7 @@ jobs:
             yarn
             yarn generate
             yarn build
+            cd lib/
             yarn publish --access public
 
 workflows:
