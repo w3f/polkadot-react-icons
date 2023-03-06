@@ -1,6 +1,6 @@
 {
 	"name": "@w3f/polkadot-icons",
-	"version": "0.0.4",
+	"version": "0.0.5",
 	"private": false,
 	"description": "SVG icons for Polkadot",
 	"repository": {
@@ -30,8 +30,8 @@
 	"scripts": {
 		"prebuild": "rimraf lib && mkdir lib && echo 'DELETED'",
 		"clean:index": "rimraf src/keyline && rimraf src/solid",
-		"build": "pnpm run prebuild && tsc && cp package.json lib/package.json && echo 'Build complete'",
-		"generate": "pnpm run clean:index && rimraf src/components && node scripts/generate.js",
+		"build": "yarn run prebuild && tsc && cp package.json lib/package.json && echo 'Build complete'",
+		"generate": "yarn run clean:index && rimraf src/components && node scripts/generate.js",
 		"prettier": "prettier --write ."
 	},
 	"devDependencies": {
