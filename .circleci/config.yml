@@ -12,6 +12,7 @@ jobs:
           command: |
             echo "//registry.npmjs.org/:_authToken=${NPM_TOKEN}" > ~/.npmrc
             yarn
+            yarn generate
             yarn build
             yarn publish --access public
 
