@@ -1,6 +1,6 @@
 {
 	"name": "@w3f/polkadot-icons",
-	"version": "0.0.2",
+	"version": "0.0.3",
 	"private": false,
 	"description": "SVG icons for Polkadot",
 	"repository": {
